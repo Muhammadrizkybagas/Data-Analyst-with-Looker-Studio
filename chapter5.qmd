@@ -1,0 +1,73 @@
+---
+title: "DASHBOARD ENGINEERING"
+date: today
+---
+
+
+# Dashboard Strategy
+
+## Executive View
+## Operational View
+## KPI Layering
+## Decision Flow
+
+
+---
+
+
+# Layout Framework
+
+## F Pattern
+## Z Pattern
+## Section Grouping
+## Visual Balance
+
+
+---
+
+
+# Interactive Logic
+
+## Cross Filters
+## Drill Paths
+## Context Control
+## User Navigation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

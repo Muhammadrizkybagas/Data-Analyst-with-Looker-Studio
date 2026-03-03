@@ -1,0 +1,110 @@
+---
+title: "LOOKER SYSTEM"
+date: today
+---
+
+
+# Looker Architecture
+
+## Semantic Layer
+## Explore Concept
+## View Structure
+## LookML Overview
+
+
+---
+
+
+# Data Governance
+
+## Access Control
+## Role Permissions
+## Data Consistency
+## Metric Standardization
+
+
+---
+
+
+# Explore Mastery
+
+## Dimension Logic
+## Measure Behavior
+## Aggregation Rules
+## Filter Strategy
+## Pivot Mechanics
+## Drill Workflow
+
+
+---
+
+
+# Metric Integrity
+
+## Aggregation Errors
+## Double Counting
+## Granularity Control
+## Join Awareness
+## Null Handling
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

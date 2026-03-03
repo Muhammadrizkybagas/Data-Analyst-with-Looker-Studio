@@ -1,0 +1,72 @@
+project:
+  type: website
+
+# TITLE TOC
+website:
+  title: "DATA ANALYST WITH LOOKER STUDIO"
+  repo-url: https://github.com/Muhammadrizkybagas
+  repo-actions: [source, edit]
+  navbar: false
+  
+# SIDEBAR
+  sidebar:
+    logo: img/itsb.jpg
+    title: "DATA ANALYST WITH LOOKER STUDIO"
+    pinned: true
+    style: "docked"
+    search: true
+    
+    tools:
+      - icon: github
+        href: "https://github.com/Muhammadrizkybagas"
+      - icon: instagram
+        href: "https://instagram.com/mhmmd.rizky_bagas"
+      - icon: globe
+        href: "https://muhammadrizkybagas.github.io/portofolio1/"
+       
+    contents:
+      - text: "**CONTENT**"
+        href: intro.qmd
+      - section: "**BAB**"
+        contents:
+          - text: "1. Analytical Foundation"
+            href: chapter1.qmd
+            
+          - text: "2. Visual Intelligence"
+            href: chapter2.qmd
+            
+          - text: "3. Looker System"
+            href: chapter3.qmd
+            
+          - text: "4. Advanced Looker"
+            href: chapter4.qmd
+            
+          - text: "5. Dashboard Engineering"
+            href: chapter5.qmd
+            
+          - text: "6. Decision Delivery"
+            href: chapter6.qmd
+            
+          - text: "7. Real Estate Case"
+            href: chapter7.qmd
+            
+          - text: "8. Capstone Build"
+            href: chapter8.qmd
+# END SIDEBAR
+    
+  page-footer:
+    left: "© 2025 Muhammad Rizky Bagas"
+    right: "Powered by Quarto"
+
+# THEME
+format:
+  html:
+    theme: cosmo
+    link-citations: true
+    css: css/styles.css
+    toc: true
+    number-sections: true
+
+# REFERENCES
+bibliography: referensi/referensi.bib
+csl: referensi/ieee.csl

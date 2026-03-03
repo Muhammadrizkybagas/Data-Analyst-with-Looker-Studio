@@ -1,0 +1,79 @@
+---
+title: "ANALYTICAL FOUNDATION"
+date: today
+---
+
+
+# Analyst Mindset
+
+## Decision vs Reporting
+## Business Context
+## Analytical Thinking
+## Value Creation
+
+
+---
+
+
+# Question Framing
+ 
+## Problem Structuring
+## KPI Alignment
+## Metric Definition
+## Stakeholder Intent
+
+
+---
+
+
+# KPI Architecture
+
+## Leading Indicators
+## Lagging Indicators
+## North Star Metric
+## Metric Hierarchy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

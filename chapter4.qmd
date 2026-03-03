@@ -1,0 +1,88 @@
+---
+title: "ADVANCED LOOKER"
+date: today
+---
+
+
+# Custom Calculations
+
+## Table Calculations
+## Custom Fields
+## Running Totals
+## Percent Contribution
+
+
+---
+
+
+# Performance Tuning
+
+## Query Optimization
+## Data Volume
+## Efficient Filters
+## Dashboard Speed
+
+
+---
+
+
+# Visualization Engine
+
+## Chart Configuration
+## Axis Integrity
+## Scaling Logic
+## Conditional Format
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
