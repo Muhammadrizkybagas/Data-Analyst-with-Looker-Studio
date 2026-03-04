@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2026-03-04">
 
-<title>ADVANCED LOOKER – DATA ANALYST WITH LOOKER STUDIO</title>
+<title>DASHBOARD DEVELOPMENT – DATA ANALYST WITH LOOKER STUDIO</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter4.html">4. Advanced Looker</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter4.html">4. Dashboard Development</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -134,49 +134,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">1. Analytical Foundation</span></a>
+ <span class="menu-text">1. Looker Studio Fundamentals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2. Visual Intelligence</span></a>
+ <span class="menu-text">2. Interactive Dashboard</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">3. Looker System</span></a>
+ <span class="menu-text">3. Dashboard Design</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter4.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">4. Advanced Looker</span></a>
+ <span class="menu-text">4. Dashboard Development</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5. Dashboard Engineering</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapter6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">6. Decision Delivery</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapter7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7. Real Estate Case</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapter8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">8. Capstone Build</span></a>
+ <span class="menu-text">5. Real Estate Case Dashboard</span></a>
   </div>
 </li>
       </ul>
@@ -191,26 +173,29 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#custom-calculations" id="toc-custom-calculations" class="nav-link active" data-scroll-target="#custom-calculations"><span class="header-section-number">1</span> Custom Calculations</a>
+  <li><a href="#business-framing" id="toc-business-framing" class="nav-link active" data-scroll-target="#business-framing"><span class="header-section-number">1</span> Business Framing</a>
   <ul class="collapse">
-  <li><a href="#table-calculations" id="toc-table-calculations" class="nav-link" data-scroll-target="#table-calculations"><span class="header-section-number">1.1</span> Table Calculations</a></li>
-  <li><a href="#custom-fields" id="toc-custom-fields" class="nav-link" data-scroll-target="#custom-fields"><span class="header-section-number">1.2</span> Custom Fields</a></li>
-  <li><a href="#running-totals" id="toc-running-totals" class="nav-link" data-scroll-target="#running-totals"><span class="header-section-number">1.3</span> Running Totals</a></li>
-  <li><a href="#percent-contribution" id="toc-percent-contribution" class="nav-link" data-scroll-target="#percent-contribution"><span class="header-section-number">1.4</span> Percent Contribution</a></li>
+  <li><a href="#business-question-definition" id="toc-business-question-definition" class="nav-link" data-scroll-target="#business-question-definition"><span class="header-section-number">1.1</span> Business Question Definition</a></li>
   </ul></li>
-  <li><a href="#performance-tuning" id="toc-performance-tuning" class="nav-link" data-scroll-target="#performance-tuning"><span class="header-section-number">2</span> Performance Tuning</a>
+  <li><a href="#visualization-planning" id="toc-visualization-planning" class="nav-link" data-scroll-target="#visualization-planning"><span class="header-section-number">2</span> Visualization Planning</a>
   <ul class="collapse">
-  <li><a href="#query-optimization" id="toc-query-optimization" class="nav-link" data-scroll-target="#query-optimization"><span class="header-section-number">2.1</span> Query Optimization</a></li>
-  <li><a href="#data-volume" id="toc-data-volume" class="nav-link" data-scroll-target="#data-volume"><span class="header-section-number">2.2</span> Data Volume</a></li>
-  <li><a href="#efficient-filters" id="toc-efficient-filters" class="nav-link" data-scroll-target="#efficient-filters"><span class="header-section-number">2.3</span> Efficient Filters</a></li>
-  <li><a href="#dashboard-speed" id="toc-dashboard-speed" class="nav-link" data-scroll-target="#dashboard-speed"><span class="header-section-number">2.4</span> Dashboard Speed</a></li>
+  <li><a href="#chart-selection" id="toc-chart-selection" class="nav-link" data-scroll-target="#chart-selection"><span class="header-section-number">2.1</span> Chart Selection</a></li>
   </ul></li>
-  <li><a href="#visualization-engine" id="toc-visualization-engine" class="nav-link" data-scroll-target="#visualization-engine"><span class="header-section-number">3</span> Visualization Engine</a>
+  <li><a href="#kpi-dashboard" id="toc-kpi-dashboard" class="nav-link" data-scroll-target="#kpi-dashboard"><span class="header-section-number">3</span> KPI Dashboard</a>
   <ul class="collapse">
-  <li><a href="#chart-configuration" id="toc-chart-configuration" class="nav-link" data-scroll-target="#chart-configuration"><span class="header-section-number">3.1</span> Chart Configuration</a></li>
-  <li><a href="#axis-integrity" id="toc-axis-integrity" class="nav-link" data-scroll-target="#axis-integrity"><span class="header-section-number">3.2</span> Axis Integrity</a></li>
-  <li><a href="#scaling-logic" id="toc-scaling-logic" class="nav-link" data-scroll-target="#scaling-logic"><span class="header-section-number">3.3</span> Scaling Logic</a></li>
-  <li><a href="#conditional-format" id="toc-conditional-format" class="nav-link" data-scroll-target="#conditional-format"><span class="header-section-number">3.4</span> Conditional Format</a></li>
+  <li><a href="#kpi-summary-page" id="toc-kpi-summary-page" class="nav-link" data-scroll-target="#kpi-summary-page"><span class="header-section-number">3.1</span> KPI Summary Page</a></li>
+  </ul></li>
+  <li><a href="#analytical-views" id="toc-analytical-views" class="nav-link" data-scroll-target="#analytical-views"><span class="header-section-number">4</span> Analytical Views</a>
+  <ul class="collapse">
+  <li><a href="#supporting-charts" id="toc-supporting-charts" class="nav-link" data-scroll-target="#supporting-charts"><span class="header-section-number">4.1</span> Supporting Charts</a></li>
+  </ul></li>
+  <li><a href="#interactivity" id="toc-interactivity" class="nav-link" data-scroll-target="#interactivity"><span class="header-section-number">5</span> Interactivity</a>
+  <ul class="collapse">
+  <li><a href="#interactive-controls" id="toc-interactive-controls" class="nav-link" data-scroll-target="#interactive-controls"><span class="header-section-number">5.1</span> Interactive Controls</a></li>
+  </ul></li>
+  <li><a href="#dashboard-review" id="toc-dashboard-review" class="nav-link" data-scroll-target="#dashboard-review"><span class="header-section-number">6</span> Dashboard Review</a>
+  <ul class="collapse">
+  <li><a href="#clarity-check" id="toc-clarity-check" class="nav-link" data-scroll-target="#clarity-check"><span class="header-section-number">6.1</span> Clarity Check</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/Muhammadrizkybagas/blob/main/chapter4.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/Muhammadrizkybagas/edit/main/chapter4.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li></ul></div></nav>
@@ -218,9 +203,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter4.html">4. Advanced Looker</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter4.html">4. Dashboard Development</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">ADVANCED LOOKER</h1>
+<h1 class="title">DASHBOARD DEVELOPMENT</h1>
 </div>
 
 
@@ -243,51 +228,40 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="custom-calculations" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Custom Calculations</h1>
-<section id="table-calculations" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="table-calculations"><span class="header-section-number">1.1</span> Table Calculations</h2>
-</section>
-<section id="custom-fields" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="custom-fields"><span class="header-section-number">1.2</span> Custom Fields</h2>
-</section>
-<section id="running-totals" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="running-totals"><span class="header-section-number">1.3</span> Running Totals</h2>
-</section>
-<section id="percent-contribution" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="percent-contribution"><span class="header-section-number">1.4</span> Percent Contribution</h2>
-<hr>
+<section id="business-framing" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Business Framing</h1>
+<section id="business-question-definition" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="business-question-definition"><span class="header-section-number">1.1</span> Business Question Definition</h2>
 </section>
 </section>
-<section id="performance-tuning" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Performance Tuning</h1>
-<section id="query-optimization" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="query-optimization"><span class="header-section-number">2.1</span> Query Optimization</h2>
-</section>
-<section id="data-volume" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="data-volume"><span class="header-section-number">2.2</span> Data Volume</h2>
-</section>
-<section id="efficient-filters" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="efficient-filters"><span class="header-section-number">2.3</span> Efficient Filters</h2>
-</section>
-<section id="dashboard-speed" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="dashboard-speed"><span class="header-section-number">2.4</span> Dashboard Speed</h2>
-<hr>
+<section id="visualization-planning" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Visualization Planning</h1>
+<section id="chart-selection" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="chart-selection"><span class="header-section-number">2.1</span> Chart Selection</h2>
 </section>
 </section>
-<section id="visualization-engine" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Visualization Engine</h1>
-<section id="chart-configuration" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="chart-configuration"><span class="header-section-number">3.1</span> Chart Configuration</h2>
+<section id="kpi-dashboard" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> KPI Dashboard</h1>
+<section id="kpi-summary-page" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="kpi-summary-page"><span class="header-section-number">3.1</span> KPI Summary Page</h2>
 </section>
-<section id="axis-integrity" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="axis-integrity"><span class="header-section-number">3.2</span> Axis Integrity</h2>
 </section>
-<section id="scaling-logic" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="scaling-logic"><span class="header-section-number">3.3</span> Scaling Logic</h2>
+<section id="analytical-views" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Analytical Views</h1>
+<section id="supporting-charts" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="supporting-charts"><span class="header-section-number">4.1</span> Supporting Charts</h2>
 </section>
-<section id="conditional-format" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="conditional-format"><span class="header-section-number">3.4</span> Conditional Format</h2>
+</section>
+<section id="interactivity" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Interactivity</h1>
+<section id="interactive-controls" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="interactive-controls"><span class="header-section-number">5.1</span> Interactive Controls</h2>
+</section>
+</section>
+<section id="dashboard-review" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Dashboard Review</h1>
+<section id="clarity-check" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="clarity-check"><span class="header-section-number">6.1</span> Clarity Check</h2>
 
 
 </section>
@@ -367,7 +341,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/Muhammadrizkybagas\.github\.io\/Data-Analyst-with-Looker-Studio\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -698,14 +672,14 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 Muhammad Rizky Bagas</p>
-</div>   
-    <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Muhammadrizkybagas/blob/main/chapter4.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/Muhammadrizkybagas/edit/main/chapter4.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li></ul></div></div>
+    </div>   
+    <div class="nav-footer-center">
+<p>© 2026 Bootcamp Data Analyst</p>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Muhammadrizkybagas/blob/main/chapter4.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/Muhammadrizkybagas/edit/main/chapter4.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li></ul></div></div>
     <div class="nav-footer-right">
-<p>Powered by Quarto</p>
-</div>
+      &nbsp;
+    </div>
   </div>
 </footer>
 

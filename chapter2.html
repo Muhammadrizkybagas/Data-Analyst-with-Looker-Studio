@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2026-03-04">
 
-<title>VISUAL INTELLIGENCE – DATA ANALYST WITH LOOKER STUDIO</title>
+<title>INTERACTIVE DASHBOARD – DATA ANALYST WITH LOOKER STUDIO</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter2.html">2. Visual Intelligence</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter2.html">2. Interactive Dashboard</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -134,49 +134,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">1. Analytical Foundation</span></a>
+ <span class="menu-text">1. Looker Studio Fundamentals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter2.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">2. Visual Intelligence</span></a>
+ <span class="menu-text">2. Interactive Dashboard</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">3. Looker System</span></a>
+ <span class="menu-text">3. Dashboard Design</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4. Advanced Looker</span></a>
+ <span class="menu-text">4. Dashboard Development</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5. Dashboard Engineering</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapter6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">6. Decision Delivery</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapter7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7. Real Estate Case</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapter8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">8. Capstone Build</span></a>
+ <span class="menu-text">5. Real Estate Case Dashboard</span></a>
   </div>
 </li>
       </ul>
@@ -191,26 +173,25 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#chart-strategy" id="toc-chart-strategy" class="nav-link active" data-scroll-target="#chart-strategy"><span class="header-section-number">1</span> Chart Strategy</a>
+  <li><a href="#time-filtering" id="toc-time-filtering" class="nav-link active" data-scroll-target="#time-filtering"><span class="header-section-number">1</span> Time Filtering</a>
   <ul class="collapse">
-  <li><a href="#comparison-logic" id="toc-comparison-logic" class="nav-link" data-scroll-target="#comparison-logic"><span class="header-section-number">1.1</span> Comparison Logic</a></li>
-  <li><a href="#trend-logic" id="toc-trend-logic" class="nav-link" data-scroll-target="#trend-logic"><span class="header-section-number">1.2</span> Trend Logic</a></li>
-  <li><a href="#distribution-insight" id="toc-distribution-insight" class="nav-link" data-scroll-target="#distribution-insight"><span class="header-section-number">1.3</span> Distribution Insight</a></li>
-  <li><a href="#relationship-mapping" id="toc-relationship-mapping" class="nav-link" data-scroll-target="#relationship-mapping"><span class="header-section-number">1.4</span> Relationship Mapping</a></li>
+  <li><a href="#date-range-filter" id="toc-date-range-filter" class="nav-link" data-scroll-target="#date-range-filter"><span class="header-section-number">1.1</span> Date Range Filter</a></li>
   </ul></li>
-  <li><a href="#visual-cognition" id="toc-visual-cognition" class="nav-link" data-scroll-target="#visual-cognition"><span class="header-section-number">2</span> Visual Cognition</a>
+  <li><a href="#category-filtering" id="toc-category-filtering" class="nav-link" data-scroll-target="#category-filtering"><span class="header-section-number">2</span> Category Filtering</a>
   <ul class="collapse">
-  <li><a href="#pre-attentive-signals" id="toc-pre-attentive-signals" class="nav-link" data-scroll-target="#pre-attentive-signals"><span class="header-section-number">2.1</span> Pre-attentive Signals</a></li>
-  <li><a href="#attention-flow" id="toc-attention-flow" class="nav-link" data-scroll-target="#attention-flow"><span class="header-section-number">2.2</span> Attention Flow</a></li>
-  <li><a href="#cognitive-load" id="toc-cognitive-load" class="nav-link" data-scroll-target="#cognitive-load"><span class="header-section-number">2.3</span> Cognitive Load</a></li>
-  <li><a href="#information-density" id="toc-information-density" class="nav-link" data-scroll-target="#information-density"><span class="header-section-number">2.4</span> Information Density</a></li>
+  <li><a href="#drop-down-filter" id="toc-drop-down-filter" class="nav-link" data-scroll-target="#drop-down-filter"><span class="header-section-number">2.1</span> Drop-down Filter</a></li>
   </ul></li>
-  <li><a href="#design-discipline" id="toc-design-discipline" class="nav-link" data-scroll-target="#design-discipline"><span class="header-section-number">3</span> Design Discipline</a>
+  <li><a href="#segmentation" id="toc-segmentation" class="nav-link" data-scroll-target="#segmentation"><span class="header-section-number">3</span> Segmentation</a>
   <ul class="collapse">
-  <li><a href="#layout-structure" id="toc-layout-structure" class="nav-link" data-scroll-target="#layout-structure"><span class="header-section-number">3.1</span> Layout Structure</a></li>
-  <li><a href="#color-hierarchy" id="toc-color-hierarchy" class="nav-link" data-scroll-target="#color-hierarchy"><span class="header-section-number">3.2</span> Color Hierarchy</a></li>
-  <li><a href="#label-precision" id="toc-label-precision" class="nav-link" data-scroll-target="#label-precision"><span class="header-section-number">3.3</span> Label Precision</a></li>
-  <li><a href="#minimal-clutter" id="toc-minimal-clutter" class="nav-link" data-scroll-target="#minimal-clutter"><span class="header-section-number">3.4</span> Minimal Clutter</a></li>
+  <li><a href="#segment-filtering" id="toc-segment-filtering" class="nav-link" data-scroll-target="#segment-filtering"><span class="header-section-number">3.1</span> Segment Filtering</a></li>
+  </ul></li>
+  <li><a href="#cross-interaction" id="toc-cross-interaction" class="nav-link" data-scroll-target="#cross-interaction"><span class="header-section-number">4</span> Cross Interaction</a>
+  <ul class="collapse">
+  <li><a href="#cross-filtering" id="toc-cross-filtering" class="nav-link" data-scroll-target="#cross-filtering"><span class="header-section-number">4.1</span> Cross-filtering</a></li>
+  </ul></li>
+  <li><a href="#user-exploration" id="toc-user-exploration" class="nav-link" data-scroll-target="#user-exploration"><span class="header-section-number">5</span> User Exploration</a>
+  <ul class="collapse">
+  <li><a href="#interactive" id="toc-interactive" class="nav-link" data-scroll-target="#interactive"><span class="header-section-number">5.1</span> Interactive</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/Muhammadrizkybagas/blob/main/chapter2.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/Muhammadrizkybagas/edit/main/chapter2.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li></ul></div></nav>
@@ -218,9 +199,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter2.html">2. Visual Intelligence</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter2.html">2. Interactive Dashboard</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">VISUAL INTELLIGENCE</h1>
+<h1 class="title">INTERACTIVE DASHBOARD</h1>
 </div>
 
 
@@ -243,51 +224,35 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="chart-strategy" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Chart Strategy</h1>
-<section id="comparison-logic" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="comparison-logic"><span class="header-section-number">1.1</span> Comparison Logic</h2>
-</section>
-<section id="trend-logic" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="trend-logic"><span class="header-section-number">1.2</span> Trend Logic</h2>
-</section>
-<section id="distribution-insight" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="distribution-insight"><span class="header-section-number">1.3</span> Distribution Insight</h2>
-</section>
-<section id="relationship-mapping" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="relationship-mapping"><span class="header-section-number">1.4</span> Relationship Mapping</h2>
-<hr>
+<section id="time-filtering" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Time Filtering</h1>
+<section id="date-range-filter" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="date-range-filter"><span class="header-section-number">1.1</span> Date Range Filter</h2>
 </section>
 </section>
-<section id="visual-cognition" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Visual Cognition</h1>
-<section id="pre-attentive-signals" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="pre-attentive-signals"><span class="header-section-number">2.1</span> Pre-attentive Signals</h2>
-</section>
-<section id="attention-flow" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="attention-flow"><span class="header-section-number">2.2</span> Attention Flow</h2>
-</section>
-<section id="cognitive-load" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="cognitive-load"><span class="header-section-number">2.3</span> Cognitive Load</h2>
-</section>
-<section id="information-density" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="information-density"><span class="header-section-number">2.4</span> Information Density</h2>
-<hr>
+<section id="category-filtering" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Category Filtering</h1>
+<section id="drop-down-filter" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="drop-down-filter"><span class="header-section-number">2.1</span> Drop-down Filter</h2>
 </section>
 </section>
-<section id="design-discipline" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Design Discipline</h1>
-<section id="layout-structure" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="layout-structure"><span class="header-section-number">3.1</span> Layout Structure</h2>
+<section id="segmentation" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Segmentation</h1>
+<section id="segment-filtering" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="segment-filtering"><span class="header-section-number">3.1</span> Segment Filtering</h2>
 </section>
-<section id="color-hierarchy" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="color-hierarchy"><span class="header-section-number">3.2</span> Color Hierarchy</h2>
 </section>
-<section id="label-precision" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="label-precision"><span class="header-section-number">3.3</span> Label Precision</h2>
+<section id="cross-interaction" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Cross Interaction</h1>
+<section id="cross-filtering" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="cross-filtering"><span class="header-section-number">4.1</span> Cross-filtering</h2>
 </section>
-<section id="minimal-clutter" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="minimal-clutter"><span class="header-section-number">3.4</span> Minimal Clutter</h2>
+</section>
+<section id="user-exploration" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> User Exploration</h1>
+<section id="interactive" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="interactive"><span class="header-section-number">5.1</span> Interactive</h2>
+<p>Navigation</p>
 
 
 </section>
@@ -367,7 +332,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/Muhammadrizkybagas\.github\.io\/Data-Analyst-with-Looker-Studio\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -698,14 +663,14 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 Muhammad Rizky Bagas</p>
-</div>   
-    <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Muhammadrizkybagas/blob/main/chapter2.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/Muhammadrizkybagas/edit/main/chapter2.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li></ul></div></div>
+    </div>   
+    <div class="nav-footer-center">
+<p>© 2026 Bootcamp Data Analyst</p>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Muhammadrizkybagas/blob/main/chapter2.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/Muhammadrizkybagas/edit/main/chapter2.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li></ul></div></div>
     <div class="nav-footer-right">
-<p>Powered by Quarto</p>
-</div>
+      &nbsp;
+    </div>
   </div>
 </footer>
 

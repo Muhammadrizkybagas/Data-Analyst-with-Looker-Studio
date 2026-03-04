@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2026-03-04">
 
-<title>ANALYTICAL FOUNDATION – DATA ANALYST WITH LOOKER STUDIO</title>
+<title>LOOKER STUDIO FUNDAMENTALS – DATA ANALYST WITH LOOKER STUDIO</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter1.html">1. Analytical Foundation</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter1.html">1. Looker Studio Fundamentals</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -134,49 +134,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter1.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">1. Analytical Foundation</span></a>
+ <span class="menu-text">1. Looker Studio Fundamentals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2. Visual Intelligence</span></a>
+ <span class="menu-text">2. Interactive Dashboard</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">3. Looker System</span></a>
+ <span class="menu-text">3. Dashboard Design</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4. Advanced Looker</span></a>
+ <span class="menu-text">4. Dashboard Development</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5. Dashboard Engineering</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapter6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">6. Decision Delivery</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapter7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7. Real Estate Case</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapter8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">8. Capstone Build</span></a>
+ <span class="menu-text">5. Real Estate Case Dashboard</span></a>
   </div>
 </li>
       </ul>
@@ -191,26 +173,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#analyst-mindset" id="toc-analyst-mindset" class="nav-link active" data-scroll-target="#analyst-mindset"><span class="header-section-number">1</span> Analyst Mindset</a>
+  <li><a href="#data-connection" id="toc-data-connection" class="nav-link active" data-scroll-target="#data-connection"><span class="header-section-number">1</span> Data Connection</a>
   <ul class="collapse">
-  <li><a href="#decision-vs-reporting" id="toc-decision-vs-reporting" class="nav-link" data-scroll-target="#decision-vs-reporting"><span class="header-section-number">1.1</span> Decision vs Reporting</a></li>
-  <li><a href="#business-context" id="toc-business-context" class="nav-link" data-scroll-target="#business-context"><span class="header-section-number">1.2</span> Business Context</a></li>
-  <li><a href="#analytical-thinking" id="toc-analytical-thinking" class="nav-link" data-scroll-target="#analytical-thinking"><span class="header-section-number">1.3</span> Analytical Thinking</a></li>
-  <li><a href="#value-creation" id="toc-value-creation" class="nav-link" data-scroll-target="#value-creation"><span class="header-section-number">1.4</span> Value Creation</a></li>
+  <li><a href="#connect-google-sheets" id="toc-connect-google-sheets" class="nav-link" data-scroll-target="#connect-google-sheets"><span class="header-section-number">1.1</span> Connect Google Sheets</a></li>
+  <li><a href="#import-excel-csv-files" id="toc-import-excel-csv-files" class="nav-link" data-scroll-target="#import-excel-csv-files"><span class="header-section-number">1.2</span> Import Excel / CSV Files</a></li>
   </ul></li>
-  <li><a href="#question-framing" id="toc-question-framing" class="nav-link" data-scroll-target="#question-framing"><span class="header-section-number">2</span> Question Framing</a>
+  <li><a href="#data-structure" id="toc-data-structure" class="nav-link" data-scroll-target="#data-structure"><span class="header-section-number">2</span> Data Structure</a>
   <ul class="collapse">
-  <li><a href="#problem-structuring" id="toc-problem-structuring" class="nav-link" data-scroll-target="#problem-structuring"><span class="header-section-number">2.1</span> Problem Structuring</a></li>
-  <li><a href="#kpi-alignment" id="toc-kpi-alignment" class="nav-link" data-scroll-target="#kpi-alignment"><span class="header-section-number">2.2</span> KPI Alignment</a></li>
-  <li><a href="#metric-definition" id="toc-metric-definition" class="nav-link" data-scroll-target="#metric-definition"><span class="header-section-number">2.3</span> Metric Definition</a></li>
-  <li><a href="#stakeholder-intent" id="toc-stakeholder-intent" class="nav-link" data-scroll-target="#stakeholder-intent"><span class="header-section-number">2.4</span> Stakeholder Intent</a></li>
+  <li><a href="#metrics-vs-dimensions" id="toc-metrics-vs-dimensions" class="nav-link" data-scroll-target="#metrics-vs-dimensions"><span class="header-section-number">2.1</span> Metrics vs Dimensions</a></li>
+  <li><a href="#aggregation-logic" id="toc-aggregation-logic" class="nav-link" data-scroll-target="#aggregation-logic"><span class="header-section-number">2.2</span> Aggregation Logic</a></li>
   </ul></li>
-  <li><a href="#kpi-architecture" id="toc-kpi-architecture" class="nav-link" data-scroll-target="#kpi-architecture"><span class="header-section-number">3</span> KPI Architecture</a>
+  <li><a href="#chart-basics" id="toc-chart-basics" class="nav-link" data-scroll-target="#chart-basics"><span class="header-section-number">3</span> Chart Basics</a>
   <ul class="collapse">
-  <li><a href="#leading-indicators" id="toc-leading-indicators" class="nav-link" data-scroll-target="#leading-indicators"><span class="header-section-number">3.1</span> Leading Indicators</a></li>
-  <li><a href="#lagging-indicators" id="toc-lagging-indicators" class="nav-link" data-scroll-target="#lagging-indicators"><span class="header-section-number">3.2</span> Lagging Indicators</a></li>
-  <li><a href="#north-star-metric" id="toc-north-star-metric" class="nav-link" data-scroll-target="#north-star-metric"><span class="header-section-number">3.3</span> North Star Metric</a></li>
-  <li><a href="#metric-hierarchy" id="toc-metric-hierarchy" class="nav-link" data-scroll-target="#metric-hierarchy"><span class="header-section-number">3.4</span> Metric Hierarchy</a></li>
+  <li><a href="#basic-chart-types" id="toc-basic-chart-types" class="nav-link" data-scroll-target="#basic-chart-types"><span class="header-section-number">3.1</span> Basic Chart Types</a></li>
+  <li><a href="#chart-configuration" id="toc-chart-configuration" class="nav-link" data-scroll-target="#chart-configuration"><span class="header-section-number">3.2</span> Chart Configuration</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/Muhammadrizkybagas/blob/main/chapter1.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/Muhammadrizkybagas/edit/main/chapter1.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li></ul></div></nav>
@@ -218,9 +194,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter1.html">1. Analytical Foundation</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter1.html">1. Looker Studio Fundamentals</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">ANALYTICAL FOUNDATION</h1>
+<h1 class="title">LOOKER STUDIO FUNDAMENTALS</h1>
 </div>
 
 
@@ -243,51 +219,31 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="analyst-mindset" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Analyst Mindset</h1>
-<section id="decision-vs-reporting" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="decision-vs-reporting"><span class="header-section-number">1.1</span> Decision vs Reporting</h2>
+<section id="data-connection" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Data Connection</h1>
+<section id="connect-google-sheets" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="connect-google-sheets"><span class="header-section-number">1.1</span> Connect Google Sheets</h2>
 </section>
-<section id="business-context" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="business-context"><span class="header-section-number">1.2</span> Business Context</h2>
-</section>
-<section id="analytical-thinking" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="analytical-thinking"><span class="header-section-number">1.3</span> Analytical Thinking</h2>
-</section>
-<section id="value-creation" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="value-creation"><span class="header-section-number">1.4</span> Value Creation</h2>
-<hr>
+<section id="import-excel-csv-files" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="import-excel-csv-files"><span class="header-section-number">1.2</span> Import Excel / CSV Files</h2>
 </section>
 </section>
-<section id="question-framing" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Question Framing</h1>
-<section id="problem-structuring" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="problem-structuring"><span class="header-section-number">2.1</span> Problem Structuring</h2>
+<section id="data-structure" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Data Structure</h1>
+<section id="metrics-vs-dimensions" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="metrics-vs-dimensions"><span class="header-section-number">2.1</span> Metrics vs Dimensions</h2>
 </section>
-<section id="kpi-alignment" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="kpi-alignment"><span class="header-section-number">2.2</span> KPI Alignment</h2>
-</section>
-<section id="metric-definition" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="metric-definition"><span class="header-section-number">2.3</span> Metric Definition</h2>
-</section>
-<section id="stakeholder-intent" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="stakeholder-intent"><span class="header-section-number">2.4</span> Stakeholder Intent</h2>
-<hr>
+<section id="aggregation-logic" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="aggregation-logic"><span class="header-section-number">2.2</span> Aggregation Logic</h2>
 </section>
 </section>
-<section id="kpi-architecture" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> KPI Architecture</h1>
-<section id="leading-indicators" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="leading-indicators"><span class="header-section-number">3.1</span> Leading Indicators</h2>
+<section id="chart-basics" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Chart Basics</h1>
+<section id="basic-chart-types" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="basic-chart-types"><span class="header-section-number">3.1</span> Basic Chart Types</h2>
 </section>
-<section id="lagging-indicators" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="lagging-indicators"><span class="header-section-number">3.2</span> Lagging Indicators</h2>
-</section>
-<section id="north-star-metric" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="north-star-metric"><span class="header-section-number">3.3</span> North Star Metric</h2>
-</section>
-<section id="metric-hierarchy" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="metric-hierarchy"><span class="header-section-number">3.4</span> Metric Hierarchy</h2>
+<section id="chart-configuration" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="chart-configuration"><span class="header-section-number">3.2</span> Chart Configuration</h2>
 
 
 </section>
@@ -367,7 +323,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/Muhammadrizkybagas\.github\.io\/Data-Analyst-with-Looker-Studio\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -698,14 +654,14 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 Muhammad Rizky Bagas</p>
-</div>   
-    <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Muhammadrizkybagas/blob/main/chapter1.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/Muhammadrizkybagas/edit/main/chapter1.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li></ul></div></div>
+    </div>   
+    <div class="nav-footer-center">
+<p>© 2026 Bootcamp Data Analyst</p>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Muhammadrizkybagas/blob/main/chapter1.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/Muhammadrizkybagas/edit/main/chapter1.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li></ul></div></div>
     <div class="nav-footer-right">
-<p>Powered by Quarto</p>
-</div>
+      &nbsp;
+    </div>
   </div>
 </footer>
 

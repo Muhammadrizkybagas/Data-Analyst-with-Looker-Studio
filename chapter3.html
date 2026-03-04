@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2026-03-04">
 
-<title>LOOKER SYSTEM – DATA ANALYST WITH LOOKER STUDIO</title>
+<title>DASHBOARD DESIGN – DATA ANALYST WITH LOOKER STUDIO</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter3.html">3. Looker System</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter3.html">3. Dashboard Design</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -134,49 +134,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">1. Analytical Foundation</span></a>
+ <span class="menu-text">1. Looker Studio Fundamentals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2. Visual Intelligence</span></a>
+ <span class="menu-text">2. Interactive Dashboard</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter3.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">3. Looker System</span></a>
+ <span class="menu-text">3. Dashboard Design</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4. Advanced Looker</span></a>
+ <span class="menu-text">4. Dashboard Development</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5. Dashboard Engineering</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapter6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">6. Decision Delivery</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapter7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7. Real Estate Case</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapter8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">8. Capstone Build</span></a>
+ <span class="menu-text">5. Real Estate Case Dashboard</span></a>
   </div>
 </li>
       </ul>
@@ -191,36 +173,25 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#looker-architecture" id="toc-looker-architecture" class="nav-link active" data-scroll-target="#looker-architecture"><span class="header-section-number">1</span> Looker Architecture</a>
+  <li><a href="#theme-styling" id="toc-theme-styling" class="nav-link active" data-scroll-target="#theme-styling"><span class="header-section-number">1</span> Theme &amp; Styling</a>
   <ul class="collapse">
-  <li><a href="#semantic-layer" id="toc-semantic-layer" class="nav-link" data-scroll-target="#semantic-layer"><span class="header-section-number">1.1</span> Semantic Layer</a></li>
-  <li><a href="#explore-concept" id="toc-explore-concept" class="nav-link" data-scroll-target="#explore-concept"><span class="header-section-number">1.2</span> Explore Concept</a></li>
-  <li><a href="#view-structure" id="toc-view-structure" class="nav-link" data-scroll-target="#view-structure"><span class="header-section-number">1.3</span> View Structure</a></li>
-  <li><a href="#lookml-overview" id="toc-lookml-overview" class="nav-link" data-scroll-target="#lookml-overview"><span class="header-section-number">1.4</span> LookML Overview</a></li>
+  <li><a href="#theme-application" id="toc-theme-application" class="nav-link" data-scroll-target="#theme-application"><span class="header-section-number">1.1</span> Theme Application</a></li>
   </ul></li>
-  <li><a href="#data-governance" id="toc-data-governance" class="nav-link" data-scroll-target="#data-governance"><span class="header-section-number">2</span> Data Governance</a>
+  <li><a href="#typography" id="toc-typography" class="nav-link" data-scroll-target="#typography"><span class="header-section-number">2</span> Typography</a>
   <ul class="collapse">
-  <li><a href="#access-control" id="toc-access-control" class="nav-link" data-scroll-target="#access-control"><span class="header-section-number">2.1</span> Access Control</a></li>
-  <li><a href="#role-permissions" id="toc-role-permissions" class="nav-link" data-scroll-target="#role-permissions"><span class="header-section-number">2.2</span> Role Permissions</a></li>
-  <li><a href="#data-consistency" id="toc-data-consistency" class="nav-link" data-scroll-target="#data-consistency"><span class="header-section-number">2.3</span> Data Consistency</a></li>
-  <li><a href="#metric-standardization" id="toc-metric-standardization" class="nav-link" data-scroll-target="#metric-standardization"><span class="header-section-number">2.4</span> Metric Standardization</a></li>
+  <li><a href="#font-hierarchy" id="toc-font-hierarchy" class="nav-link" data-scroll-target="#font-hierarchy"><span class="header-section-number">2.1</span> Font Hierarchy</a></li>
   </ul></li>
-  <li><a href="#explore-mastery" id="toc-explore-mastery" class="nav-link" data-scroll-target="#explore-mastery"><span class="header-section-number">3</span> Explore Mastery</a>
+  <li><a href="#color-strategy" id="toc-color-strategy" class="nav-link" data-scroll-target="#color-strategy"><span class="header-section-number">3</span> Color Strategy</a>
   <ul class="collapse">
-  <li><a href="#dimension-logic" id="toc-dimension-logic" class="nav-link" data-scroll-target="#dimension-logic"><span class="header-section-number">3.1</span> Dimension Logic</a></li>
-  <li><a href="#measure-behavior" id="toc-measure-behavior" class="nav-link" data-scroll-target="#measure-behavior"><span class="header-section-number">3.2</span> Measure Behavior</a></li>
-  <li><a href="#aggregation-rules" id="toc-aggregation-rules" class="nav-link" data-scroll-target="#aggregation-rules"><span class="header-section-number">3.3</span> Aggregation Rules</a></li>
-  <li><a href="#filter-strategy" id="toc-filter-strategy" class="nav-link" data-scroll-target="#filter-strategy"><span class="header-section-number">3.4</span> Filter Strategy</a></li>
-  <li><a href="#pivot-mechanics" id="toc-pivot-mechanics" class="nav-link" data-scroll-target="#pivot-mechanics"><span class="header-section-number">3.5</span> Pivot Mechanics</a></li>
-  <li><a href="#drill-workflow" id="toc-drill-workflow" class="nav-link" data-scroll-target="#drill-workflow"><span class="header-section-number">3.6</span> Drill Workflow</a></li>
+  <li><a href="#primary-vs-accent-colors" id="toc-primary-vs-accent-colors" class="nav-link" data-scroll-target="#primary-vs-accent-colors"><span class="header-section-number">3.1</span> Primary vs Accent Colors</a></li>
   </ul></li>
-  <li><a href="#metric-integrity" id="toc-metric-integrity" class="nav-link" data-scroll-target="#metric-integrity"><span class="header-section-number">4</span> Metric Integrity</a>
+  <li><a href="#layout-structure" id="toc-layout-structure" class="nav-link" data-scroll-target="#layout-structure"><span class="header-section-number">4</span> Layout Structure</a>
   <ul class="collapse">
-  <li><a href="#aggregation-errors" id="toc-aggregation-errors" class="nav-link" data-scroll-target="#aggregation-errors"><span class="header-section-number">4.1</span> Aggregation Errors</a></li>
-  <li><a href="#double-counting" id="toc-double-counting" class="nav-link" data-scroll-target="#double-counting"><span class="header-section-number">4.2</span> Double Counting</a></li>
-  <li><a href="#granularity-control" id="toc-granularity-control" class="nav-link" data-scroll-target="#granularity-control"><span class="header-section-number">4.3</span> Granularity Control</a></li>
-  <li><a href="#join-awareness" id="toc-join-awareness" class="nav-link" data-scroll-target="#join-awareness"><span class="header-section-number">4.4</span> Join Awareness</a></li>
-  <li><a href="#null-handling" id="toc-null-handling" class="nav-link" data-scroll-target="#null-handling"><span class="header-section-number">4.5</span> Null Handling</a></li>
+  <li><a href="#grid-alignment" id="toc-grid-alignment" class="nav-link" data-scroll-target="#grid-alignment"><span class="header-section-number">4.1</span> Grid Alignment</a></li>
+  </ul></li>
+  <li><a href="#visual-hierarchy" id="toc-visual-hierarchy" class="nav-link" data-scroll-target="#visual-hierarchy"><span class="header-section-number">5</span> Visual Hierarchy</a>
+  <ul class="collapse">
+  <li><a href="#kpi-highlighting" id="toc-kpi-highlighting" class="nav-link" data-scroll-target="#kpi-highlighting"><span class="header-section-number">5.1</span> KPI Highlighting</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/Muhammadrizkybagas/blob/main/chapter3.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/Muhammadrizkybagas/edit/main/chapter3.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li></ul></div></nav>
@@ -228,9 +199,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter3.html">3. Looker System</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter3.html">3. Dashboard Design</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">LOOKER SYSTEM</h1>
+<h1 class="title">DASHBOARD DESIGN</h1>
 </div>
 
 
@@ -253,76 +224,34 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="looker-architecture" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Looker Architecture</h1>
-<section id="semantic-layer" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="semantic-layer"><span class="header-section-number">1.1</span> Semantic Layer</h2>
-</section>
-<section id="explore-concept" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="explore-concept"><span class="header-section-number">1.2</span> Explore Concept</h2>
-</section>
-<section id="view-structure" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="view-structure"><span class="header-section-number">1.3</span> View Structure</h2>
-</section>
-<section id="lookml-overview" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="lookml-overview"><span class="header-section-number">1.4</span> LookML Overview</h2>
-<hr>
+<section id="theme-styling" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Theme &amp; Styling</h1>
+<section id="theme-application" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="theme-application"><span class="header-section-number">1.1</span> Theme Application</h2>
 </section>
 </section>
-<section id="data-governance" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Data Governance</h1>
-<section id="access-control" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="access-control"><span class="header-section-number">2.1</span> Access Control</h2>
-</section>
-<section id="role-permissions" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="role-permissions"><span class="header-section-number">2.2</span> Role Permissions</h2>
-</section>
-<section id="data-consistency" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="data-consistency"><span class="header-section-number">2.3</span> Data Consistency</h2>
-</section>
-<section id="metric-standardization" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="metric-standardization"><span class="header-section-number">2.4</span> Metric Standardization</h2>
-<hr>
+<section id="typography" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Typography</h1>
+<section id="font-hierarchy" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="font-hierarchy"><span class="header-section-number">2.1</span> Font Hierarchy</h2>
 </section>
 </section>
-<section id="explore-mastery" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Explore Mastery</h1>
-<section id="dimension-logic" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="dimension-logic"><span class="header-section-number">3.1</span> Dimension Logic</h2>
-</section>
-<section id="measure-behavior" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="measure-behavior"><span class="header-section-number">3.2</span> Measure Behavior</h2>
-</section>
-<section id="aggregation-rules" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="aggregation-rules"><span class="header-section-number">3.3</span> Aggregation Rules</h2>
-</section>
-<section id="filter-strategy" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="filter-strategy"><span class="header-section-number">3.4</span> Filter Strategy</h2>
-</section>
-<section id="pivot-mechanics" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="pivot-mechanics"><span class="header-section-number">3.5</span> Pivot Mechanics</h2>
-</section>
-<section id="drill-workflow" class="level2" data-number="3.6">
-<h2 data-number="3.6" class="anchored" data-anchor-id="drill-workflow"><span class="header-section-number">3.6</span> Drill Workflow</h2>
-<hr>
+<section id="color-strategy" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Color Strategy</h1>
+<section id="primary-vs-accent-colors" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="primary-vs-accent-colors"><span class="header-section-number">3.1</span> Primary vs Accent Colors</h2>
 </section>
 </section>
-<section id="metric-integrity" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> Metric Integrity</h1>
-<section id="aggregation-errors" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="aggregation-errors"><span class="header-section-number">4.1</span> Aggregation Errors</h2>
+<section id="layout-structure" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Layout Structure</h1>
+<section id="grid-alignment" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="grid-alignment"><span class="header-section-number">4.1</span> Grid Alignment</h2>
 </section>
-<section id="double-counting" class="level2" data-number="4.2">
-<h2 data-number="4.2" class="anchored" data-anchor-id="double-counting"><span class="header-section-number">4.2</span> Double Counting</h2>
 </section>
-<section id="granularity-control" class="level2" data-number="4.3">
-<h2 data-number="4.3" class="anchored" data-anchor-id="granularity-control"><span class="header-section-number">4.3</span> Granularity Control</h2>
-</section>
-<section id="join-awareness" class="level2" data-number="4.4">
-<h2 data-number="4.4" class="anchored" data-anchor-id="join-awareness"><span class="header-section-number">4.4</span> Join Awareness</h2>
-</section>
-<section id="null-handling" class="level2" data-number="4.5">
-<h2 data-number="4.5" class="anchored" data-anchor-id="null-handling"><span class="header-section-number">4.5</span> Null Handling</h2>
+<section id="visual-hierarchy" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Visual Hierarchy</h1>
+<section id="kpi-highlighting" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="kpi-highlighting"><span class="header-section-number">5.1</span> KPI Highlighting</h2>
 
 
 </section>
@@ -402,7 +331,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/Muhammadrizkybagas\.github\.io\/Data-Analyst-with-Looker-Studio\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -733,14 +662,14 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 Muhammad Rizky Bagas</p>
-</div>   
-    <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Muhammadrizkybagas/blob/main/chapter3.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/Muhammadrizkybagas/edit/main/chapter3.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li></ul></div></div>
+    </div>   
+    <div class="nav-footer-center">
+<p>© 2026 Bootcamp Data Analyst</p>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Muhammadrizkybagas/blob/main/chapter3.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/Muhammadrizkybagas/edit/main/chapter3.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li></ul></div></div>
     <div class="nav-footer-right">
-<p>Powered by Quarto</p>
-</div>
+      &nbsp;
+    </div>
   </div>
 </footer>
 

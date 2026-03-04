@@ -1,761 +1,321 @@
 [
   {
-    "objectID": "chapter7.html#channel-roi",
-    "href": "chapter7.html#channel-roi",
-    "title": "REAL ESTATE CASE",
+    "objectID": "chapter4.html#chart-selection",
+    "href": "chapter4.html#chart-selection",
+    "title": "DASHBOARD DEVELOPMENT",
+    "section": "2.1 Chart Selection",
+    "text": "2.1 Chart Selection",
+    "crumbs": [
+      "**BAB**",
+      "4. Dashboard Development"
+    ]
+  },
+  {
+    "objectID": "chapter4.html#kpi-summary-page",
+    "href": "chapter4.html#kpi-summary-page",
+    "title": "DASHBOARD DEVELOPMENT",
+    "section": "3.1 KPI Summary Page",
+    "text": "3.1 KPI Summary Page",
+    "crumbs": [
+      "**BAB**",
+      "4. Dashboard Development"
+    ]
+  },
+  {
+    "objectID": "chapter4.html#supporting-charts",
+    "href": "chapter4.html#supporting-charts",
+    "title": "DASHBOARD DEVELOPMENT",
+    "section": "4.1 Supporting Charts",
+    "text": "4.1 Supporting Charts",
+    "crumbs": [
+      "**BAB**",
+      "4. Dashboard Development"
+    ]
+  },
+  {
+    "objectID": "chapter4.html#interactive-controls",
+    "href": "chapter4.html#interactive-controls",
+    "title": "DASHBOARD DEVELOPMENT",
+    "section": "5.1 Interactive Controls",
+    "text": "5.1 Interactive Controls",
+    "crumbs": [
+      "**BAB**",
+      "4. Dashboard Development"
+    ]
+  },
+  {
+    "objectID": "chapter4.html#clarity-check",
+    "href": "chapter4.html#clarity-check",
+    "title": "DASHBOARD DEVELOPMENT",
+    "section": "6.1 Clarity Check",
+    "text": "6.1 Clarity Check",
+    "crumbs": [
+      "**BAB**",
+      "4. Dashboard Development"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#drop-down-filter",
+    "href": "chapter2.html#drop-down-filter",
+    "title": "INTERACTIVE DASHBOARD",
+    "section": "2.1 Drop-down Filter",
+    "text": "2.1 Drop-down Filter",
+    "crumbs": [
+      "**BAB**",
+      "2. Interactive Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#segment-filtering",
+    "href": "chapter2.html#segment-filtering",
+    "title": "INTERACTIVE DASHBOARD",
+    "section": "3.1 Segment Filtering",
+    "text": "3.1 Segment Filtering",
+    "crumbs": [
+      "**BAB**",
+      "2. Interactive Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#cross-filtering",
+    "href": "chapter2.html#cross-filtering",
+    "title": "INTERACTIVE DASHBOARD",
+    "section": "4.1 Cross-filtering",
+    "text": "4.1 Cross-filtering",
+    "crumbs": [
+      "**BAB**",
+      "2. Interactive Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#interactive",
+    "href": "chapter2.html#interactive",
+    "title": "INTERACTIVE DASHBOARD",
+    "section": "5.1 Interactive",
+    "text": "5.1 Interactive\nNavigation",
+    "crumbs": [
+      "**BAB**",
+      "2. Interactive Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter1.html#metrics-vs-dimensions",
+    "href": "chapter1.html#metrics-vs-dimensions",
+    "title": "LOOKER STUDIO FUNDAMENTALS",
+    "section": "2.1 Metrics vs Dimensions",
+    "text": "2.1 Metrics vs Dimensions",
+    "crumbs": [
+      "**BAB**",
+      "1. Looker Studio Fundamentals"
+    ]
+  },
+  {
+    "objectID": "chapter1.html#aggregation-logic",
+    "href": "chapter1.html#aggregation-logic",
+    "title": "LOOKER STUDIO FUNDAMENTALS",
+    "section": "2.2 Aggregation Logic",
+    "text": "2.2 Aggregation Logic",
+    "crumbs": [
+      "**BAB**",
+      "1. Looker Studio Fundamentals"
+    ]
+  },
+  {
+    "objectID": "chapter1.html#basic-chart-types",
+    "href": "chapter1.html#basic-chart-types",
+    "title": "LOOKER STUDIO FUNDAMENTALS",
+    "section": "3.1 Basic Chart Types",
+    "text": "3.1 Basic Chart Types",
+    "crumbs": [
+      "**BAB**",
+      "1. Looker Studio Fundamentals"
+    ]
+  },
+  {
+    "objectID": "chapter1.html#chart-configuration",
+    "href": "chapter1.html#chart-configuration",
+    "title": "LOOKER STUDIO FUNDAMENTALS",
+    "section": "3.2 Chart Configuration",
+    "text": "3.2 Chart Configuration",
+    "crumbs": [
+      "**BAB**",
+      "1. Looker Studio Fundamentals"
+    ]
+  },
+  {
+    "objectID": "chapter3.html#font-hierarchy",
+    "href": "chapter3.html#font-hierarchy",
+    "title": "DASHBOARD DESIGN",
+    "section": "2.1 Font Hierarchy",
+    "text": "2.1 Font Hierarchy",
+    "crumbs": [
+      "**BAB**",
+      "3. Dashboard Design"
+    ]
+  },
+  {
+    "objectID": "chapter3.html#primary-vs-accent-colors",
+    "href": "chapter3.html#primary-vs-accent-colors",
+    "title": "DASHBOARD DESIGN",
+    "section": "3.1 Primary vs Accent Colors",
+    "text": "3.1 Primary vs Accent Colors",
+    "crumbs": [
+      "**BAB**",
+      "3. Dashboard Design"
+    ]
+  },
+  {
+    "objectID": "chapter3.html#grid-alignment",
+    "href": "chapter3.html#grid-alignment",
+    "title": "DASHBOARD DESIGN",
+    "section": "4.1 Grid Alignment",
+    "text": "4.1 Grid Alignment",
+    "crumbs": [
+      "**BAB**",
+      "3. Dashboard Design"
+    ]
+  },
+  {
+    "objectID": "chapter3.html#kpi-highlighting",
+    "href": "chapter3.html#kpi-highlighting",
+    "title": "DASHBOARD DESIGN",
+    "section": "5.1 KPI Highlighting",
+    "text": "5.1 KPI Highlighting",
+    "crumbs": [
+      "**BAB**",
+      "3. Dashboard Design"
+    ]
+  },
+  {
+    "objectID": "chapter5.html#channel-roi",
+    "href": "chapter5.html#channel-roi",
+    "title": "REAL ESTATE CASE DASHBOARD",
     "section": "2.1 Channel ROI",
     "text": "2.1 Channel ROI",
     "crumbs": [
       "**BAB**",
-      "7. Real Estate Case"
+      "5. Real Estate Case Dashboard"
     ]
   },
   {
-    "objectID": "chapter7.html#cost-efficiency",
-    "href": "chapter7.html#cost-efficiency",
-    "title": "REAL ESTATE CASE",
+    "objectID": "chapter5.html#cost-efficiency",
+    "href": "chapter5.html#cost-efficiency",
+    "title": "REAL ESTATE CASE DASHBOARD",
     "section": "2.2 Cost Efficiency",
     "text": "2.2 Cost Efficiency",
     "crumbs": [
       "**BAB**",
-      "7. Real Estate Case"
+      "5. Real Estate Case Dashboard"
     ]
   },
   {
-    "objectID": "chapter7.html#lead-quality",
-    "href": "chapter7.html#lead-quality",
-    "title": "REAL ESTATE CASE",
+    "objectID": "chapter5.html#lead-quality",
+    "href": "chapter5.html#lead-quality",
+    "title": "REAL ESTATE CASE DASHBOARD",
     "section": "2.3 Lead Quality",
     "text": "2.3 Lead Quality",
     "crumbs": [
       "**BAB**",
-      "7. Real Estate Case"
+      "5. Real Estate Case Dashboard"
     ]
   },
   {
-    "objectID": "chapter7.html#campaign-impact",
-    "href": "chapter7.html#campaign-impact",
-    "title": "REAL ESTATE CASE",
+    "objectID": "chapter5.html#campaign-impact",
+    "href": "chapter5.html#campaign-impact",
+    "title": "REAL ESTATE CASE DASHBOARD",
     "section": "2.4 Campaign Impact",
     "text": "2.4 Campaign Impact",
     "crumbs": [
       "**BAB**",
-      "7. Real Estate Case"
-    ]
-  },
-  {
-    "objectID": "chapter7.html#inventory-status",
-    "href": "chapter7.html#inventory-status",
-    "title": "REAL ESTATE CASE",
-    "section": "3.1 Inventory Status",
-    "text": "3.1 Inventory Status",
-    "crumbs": [
-      "**BAB**",
-      "7. Real Estate Case"
-    ]
-  },
-  {
-    "objectID": "chapter7.html#utilization-rate",
-    "href": "chapter7.html#utilization-rate",
-    "title": "REAL ESTATE CASE",
-    "section": "3.2 Utilization Rate",
-    "text": "3.2 Utilization Rate",
-    "crumbs": [
-      "**BAB**",
-      "7. Real Estate Case"
-    ]
-  },
-  {
-    "objectID": "chapter7.html#revenue-mix",
-    "href": "chapter7.html#revenue-mix",
-    "title": "REAL ESTATE CASE",
-    "section": "3.3 Revenue Mix",
-    "text": "3.3 Revenue Mix",
-    "crumbs": [
-      "**BAB**",
-      "7. Real Estate Case"
-    ]
-  },
-  {
-    "objectID": "chapter7.html#performance-gap",
-    "href": "chapter7.html#performance-gap",
-    "title": "REAL ESTATE CASE",
-    "section": "3.4 Performance Gap",
-    "text": "3.4 Performance Gap",
-    "crumbs": [
-      "**BAB**",
-      "7. Real Estate Case"
-    ]
-  },
-  {
-    "objectID": "chapter5.html#f-pattern",
-    "href": "chapter5.html#f-pattern",
-    "title": "DASHBOARD ENGINEERING",
-    "section": "2.1 F Pattern",
-    "text": "2.1 F Pattern",
-    "crumbs": [
-      "**BAB**",
-      "5. Dashboard Engineering"
-    ]
-  },
-  {
-    "objectID": "chapter5.html#z-pattern",
-    "href": "chapter5.html#z-pattern",
-    "title": "DASHBOARD ENGINEERING",
-    "section": "2.2 Z Pattern",
-    "text": "2.2 Z Pattern",
-    "crumbs": [
-      "**BAB**",
-      "5. Dashboard Engineering"
-    ]
-  },
-  {
-    "objectID": "chapter5.html#section-grouping",
-    "href": "chapter5.html#section-grouping",
-    "title": "DASHBOARD ENGINEERING",
-    "section": "2.3 Section Grouping",
-    "text": "2.3 Section Grouping",
-    "crumbs": [
-      "**BAB**",
-      "5. Dashboard Engineering"
-    ]
-  },
-  {
-    "objectID": "chapter5.html#visual-balance",
-    "href": "chapter5.html#visual-balance",
-    "title": "DASHBOARD ENGINEERING",
-    "section": "2.4 Visual Balance",
-    "text": "2.4 Visual Balance",
-    "crumbs": [
-      "**BAB**",
-      "5. Dashboard Engineering"
+      "5. Real Estate Case Dashboard"
     ]
   },
   {
     "objectID": "chapter5.html#cross-filters",
     "href": "chapter5.html#cross-filters",
-    "title": "DASHBOARD ENGINEERING",
+    "title": "REAL ESTATE CASE DASHBOARD",
     "section": "3.1 Cross Filters",
     "text": "3.1 Cross Filters",
     "crumbs": [
       "**BAB**",
-      "5. Dashboard Engineering"
+      "5. Real Estate Case Dashboard"
     ]
   },
   {
     "objectID": "chapter5.html#drill-paths",
     "href": "chapter5.html#drill-paths",
-    "title": "DASHBOARD ENGINEERING",
+    "title": "REAL ESTATE CASE DASHBOARD",
     "section": "3.2 Drill Paths",
     "text": "3.2 Drill Paths",
     "crumbs": [
       "**BAB**",
-      "5. Dashboard Engineering"
+      "5. Real Estate Case Dashboard"
     ]
   },
   {
     "objectID": "chapter5.html#context-control",
     "href": "chapter5.html#context-control",
-    "title": "DASHBOARD ENGINEERING",
+    "title": "REAL ESTATE CASE DASHBOARD",
     "section": "3.3 Context Control",
     "text": "3.3 Context Control",
     "crumbs": [
       "**BAB**",
-      "5. Dashboard Engineering"
+      "5. Real Estate Case Dashboard"
     ]
   },
   {
     "objectID": "chapter5.html#user-navigation",
     "href": "chapter5.html#user-navigation",
-    "title": "DASHBOARD ENGINEERING",
+    "title": "REAL ESTATE CASE DASHBOARD",
     "section": "3.4 User Navigation",
     "text": "3.4 User Navigation",
     "crumbs": [
       "**BAB**",
-      "5. Dashboard Engineering"
+      "5. Real Estate Case Dashboard"
     ]
   },
   {
-    "objectID": "chapter3.html#access-control",
-    "href": "chapter3.html#access-control",
-    "title": "LOOKER SYSTEM",
-    "section": "2.1 Access Control",
-    "text": "2.1 Access Control",
+    "objectID": "chapter5.html#inventory-status",
+    "href": "chapter5.html#inventory-status",
+    "title": "REAL ESTATE CASE DASHBOARD",
+    "section": "4.1 Inventory Status",
+    "text": "4.1 Inventory Status",
     "crumbs": [
       "**BAB**",
-      "3. Looker System"
+      "5. Real Estate Case Dashboard"
     ]
   },
   {
-    "objectID": "chapter3.html#role-permissions",
-    "href": "chapter3.html#role-permissions",
-    "title": "LOOKER SYSTEM",
-    "section": "2.2 Role Permissions",
-    "text": "2.2 Role Permissions",
+    "objectID": "chapter5.html#utilization-rate",
+    "href": "chapter5.html#utilization-rate",
+    "title": "REAL ESTATE CASE DASHBOARD",
+    "section": "4.2 Utilization Rate",
+    "text": "4.2 Utilization Rate",
     "crumbs": [
       "**BAB**",
-      "3. Looker System"
+      "5. Real Estate Case Dashboard"
     ]
   },
   {
-    "objectID": "chapter3.html#data-consistency",
-    "href": "chapter3.html#data-consistency",
-    "title": "LOOKER SYSTEM",
-    "section": "2.3 Data Consistency",
-    "text": "2.3 Data Consistency",
+    "objectID": "chapter5.html#revenue-mix",
+    "href": "chapter5.html#revenue-mix",
+    "title": "REAL ESTATE CASE DASHBOARD",
+    "section": "4.3 Revenue Mix",
+    "text": "4.3 Revenue Mix",
     "crumbs": [
       "**BAB**",
-      "3. Looker System"
+      "5. Real Estate Case Dashboard"
     ]
   },
   {
-    "objectID": "chapter3.html#metric-standardization",
-    "href": "chapter3.html#metric-standardization",
-    "title": "LOOKER SYSTEM",
-    "section": "2.4 Metric Standardization",
-    "text": "2.4 Metric Standardization",
+    "objectID": "chapter5.html#performance-gap",
+    "href": "chapter5.html#performance-gap",
+    "title": "REAL ESTATE CASE DASHBOARD",
+    "section": "4.4 Performance Gap",
+    "text": "4.4 Performance Gap",
     "crumbs": [
       "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter3.html#dimension-logic",
-    "href": "chapter3.html#dimension-logic",
-    "title": "LOOKER SYSTEM",
-    "section": "3.1 Dimension Logic",
-    "text": "3.1 Dimension Logic",
-    "crumbs": [
-      "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter3.html#measure-behavior",
-    "href": "chapter3.html#measure-behavior",
-    "title": "LOOKER SYSTEM",
-    "section": "3.2 Measure Behavior",
-    "text": "3.2 Measure Behavior",
-    "crumbs": [
-      "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter3.html#aggregation-rules",
-    "href": "chapter3.html#aggregation-rules",
-    "title": "LOOKER SYSTEM",
-    "section": "3.3 Aggregation Rules",
-    "text": "3.3 Aggregation Rules",
-    "crumbs": [
-      "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter3.html#filter-strategy",
-    "href": "chapter3.html#filter-strategy",
-    "title": "LOOKER SYSTEM",
-    "section": "3.4 Filter Strategy",
-    "text": "3.4 Filter Strategy",
-    "crumbs": [
-      "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter3.html#pivot-mechanics",
-    "href": "chapter3.html#pivot-mechanics",
-    "title": "LOOKER SYSTEM",
-    "section": "3.5 Pivot Mechanics",
-    "text": "3.5 Pivot Mechanics",
-    "crumbs": [
-      "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter3.html#drill-workflow",
-    "href": "chapter3.html#drill-workflow",
-    "title": "LOOKER SYSTEM",
-    "section": "3.6 Drill Workflow",
-    "text": "3.6 Drill Workflow",
-    "crumbs": [
-      "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter3.html#aggregation-errors",
-    "href": "chapter3.html#aggregation-errors",
-    "title": "LOOKER SYSTEM",
-    "section": "4.1 Aggregation Errors",
-    "text": "4.1 Aggregation Errors",
-    "crumbs": [
-      "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter3.html#double-counting",
-    "href": "chapter3.html#double-counting",
-    "title": "LOOKER SYSTEM",
-    "section": "4.2 Double Counting",
-    "text": "4.2 Double Counting",
-    "crumbs": [
-      "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter3.html#granularity-control",
-    "href": "chapter3.html#granularity-control",
-    "title": "LOOKER SYSTEM",
-    "section": "4.3 Granularity Control",
-    "text": "4.3 Granularity Control",
-    "crumbs": [
-      "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter3.html#join-awareness",
-    "href": "chapter3.html#join-awareness",
-    "title": "LOOKER SYSTEM",
-    "section": "4.4 Join Awareness",
-    "text": "4.4 Join Awareness",
-    "crumbs": [
-      "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter3.html#null-handling",
-    "href": "chapter3.html#null-handling",
-    "title": "LOOKER SYSTEM",
-    "section": "4.5 Null Handling",
-    "text": "4.5 Null Handling",
-    "crumbs": [
-      "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter1.html#problem-structuring",
-    "href": "chapter1.html#problem-structuring",
-    "title": "ANALYTICAL FOUNDATION",
-    "section": "2.1 Problem Structuring",
-    "text": "2.1 Problem Structuring",
-    "crumbs": [
-      "**BAB**",
-      "1. Analytical Foundation"
-    ]
-  },
-  {
-    "objectID": "chapter1.html#kpi-alignment",
-    "href": "chapter1.html#kpi-alignment",
-    "title": "ANALYTICAL FOUNDATION",
-    "section": "2.2 KPI Alignment",
-    "text": "2.2 KPI Alignment",
-    "crumbs": [
-      "**BAB**",
-      "1. Analytical Foundation"
-    ]
-  },
-  {
-    "objectID": "chapter1.html#metric-definition",
-    "href": "chapter1.html#metric-definition",
-    "title": "ANALYTICAL FOUNDATION",
-    "section": "2.3 Metric Definition",
-    "text": "2.3 Metric Definition",
-    "crumbs": [
-      "**BAB**",
-      "1. Analytical Foundation"
-    ]
-  },
-  {
-    "objectID": "chapter1.html#stakeholder-intent",
-    "href": "chapter1.html#stakeholder-intent",
-    "title": "ANALYTICAL FOUNDATION",
-    "section": "2.4 Stakeholder Intent",
-    "text": "2.4 Stakeholder Intent",
-    "crumbs": [
-      "**BAB**",
-      "1. Analytical Foundation"
-    ]
-  },
-  {
-    "objectID": "chapter1.html#leading-indicators",
-    "href": "chapter1.html#leading-indicators",
-    "title": "ANALYTICAL FOUNDATION",
-    "section": "3.1 Leading Indicators",
-    "text": "3.1 Leading Indicators",
-    "crumbs": [
-      "**BAB**",
-      "1. Analytical Foundation"
-    ]
-  },
-  {
-    "objectID": "chapter1.html#lagging-indicators",
-    "href": "chapter1.html#lagging-indicators",
-    "title": "ANALYTICAL FOUNDATION",
-    "section": "3.2 Lagging Indicators",
-    "text": "3.2 Lagging Indicators",
-    "crumbs": [
-      "**BAB**",
-      "1. Analytical Foundation"
-    ]
-  },
-  {
-    "objectID": "chapter1.html#north-star-metric",
-    "href": "chapter1.html#north-star-metric",
-    "title": "ANALYTICAL FOUNDATION",
-    "section": "3.3 North Star Metric",
-    "text": "3.3 North Star Metric",
-    "crumbs": [
-      "**BAB**",
-      "1. Analytical Foundation"
-    ]
-  },
-  {
-    "objectID": "chapter1.html#metric-hierarchy",
-    "href": "chapter1.html#metric-hierarchy",
-    "title": "ANALYTICAL FOUNDATION",
-    "section": "3.4 Metric Hierarchy",
-    "text": "3.4 Metric Hierarchy",
-    "crumbs": [
-      "**BAB**",
-      "1. Analytical Foundation"
-    ]
-  },
-  {
-    "objectID": "chapter2.html#pre-attentive-signals",
-    "href": "chapter2.html#pre-attentive-signals",
-    "title": "VISUAL INTELLIGENCE",
-    "section": "2.1 Pre-attentive Signals",
-    "text": "2.1 Pre-attentive Signals",
-    "crumbs": [
-      "**BAB**",
-      "2. Visual Intelligence"
-    ]
-  },
-  {
-    "objectID": "chapter2.html#attention-flow",
-    "href": "chapter2.html#attention-flow",
-    "title": "VISUAL INTELLIGENCE",
-    "section": "2.2 Attention Flow",
-    "text": "2.2 Attention Flow",
-    "crumbs": [
-      "**BAB**",
-      "2. Visual Intelligence"
-    ]
-  },
-  {
-    "objectID": "chapter2.html#cognitive-load",
-    "href": "chapter2.html#cognitive-load",
-    "title": "VISUAL INTELLIGENCE",
-    "section": "2.3 Cognitive Load",
-    "text": "2.3 Cognitive Load",
-    "crumbs": [
-      "**BAB**",
-      "2. Visual Intelligence"
-    ]
-  },
-  {
-    "objectID": "chapter2.html#information-density",
-    "href": "chapter2.html#information-density",
-    "title": "VISUAL INTELLIGENCE",
-    "section": "2.4 Information Density",
-    "text": "2.4 Information Density",
-    "crumbs": [
-      "**BAB**",
-      "2. Visual Intelligence"
-    ]
-  },
-  {
-    "objectID": "chapter2.html#layout-structure",
-    "href": "chapter2.html#layout-structure",
-    "title": "VISUAL INTELLIGENCE",
-    "section": "3.1 Layout Structure",
-    "text": "3.1 Layout Structure",
-    "crumbs": [
-      "**BAB**",
-      "2. Visual Intelligence"
-    ]
-  },
-  {
-    "objectID": "chapter2.html#color-hierarchy",
-    "href": "chapter2.html#color-hierarchy",
-    "title": "VISUAL INTELLIGENCE",
-    "section": "3.2 Color Hierarchy",
-    "text": "3.2 Color Hierarchy",
-    "crumbs": [
-      "**BAB**",
-      "2. Visual Intelligence"
-    ]
-  },
-  {
-    "objectID": "chapter2.html#label-precision",
-    "href": "chapter2.html#label-precision",
-    "title": "VISUAL INTELLIGENCE",
-    "section": "3.3 Label Precision",
-    "text": "3.3 Label Precision",
-    "crumbs": [
-      "**BAB**",
-      "2. Visual Intelligence"
-    ]
-  },
-  {
-    "objectID": "chapter2.html#minimal-clutter",
-    "href": "chapter2.html#minimal-clutter",
-    "title": "VISUAL INTELLIGENCE",
-    "section": "3.4 Minimal Clutter",
-    "text": "3.4 Minimal Clutter",
-    "crumbs": [
-      "**BAB**",
-      "2. Visual Intelligence"
-    ]
-  },
-  {
-    "objectID": "chapter4.html#query-optimization",
-    "href": "chapter4.html#query-optimization",
-    "title": "ADVANCED LOOKER",
-    "section": "2.1 Query Optimization",
-    "text": "2.1 Query Optimization",
-    "crumbs": [
-      "**BAB**",
-      "4. Advanced Looker"
-    ]
-  },
-  {
-    "objectID": "chapter4.html#data-volume",
-    "href": "chapter4.html#data-volume",
-    "title": "ADVANCED LOOKER",
-    "section": "2.2 Data Volume",
-    "text": "2.2 Data Volume",
-    "crumbs": [
-      "**BAB**",
-      "4. Advanced Looker"
-    ]
-  },
-  {
-    "objectID": "chapter4.html#efficient-filters",
-    "href": "chapter4.html#efficient-filters",
-    "title": "ADVANCED LOOKER",
-    "section": "2.3 Efficient Filters",
-    "text": "2.3 Efficient Filters",
-    "crumbs": [
-      "**BAB**",
-      "4. Advanced Looker"
-    ]
-  },
-  {
-    "objectID": "chapter4.html#dashboard-speed",
-    "href": "chapter4.html#dashboard-speed",
-    "title": "ADVANCED LOOKER",
-    "section": "2.4 Dashboard Speed",
-    "text": "2.4 Dashboard Speed",
-    "crumbs": [
-      "**BAB**",
-      "4. Advanced Looker"
-    ]
-  },
-  {
-    "objectID": "chapter4.html#chart-configuration",
-    "href": "chapter4.html#chart-configuration",
-    "title": "ADVANCED LOOKER",
-    "section": "3.1 Chart Configuration",
-    "text": "3.1 Chart Configuration",
-    "crumbs": [
-      "**BAB**",
-      "4. Advanced Looker"
-    ]
-  },
-  {
-    "objectID": "chapter4.html#axis-integrity",
-    "href": "chapter4.html#axis-integrity",
-    "title": "ADVANCED LOOKER",
-    "section": "3.2 Axis Integrity",
-    "text": "3.2 Axis Integrity",
-    "crumbs": [
-      "**BAB**",
-      "4. Advanced Looker"
-    ]
-  },
-  {
-    "objectID": "chapter4.html#scaling-logic",
-    "href": "chapter4.html#scaling-logic",
-    "title": "ADVANCED LOOKER",
-    "section": "3.3 Scaling Logic",
-    "text": "3.3 Scaling Logic",
-    "crumbs": [
-      "**BAB**",
-      "4. Advanced Looker"
-    ]
-  },
-  {
-    "objectID": "chapter4.html#conditional-format",
-    "href": "chapter4.html#conditional-format",
-    "title": "ADVANCED LOOKER",
-    "section": "3.4 Conditional Format",
-    "text": "3.4 Conditional Format",
-    "crumbs": [
-      "**BAB**",
-      "4. Advanced Looker"
-    ]
-  },
-  {
-    "objectID": "chapter6.html#insight-structure",
-    "href": "chapter6.html#insight-structure",
-    "title": "DECISION DELIVERY",
-    "section": "2.1 Insight Structure",
-    "text": "2.1 Insight Structure",
-    "crumbs": [
-      "**BAB**",
-      "6. Decision Delivery"
-    ]
-  },
-  {
-    "objectID": "chapter6.html#risk-framing",
-    "href": "chapter6.html#risk-framing",
-    "title": "DECISION DELIVERY",
-    "section": "2.2 Risk Framing",
-    "text": "2.2 Risk Framing",
-    "crumbs": [
-      "**BAB**",
-      "6. Decision Delivery"
-    ]
-  },
-  {
-    "objectID": "chapter6.html#recommendation-logic",
-    "href": "chapter6.html#recommendation-logic",
-    "title": "DECISION DELIVERY",
-    "section": "2.3 Recommendation Logic",
-    "text": "2.3 Recommendation Logic",
-    "crumbs": [
-      "**BAB**",
-      "6. Decision Delivery"
-    ]
-  },
-  {
-    "objectID": "chapter6.html#action-prioritization",
-    "href": "chapter6.html#action-prioritization",
-    "title": "DECISION DELIVERY",
-    "section": "2.4 Action Prioritization",
-    "text": "2.4 Action Prioritization",
-    "crumbs": [
-      "**BAB**",
-      "6. Decision Delivery"
-    ]
-  },
-  {
-    "objectID": "chapter6.html#misleading-axis",
-    "href": "chapter6.html#misleading-axis",
-    "title": "DECISION DELIVERY",
-    "section": "3.1 Misleading Axis",
-    "text": "3.1 Misleading Axis",
-    "crumbs": [
-      "**BAB**",
-      "6. Decision Delivery"
-    ]
-  },
-  {
-    "objectID": "chapter6.html#metric-misuse",
-    "href": "chapter6.html#metric-misuse",
-    "title": "DECISION DELIVERY",
-    "section": "3.2 Metric Misuse",
-    "text": "3.2 Metric Misuse",
-    "crumbs": [
-      "**BAB**",
-      "6. Decision Delivery"
-    ]
-  },
-  {
-    "objectID": "chapter6.html#over-aggregation",
-    "href": "chapter6.html#over-aggregation",
-    "title": "DECISION DELIVERY",
-    "section": "3.3 Over Aggregation",
-    "text": "3.3 Over Aggregation",
-    "crumbs": [
-      "**BAB**",
-      "6. Decision Delivery"
-    ]
-  },
-  {
-    "objectID": "chapter6.html#visual-overload",
-    "href": "chapter6.html#visual-overload",
-    "title": "DECISION DELIVERY",
-    "section": "3.4 Visual Overload",
-    "text": "3.4 Visual Overload",
-    "crumbs": [
-      "**BAB**",
-      "6. Decision Delivery"
-    ]
-  },
-  {
-    "objectID": "chapter8.html#explore-setup",
-    "href": "chapter8.html#explore-setup",
-    "title": "CAPSTONE BUILD",
-    "section": "2.1 Explore Setup",
-    "text": "2.1 Explore Setup",
-    "crumbs": [
-      "**BAB**",
-      "8. Capstone Build"
-    ]
-  },
-  {
-    "objectID": "chapter8.html#metric-validation",
-    "href": "chapter8.html#metric-validation",
-    "title": "CAPSTONE BUILD",
-    "section": "2.2 Metric Validation",
-    "text": "2.2 Metric Validation",
-    "crumbs": [
-      "**BAB**",
-      "8. Capstone Build"
-    ]
-  },
-  {
-    "objectID": "chapter8.html#dashboard-design",
-    "href": "chapter8.html#dashboard-design",
-    "title": "CAPSTONE BUILD",
-    "section": "2.3 Dashboard Design",
-    "text": "2.3 Dashboard Design",
-    "crumbs": [
-      "**BAB**",
-      "8. Capstone Build"
-    ]
-  },
-  {
-    "objectID": "chapter8.html#insight-presentation",
-    "href": "chapter8.html#insight-presentation",
-    "title": "CAPSTONE BUILD",
-    "section": "3.1 Insight Presentation",
-    "text": "3.1 Insight Presentation",
-    "crumbs": [
-      "**BAB**",
-      "8. Capstone Build"
-    ]
-  },
-  {
-    "objectID": "chapter8.html#decision-proposal",
-    "href": "chapter8.html#decision-proposal",
-    "title": "CAPSTONE BUILD",
-    "section": "3.2 Decision Proposal",
-    "text": "3.2 Decision Proposal",
-    "crumbs": [
-      "**BAB**",
-      "8. Capstone Build"
-    ]
-  },
-  {
-    "objectID": "chapter8.html#qa-defense",
-    "href": "chapter8.html#qa-defense",
-    "title": "CAPSTONE BUILD",
-    "section": "3.3 Q&A Defense",
-    "text": "3.3 Q&A Defense",
-    "crumbs": [
-      "**BAB**",
-      "8. Capstone Build"
+      "5. Real Estate Case Dashboard"
     ]
   }
 ]
