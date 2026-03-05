@@ -55,11 +55,33 @@
     ]
   },
   {
+    "objectID": "chapter2.html",
+    "href": "chapter2.html",
+    "title": "INTERACTIVE DASHBOARD",
+    "section": "",
+    "text": "In Looker Studio, interactivity helps stakeholders quickly focus on the information that matters most. This is especially useful when analyzing trends, comparing categories, or investigating performance across different segments.\nBy adding filters and navigation controls, dashboards become tools for data exploration, not just data display.",
+    "crumbs": [
+      "**BAB**",
+      "2. Interactive Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#date-range-filter",
+    "href": "chapter2.html#date-range-filter",
+    "title": "INTERACTIVE DASHBOARD",
+    "section": "1.1 Date Range Filter",
+    "text": "1.1 Date Range Filter\nA Date Range Filter allows users to dynamically change the time window displayed in a dashboard.\nFor example, users can switch between:\n\nLast 7 days\nLast 30 days\nThis year\nCustom date ranges\n\nThis helps users quickly answer questions such as:\n\nHow did sales perform this month?\nIs revenue growing compared to last quarter?",
+    "crumbs": [
+      "**BAB**",
+      "2. Interactive Dashboard"
+    ]
+  },
+  {
     "objectID": "chapter2.html#drop-down-filter",
     "href": "chapter2.html#drop-down-filter",
     "title": "INTERACTIVE DASHBOARD",
     "section": "2.1 Drop-down Filter",
-    "text": "2.1 Drop-down Filter",
+    "text": "2.1 Drop-down Filter\nA Drop-down Filter allows users to select values from a list.\nCommon examples include filtering by:\n\nProduct category\nRegion\nBrand or company\nProperty project\n\nWhen a user selects a value from the drop-down filter, all connected charts update automatically.",
     "crumbs": [
       "**BAB**",
       "2. Interactive Dashboard"
@@ -70,7 +92,7 @@
     "href": "chapter2.html#segment-filtering",
     "title": "INTERACTIVE DASHBOARD",
     "section": "3.1 Segment Filtering",
-    "text": "3.1 Segment Filtering",
+    "text": "3.1 Segment Filtering\nSegment filtering allows users to isolate specific groups of data for deeper analysis.\nExamples include:\n\nViewing sales for a single region\nAnalyzing performance for one product category\nComparing results between customer segments\n\nSegment filters allow decision-makers to quickly answer targeted questions without modifying the dataset.",
     "crumbs": [
       "**BAB**",
       "2. Interactive Dashboard"
@@ -81,21 +103,54 @@
     "href": "chapter2.html#cross-filtering",
     "title": "INTERACTIVE DASHBOARD",
     "section": "4.1 Cross-filtering",
-    "text": "4.1 Cross-filtering",
+    "text": "4.1 Cross-filtering\nCross-filtering enables charts to act as interactive filters.\nFor example:\n\nClicking on a product category in a bar chart filters other charts to show only that category.\nSelecting a region updates revenue, demand, and KPI charts for that region.\n\nThis interaction helps users move quickly from high-level insights to detailed analysis.",
     "crumbs": [
       "**BAB**",
       "2. Interactive Dashboard"
     ]
   },
   {
-    "objectID": "chapter2.html#interactive",
-    "href": "chapter2.html#interactive",
+    "objectID": "chapter2.html#interactive-navigation",
+    "href": "chapter2.html#interactive-navigation",
     "title": "INTERACTIVE DASHBOARD",
-    "section": "5.1 Interactive",
-    "text": "5.1 Interactive\nNavigation",
+    "section": "5.1 Interactive Navigation",
+    "text": "5.1 Interactive Navigation\nInteractive navigation helps users move between different views or sections of a dashboard.\nExamples include:\n\nNavigating between overview and detailed analysis pages\nSwitching between sales and marketing dashboards\nExploring different product segments\n\nNavigation controls help organize complex dashboards and make them easier to use.",
     "crumbs": [
       "**BAB**",
       "2. Interactive Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter1.html",
+    "href": "chapter1.html",
+    "title": "LOOKER STUDIO FUNDAMENTALS",
+    "section": "",
+    "text": "Looker Studio is a business intelligence tool that helps transform raw data into clear and interactive dashboards. Instead of analyzing data directly from spreadsheets, analysts can visualize patterns, trends, and performance indicators in a structured way.\nIn business environments, dashboards are used to monitor KPIs, identify problems early, and support decision-making. Before building advanced dashboards, it is important to understand how data is connected, structured, and visualized in Looker Studio.",
+    "crumbs": [
+      "**BAB**",
+      "1. Looker Studio Fundamentals"
+    ]
+  },
+  {
+    "objectID": "chapter1.html#connect-google-sheets",
+    "href": "chapter1.html#connect-google-sheets",
+    "title": "LOOKER STUDIO FUNDAMENTALS",
+    "section": "1.1 Connect Google Sheets",
+    "text": "1.1 Connect Google Sheets\nGoogle Sheets is one of the most commonly used data sources in Looker Studio. Many teams store operational data, reports, or exported system data in spreadsheets.\n\n\n\n\n\n\nNoteTo connect a Google Sheet\n\n\n\n\nOpen Looker Studio and create a new report.\nClick Add Data.\nSelect Google Sheets as the data source.\nChoose the spreadsheet and worksheet that contains the dataset.\nConfirm the connection.\n\n\n\nOnce connected, Looker Studio automatically detects the available fields and allows them to be used in charts, filters, and calculations.",
+    "crumbs": [
+      "**BAB**",
+      "1. Looker Studio Fundamentals"
+    ]
+  },
+  {
+    "objectID": "chapter1.html#import-excel-csv-files",
+    "href": "chapter1.html#import-excel-csv-files",
+    "title": "LOOKER STUDIO FUNDAMENTALS",
+    "section": "1.2 Import Excel / CSV Files",
+    "text": "1.2 Import Excel / CSV Files\nIn some situations, data may come from external systems in Excel or CSV format. These files can also be used in Looker Studio after being uploaded or converted.\n\n\n\n\n\n\nNoteA common workflow\n\n\n\n\nUpload the Excel or CSV file into Google Sheets.\nClean and verify the data structure.\nConnect the spreadsheet to Looker Studio.\n\nCSV files are often used when exporting large datasets from databases or operational systems.",
+    "crumbs": [
+      "**BAB**",
+      "1. Looker Studio Fundamentals"
     ]
   },
   {
@@ -103,7 +158,7 @@
     "href": "chapter1.html#metrics-vs-dimensions",
     "title": "LOOKER STUDIO FUNDAMENTALS",
     "section": "2.1 Metrics vs Dimensions",
-    "text": "2.1 Metrics vs Dimensions",
+    "text": "2.1 Metrics vs Dimensions\nFields in Looker Studio are categorized into dimensions and metrics.\nDimensions describe categorical information. They answer the question “what or which?”,\nExamples:\n\nRegion\nProduct\nProperty Project\nSales Channel\nDate\n\n\nMetrics represent numerical values that can be measured and aggregated.\nExamples:\n\nRevenue\nNumber of Units Sold\nLeads Generated\nMarketing Cost\n\nFor Example:\n\n\n\nDimension\nMetric\n\n\n\n\nProject Name\nRevenue\n\n\nRegion\nUnits Sold\n\n\nMonth\nMarketing Spend\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nDimensions group the data, while metrics provide the values being analyzed.",
     "crumbs": [
       "**BAB**",
       "1. Looker Studio Fundamentals"
@@ -114,7 +169,7 @@
     "href": "chapter1.html#aggregation-logic",
     "title": "LOOKER STUDIO FUNDAMENTALS",
     "section": "2.2 Aggregation Logic",
-    "text": "2.2 Aggregation Logic",
+    "text": "2.2 Aggregation Logic\nMetrics are usually calculated using aggregation functions. Aggregation determines how multiple records are summarized in a chart.\n\nSUM\n\nAdds all values together.\nExample: total revenue across projects.\n\nAVG (Average)\n\nCalculates the average value.\nExample: average marketing cost per campaign.\n\nCOUNT\n\nCounts the number of records.\nExample: number of transactions.\n\n\nChoosing the correct aggregation ensures that the dashboard reflects the real performance of the business.\n\nIncorrect aggregation can lead to misleading insights.",
     "crumbs": [
       "**BAB**",
       "1. Looker Studio Fundamentals"
@@ -125,7 +180,7 @@
     "href": "chapter1.html#basic-chart-types",
     "title": "LOOKER STUDIO FUNDAMENTALS",
     "section": "3.1 Basic Chart Types",
-    "text": "3.1 Basic Chart Types",
+    "text": "3.1 Basic Chart Types\nChoosing the right chart is important because different charts serve different analytical purposes. Below are several common chart types that are widely used in Looker Studio dashboards.\nExample dataset:\n\n\n\n\n\n\n\n3.1.1 Bar Chart\nBar charts are used to compare values across different categories. They are one of the most commonly used charts in business dashboards.\n\n\n\n\n\n\n\n\n3.1.2 Line Chart\nLine charts are used to visualize trends or ordered comparisons. Since this dataset does not contain time variables, we can use the chart to compare average selling price across companies.\n\n\n\n\n\n\n\n\n3.1.3 Pie Chart / Doughnut Chart\nPie charts show how different categories contribute to a total.\n\n\n\n\n\n\n\n\n3.1.4 Scatter Plot\nScatter plots help analyze relationships between two numerical variables.\n\n\n\n\n\n\n\n\n3.1.5 Histogram\nHistograms show how frequently values fall within certain ranges. This helps analysts understand the distribution of a dataset.\n\n\n\n\n\n\n\n\n3.1.6 Area Chart\nArea charts are similar to line charts but emphasize the magnitude of change over time.\n\n\n\n\n\n\n\n\n3.1.7 Scorecard\nScorecards display a single KPI value with optional comparison indicators.",
     "crumbs": [
       "**BAB**",
       "1. Looker Studio Fundamentals"
@@ -136,7 +191,7 @@
     "href": "chapter1.html#chart-configuration",
     "title": "LOOKER STUDIO FUNDAMENTALS",
     "section": "3.2 Chart Configuration",
-    "text": "3.2 Chart Configuration",
+    "text": "3.2 Chart Configuration\nAfter selecting a chart type, it is important to configure it correctly to ensure accurate reporting.\nKey chart settings include:\n\nDimension Selection → Defines how data is grouped.\nMetric Selection → Determines what values are displayed.\nSorting → Controls the order of data, such as ranking projects by revenue.\nDate Range → Limits the data to a specific time period.\nLabels and Titles →Provide context so users understand what the chart represents.\n\nProper configuration ensures that charts present reliable and meaningful information for decision-making.",
     "crumbs": [
       "**BAB**",
       "1. Looker Studio Fundamentals"
