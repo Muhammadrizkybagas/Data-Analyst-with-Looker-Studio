@@ -198,11 +198,33 @@
     ]
   },
   {
+    "objectID": "chapter3.html",
+    "href": "chapter3.html",
+    "title": "DASHBOARD DESIGN",
+    "section": "",
+    "text": "A well-designed dashboard helps users understand data quickly and accurately. Good design is not only about visual appearance but also about how information is structured and prioritized. In this section, participants will learn how to apply design principles that improve readability, clarity, and insight delivery in a dashboard.",
+    "crumbs": [
+      "**BAB**",
+      "3. Dashboard Design"
+    ]
+  },
+  {
+    "objectID": "chapter3.html#theme-application",
+    "href": "chapter3.html#theme-application",
+    "title": "DASHBOARD DESIGN",
+    "section": "1.1 Theme Application",
+    "text": "1.1 Theme Application\nLooker Studio provides predefined themes that can be applied directly to a report. These themes include predefined color palettes, typography settings, and chart styles that automatically format the dashboard layout.\nLooker Studio provides a set of default themes that any user can apply without deep configuration. To use one:\n\n\n\n\n\n\nNoteUse themes in Looker Studio\n\n\n\n\nOpen your report in Edit mode\nIn the top menu bar, click File &gt; Theme and layout\nIn the right-hand panel, open the Theme tab\nChoose one of the standard themes from the list\n\n\n\nThat’s it. The selected theme will automatically apply to your report.\n\nIf the automatically generated theme isn’t perfect or requires adjustments, you can manually tweak each part of it. To do this:\n\nSelect the theme you want to edit\nClick Customize at the top of the panel\n\nYou can then adjust:\n\nMain colors (accent, background, text, axes, etc.)\nFonts (global and per element type)\nChart styles (background color, border style, transparency, corner shape, layout, and more)\n\nOnce you achieve the desired visual result, your theme setup is complete.",
+    "crumbs": [
+      "**BAB**",
+      "3. Dashboard Design"
+    ]
+  },
+  {
     "objectID": "chapter3.html#font-hierarchy",
     "href": "chapter3.html#font-hierarchy",
     "title": "DASHBOARD DESIGN",
     "section": "2.1 Font Hierarchy",
-    "text": "2.1 Font Hierarchy",
+    "text": "2.1 Font Hierarchy\nIn a dashboard, not all information should have the same visual emphasis. Titles, key metrics, and labels should have different sizes and weights so users can easily understand the structure of the report.\n\n\n\n\n\n\n\n\n\nLevel\nPurpose\nExample\n\n\n\n\nTitle\nDashboard or section heading\n“Monthly Sales Dashboard”\n\n\nMetric\nImportant KPIs\nRevenue, Conversion Rate\n\n\nLabel\nSupporting information\nCategory, Date, Region\n\n\n\n\n\n2.1.1 Applying Font Hierarchy\nIn Looker Studio, font settings can be adjusted through the Theme and Layout panel or directly within each chart component.\nBasic steps to modify typography:\n\nSelect a chart or text element.\nOpen the Style panel on the right side.\nChoose the font family, font size, and font weight.\nApply consistent settings across titles, metrics, and labels.\n\n\nTypography in dashboards is like good plumbing – when it’s done right, nobody notices it, but when it’s wrong, everything breaks down.\nFont Hierarchy Guidelines:\n\nHeaders: 24-32px, bold weight, short and descriptive\nSubheaders: 16-20px, medium weight, contextual information\nBody/Data: 12-14px, regular weight, high readability\nAnnotations: 10-12px, light weight, supplementary details\n\nFont Choice: Stick to system fonts or widely supported web fonts. Avoid decorative fonts in data contexts – readability trumps personality every time.",
     "crumbs": [
       "**BAB**",
       "3. Dashboard Design"
@@ -213,7 +235,7 @@
     "href": "chapter3.html#primary-vs-accent-colors",
     "title": "DASHBOARD DESIGN",
     "section": "3.1 Primary vs Accent Colors",
-    "text": "3.1 Primary vs Accent Colors",
+    "text": "3.1 Primary vs Accent Colors\nColor hierarchy in dashboards typically consists of primary colors and accent colors. Each color plays a different role in guiding user attention.\n\n3.1.1 Primary Colors",
     "crumbs": [
       "**BAB**",
       "3. Dashboard Design"

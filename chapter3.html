@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-03-05">
+<meta name="dcterms.date" content="2026-03-06">
 
 <title>DASHBOARD DESIGN – Looker Studio Data Analytics Bootcamp</title>
 <style>
@@ -179,11 +179,17 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#typography" id="toc-typography" class="nav-link" data-scroll-target="#typography"><span class="header-section-number">2</span> Typography</a>
   <ul class="collapse">
-  <li><a href="#font-hierarchy" id="toc-font-hierarchy" class="nav-link" data-scroll-target="#font-hierarchy"><span class="header-section-number">2.1</span> Font Hierarchy</a></li>
+  <li><a href="#font-hierarchy" id="toc-font-hierarchy" class="nav-link" data-scroll-target="#font-hierarchy"><span class="header-section-number">2.1</span> Font Hierarchy</a>
+  <ul class="collapse">
+  <li><a href="#applying-font-hierarchy" id="toc-applying-font-hierarchy" class="nav-link" data-scroll-target="#applying-font-hierarchy"><span class="header-section-number">2.1.1</span> Applying Font Hierarchy</a></li>
+  </ul></li>
   </ul></li>
   <li><a href="#color-strategy" id="toc-color-strategy" class="nav-link" data-scroll-target="#color-strategy"><span class="header-section-number">3</span> Color Strategy</a>
   <ul class="collapse">
-  <li><a href="#primary-vs-accent-colors" id="toc-primary-vs-accent-colors" class="nav-link" data-scroll-target="#primary-vs-accent-colors"><span class="header-section-number">3.1</span> Primary vs Accent Colors</a></li>
+  <li><a href="#primary-vs-accent-colors" id="toc-primary-vs-accent-colors" class="nav-link" data-scroll-target="#primary-vs-accent-colors"><span class="header-section-number">3.1</span> Primary vs Accent Colors</a>
+  <ul class="collapse">
+  <li><a href="#primary-colors" id="toc-primary-colors" class="nav-link" data-scroll-target="#primary-colors"><span class="header-section-number">3.1.1</span> Primary Colors</a></li>
+  </ul></li>
   </ul></li>
   <li><a href="#layout-structure" id="toc-layout-structure" class="nav-link" data-scroll-target="#layout-structure"><span class="header-section-number">4</span> Layout Structure</a>
   <ul class="collapse">
@@ -212,7 +218,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 5, 2026</p>
+      <p class="date">March 6, 2026</p>
     </div>
   </div>
   
@@ -224,22 +230,123 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>A well-designed dashboard helps users understand data quickly and accurately. Good design is not only about visual appearance but also about how information is structured and prioritized. In this section, participants will learn how to apply design principles that improve <strong>readability</strong>, <strong>clarity</strong>, and <strong>insight delivery in a dashboard</strong>.</p>
 <section id="theme-styling" class="level1" data-number="1">
 <h1 data-number="1"><span class="header-section-number">1</span> Theme &amp; Styling</h1>
+<p>Theme and styling help create a consistent visual identity across the dashboard. In Looker Studio, themes control colors, fonts, and visual formatting so that all components follow the same design standard.</p>
+<p>Using a consistent theme improves clarity and prevents visual confusion. It also helps users quickly recognize patterns and important information in the dashboard.</p>
 <section id="theme-application" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="theme-application"><span class="header-section-number">1.1</span> Theme Application</h2>
+<p>Looker Studio provides predefined themes that can be applied directly to a report. These themes include predefined color palettes, typography settings, and chart styles that automatically format the dashboard layout.</p>
+<p>Looker Studio provides a set of default themes that any user can apply without deep configuration. To use one:</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Use themes in Looker Studio">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Use themes in Looker Studio
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Open your report in <strong>Edit mode</strong></li>
+<li>In the top menu bar, click <strong>File</strong> &gt; <em>Theme and layout</em></li>
+<li>In the right-hand panel, open the <strong>Theme</strong> tab</li>
+<li>Choose one of the standard themes from the list</li>
+</ol>
+</div>
+</div>
+<p>That’s it. The selected theme will automatically apply to your report.</p>
+<p><img class="fotbar" src="img/theme.gif"></p>
+<p>If the automatically generated theme isn’t perfect or requires adjustments, you can manually tweak each part of it. To do this:</p>
+<ul>
+<li>Select the theme you want to edit</li>
+<li>Click <strong>Customize</strong> at the top of the panel</li>
+</ul>
+<p>You can then adjust:</p>
+<ul>
+<li>Main colors (accent, background, text, axes, etc.)</li>
+<li>Fonts (global and per element type)</li>
+<li>Chart styles (background color, border style, transparency, corner shape, layout, and more)</li>
+</ul>
+<p>Once you achieve the desired visual result, your theme setup is complete.</p>
+<p><img class="fotbar" src="img/theme-2.gif"></p>
 </section>
 </section>
 <section id="typography" class="level1" data-number="2">
 <h1 data-number="2"><span class="header-section-number">2</span> Typography</h1>
+<p>Typography refers to how text is displayed in a dashboard. In Looker Studio, typography controls the appearance of titles, labels, metrics, and descriptions.</p>
+<p>Looker Studio provides several built-in fonts such as Roboto, Open Sans, Arial, Montserrat, and Lato, which are commonly used in dashboards because they are clean and easy to read.</p>
 <section id="font-hierarchy" class="level2" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="font-hierarchy"><span class="header-section-number">2.1</span> Font Hierarchy</h2>
+<p>In a dashboard, not all information should have the same visual emphasis. <code>Titles</code>, <code>key metrics</code>, and <code>labels</code> should have different sizes and weights so users can easily understand the structure of the report.</p>
+<div class="callout-info" title="A typical dashboard hierarchy">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 45%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Level</strong></th>
+<th><strong>Purpose</strong></th>
+<th><strong>Example</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Title</td>
+<td>Dashboard or section heading</td>
+<td>“Monthly Sales Dashboard”</td>
+</tr>
+<tr class="even">
+<td>Metric</td>
+<td>Important KPIs</td>
+<td>Revenue, Conversion Rate</td>
+</tr>
+<tr class="odd">
+<td>Label</td>
+<td>Supporting information</td>
+<td>Category, Date, Region</td>
+</tr>
+</tbody>
+</table>
+</div>
+<section id="applying-font-hierarchy" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="applying-font-hierarchy"><span class="header-section-number">2.1.1</span> Applying Font Hierarchy</h3>
+<p>In Looker Studio, font settings can be adjusted through the Theme and Layout panel or directly within each chart component.</p>
+<p>Basic steps to modify typography:</p>
+<ol type="1">
+<li>Select a chart or text element.</li>
+<li>Open the Style panel on the right side.</li>
+<li>Choose the font family, font size, and font weight.</li>
+<li>Apply consistent settings across titles, metrics, and labels.</li>
+</ol>
+<p><img class="fotbar" src="img/typo.gif"></p>
+<p>Typography in dashboards is like good plumbing – when it’s done right, nobody notices it, but when it’s wrong, everything breaks down.</p>
+<p>Font Hierarchy Guidelines:</p>
+<ul>
+<li><strong>Headers</strong>: 24-32px, bold weight, short and descriptive</li>
+<li><strong>Subheaders</strong>: 16-20px, medium weight, contextual information</li>
+<li><strong>Body/Data</strong>: 12-14px, regular weight, high readability</li>
+<li><strong>Annotations</strong>: 10-12px, light weight, supplementary details</li>
+</ul>
+<p><strong>Font Choice</strong>: Stick to system fonts or widely supported web fonts. Avoid decorative fonts in data contexts – readability trumps personality every time.</p>
+</section>
 </section>
 </section>
 <section id="color-strategy" class="level1" data-number="3">
 <h1 data-number="3"><span class="header-section-number">3</span> Color Strategy</h1>
+<p>Color is one of the most powerful visual elements in dashboard design. Effective dashboards usually rely on a limited color palette.</p>
+<p>Using too many colors can create visual noise and make it difficult for users to focus on the most important information.</p>
 <section id="primary-vs-accent-colors" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="primary-vs-accent-colors"><span class="header-section-number">3.1</span> Primary vs Accent Colors</h2>
+<p>Color hierarchy in dashboards typically consists of primary colors and accent colors. Each color plays a different role in guiding user attention.</p>
+<section id="primary-colors" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="primary-colors"><span class="header-section-number">3.1.1</span> Primary Colors</h3>
+</section>
 </section>
 </section>
 <section id="layout-structure" class="level1" data-number="4">
