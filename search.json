@@ -1,10 +1,32 @@
 [
   {
+    "objectID": "chapter4.html",
+    "href": "chapter4.html",
+    "title": "DASHBOARD DEVELOPMENT",
+    "section": "",
+    "text": "Dashboard development is the process of turning business needs into a functional dashboard that helps with data analysis and decision-making.\nThe process usually starts by understanding business objectives, then selecting relevant KPIs, visualizations, and layout. A good dashboard does more than show data, it focuses on answering key business questions and highlighting important metrics.\nIn general, the workflow includes:",
+    "crumbs": [
+      "**BAB**",
+      "4. Dashboard Development"
+    ]
+  },
+  {
+    "objectID": "chapter4.html#business-question-definition",
+    "href": "chapter4.html#business-question-definition",
+    "title": "DASHBOARD DEVELOPMENT",
+    "section": "1.1 Business Question Definition",
+    "text": "1.1 Business Question Definition\nDashboard development should start with clearly defined business questions. These questions determine what information the dashboard must provide and guide the selection of metrics and visualizations.\nBusiness questions translate organizational goals into analytical objectives. For example, a sales dashboard may aim to answer questions such as:\n\nHow are monthly sales performing?\nWhich product categories generate the highest revenue?\nWhich regions contribute the most to overall sales?\n\nDefining business questions helps ensure that the dashboard focuses only on relevant data. Without clear questions, dashboards may contain unnecessary metrics that do not support decision-making.\nOnce business questions are defined, analysts can identify the specific indicators and datasets required to answer those questions effectively.",
+    "crumbs": [
+      "**BAB**",
+      "4. Dashboard Development"
+    ]
+  },
+  {
     "objectID": "chapter4.html#chart-selection",
     "href": "chapter4.html#chart-selection",
     "title": "DASHBOARD DEVELOPMENT",
     "section": "2.1 Chart Selection",
-    "text": "2.1 Chart Selection",
+    "text": "2.1 Chart Selection\nSelecting the appropriate chart type is essential for communicating insights clearly. Different visualization types answer different analytical questions, and choosing the wrong chart can make data difficult to interpret.\nFor example:\n\n\n\nAnalytical Goal\nRecommended Chart\n\n\n\n\nCategory comparison\nBar or Column Chart\n\n\nTime trend analysis\nLine Chart\n\n\nPart-to-whole relationship\nPie or Stacked Bar Chart\n\n\nCorrelation analysis\nScatter Plot\n\n\n\nEach visualization should be selected based on the question the data needs to answer. A well-chosen chart simplifies complex data and allows stakeholders to understand insights quickly.",
     "crumbs": [
       "**BAB**",
       "4. Dashboard Development"
@@ -15,7 +37,7 @@
     "href": "chapter4.html#kpi-summary-page",
     "title": "DASHBOARD DEVELOPMENT",
     "section": "3.1 KPI Summary Page",
-    "text": "3.1 KPI Summary Page",
+    "text": "3.1 KPI Summary Page\nA KPI summary page presents the most important business indicators in a single view. These metrics represent the core performance measures used by executives and decision makers.\n\n\n\n\n\n\nNoteCommon KPI elements include\n\n\n\n\nRevenue or sales performance\nGrowth rate or trend indicators\nConversion or efficiency metrics\n\n\n\nKPI dashboards should highlight only the most critical indicators to avoid overwhelming users with too many metrics. Focusing on a small set of key measures improves clarity and ensures that stakeholders can quickly understand business performance.\nA typical KPI dashboard places summary metrics at the top of the page, followed by charts that provide deeper analysis.",
     "crumbs": [
       "**BAB**",
       "4. Dashboard Development"
@@ -26,7 +48,7 @@
     "href": "chapter4.html#supporting-charts",
     "title": "DASHBOARD DEVELOPMENT",
     "section": "4.1 Supporting Charts",
-    "text": "4.1 Supporting Charts",
+    "text": "4.1 Supporting Charts\nSupporting charts provide additional analytical context for the KPIs displayed in the dashboard. While KPI indicators summarize performance, supporting charts explain the underlying patterns behind those numbers.\nFor example, if a dashboard shows total revenue as a KPI, supporting charts may include:\n\nSales trend over time\nSales by region\nSales by product category\n\nGrouping related charts helps users explore insights in a structured way and understand how different variables influence overall performance.\nSupporting charts therefore transform dashboards from simple reporting tools into analytical platforms.",
     "crumbs": [
       "**BAB**",
       "4. Dashboard Development"
@@ -37,7 +59,7 @@
     "href": "chapter4.html#interactive-controls",
     "title": "DASHBOARD DEVELOPMENT",
     "section": "5.1 Interactive Controls",
-    "text": "5.1 Interactive Controls",
+    "text": "5.1 Interactive Controls\nInteractive controls allow users to explore data dynamically. Instead of viewing static reports, stakeholders can filter and navigate information based on their specific needs.\nCommon interactive features include:\n\nDate range filters\nCategory filters\nRegion or product selectors\nDrill-down interactions\n\nThese controls enable users to investigate data from different perspectives without requiring multiple reports. Interactive dashboards improve analytical flexibility and help decision makers quickly explore relevant insights.",
     "crumbs": [
       "**BAB**",
       "4. Dashboard Development"
@@ -48,7 +70,7 @@
     "href": "chapter4.html#clarity-check",
     "title": "DASHBOARD DEVELOPMENT",
     "section": "6.1 Clarity Check",
-    "text": "6.1 Clarity Check",
+    "text": "6.1 Clarity Check\nBefore deployment, dashboards should be reviewed to ensure clarity and usability. A clarity check evaluates whether the dashboard effectively communicates insights and whether users can easily interpret the information presented.\nKey review criteria include:\n\n\n\n\n\n\n\nEvaluation Aspect\nDescription\n\n\n\n\nInsight clarity\nAre the main insights immediately visible?\n\n\nVisual consistency\nAre charts and colors used consistently?\n\n\nData relevance\nAre all metrics relevant to business objectives?\n\n\nUsability\nCan users easily navigate the dashboard?\n\n\n\nDashboard development is often an iterative process. Feedback from stakeholders helps refine visualizations, improve layout, and ensure that the dashboard aligns with business needs over time.\nRegular evaluation ensures that dashboards remain relevant and continue to support effective decision-making.",
     "crumbs": [
       "**BAB**",
       "4. Dashboard Development"
@@ -123,7 +145,7 @@
   {
     "objectID": "chapter1.html",
     "href": "chapter1.html",
-    "title": "LOOKER STUDIO FUNDAMENTALS",
+    "title": "LOOKER STUDIO FUNDAMENTALS”",
     "section": "",
     "text": "Looker Studio is a business intelligence tool that helps transform raw data into clear and interactive dashboards. Instead of analyzing data directly from spreadsheets, analysts can visualize patterns, trends, and performance indicators in a structured way.\nIn business environments, dashboards are used to monitor KPIs, identify problems early, and support decision-making. Before building advanced dashboards, it is important to understand how data is connected, structured, and visualized in Looker Studio.",
     "crumbs": [
@@ -134,9 +156,9 @@
   {
     "objectID": "chapter1.html#connect-google-sheets",
     "href": "chapter1.html#connect-google-sheets",
-    "title": "LOOKER STUDIO FUNDAMENTALS",
+    "title": "LOOKER STUDIO FUNDAMENTALS”",
     "section": "1.1 Connect Google Sheets",
-    "text": "1.1 Connect Google Sheets\nGoogle Sheets is one of the most commonly used data sources in Looker Studio. Many teams store operational data, reports, or exported system data in spreadsheets.\n\n\n\n\n\n\nNoteTo connect a Google Sheet\n\n\n\n\nOpen Looker Studio and create a new report.\nClick Add Data.\nSelect Google Sheets as the data source.\nChoose the spreadsheet and worksheet that contains the dataset.\nConfirm the connection.\n\n\n\nOnce connected, Looker Studio automatically detects the available fields and allows them to be used in charts, filters, and calculations.",
+    "text": "1.1 Connect Google Sheets\nGoogle Sheets is an online spreadsheet tool in Google Workspace. It allows users to create spreadsheets and work on them together in real time.\nIn Looker Studio, the Google Sheets connector lets you use data from a Google Sheets file as a data source for dashboards.\n\n\n\n\n\n\nNoteTo connect a Google Sheet\n\n\n\n\nFirst, log in to your Looker Studio account. Then, press Create → Data Source. \nYou will be redirected to the page with listed data sources options. Select Google Sheets and click Connect. \nIn the next step, select the worksheet with the data you want to visualize. You can use the search bar to find it faster.\nNext, specify what sheet you want to connect to Looker Studio.\nYou can also select some additional settings. For example, you can choose to only include a specific range of columns if you don’t need to transfer all the data on the sheet.\n\nOnce this is done, click Connect.\n\n\nAfter this, you can review your data – in our example, it’s the list of dimensions from a LinkedIn Ads report. At this step, you can check that all the fields are assigned the correct data type, such as text, number, or date and time. If something is wrong, you can change the data type manually.\nWhen everything is ready, click Create Report. \nNow, you’ve connected Google Sheets to Looker Studio and can start working on your dashboard. \n\n\n\nUsing this method, you can make your Google Sheets spreadsheet with the source data self-updating, so that it always contains only the latest data to be displayed in your dashboard.",
     "crumbs": [
       "**BAB**",
       "1. Looker Studio Fundamentals"
@@ -145,9 +167,9 @@
   {
     "objectID": "chapter1.html#import-excel-csv-files",
     "href": "chapter1.html#import-excel-csv-files",
-    "title": "LOOKER STUDIO FUNDAMENTALS",
+    "title": "LOOKER STUDIO FUNDAMENTALS”",
     "section": "1.2 Import Excel / CSV Files",
-    "text": "1.2 Import Excel / CSV Files\nIn some situations, data may come from external systems in Excel or CSV format. These files can also be used in Looker Studio after being uploaded or converted.\n\n\n\n\n\n\nNoteA common workflow\n\n\n\n\nUpload the Excel or CSV file into Google Sheets.\nClean and verify the data structure.\nConnect the spreadsheet to Looker Studio.\n\nCSV files are often used when exporting large datasets from databases or operational systems.",
+    "text": "1.2 Import Excel / CSV Files\nIn some situations, data may come from external systems in Excel or CSV format. These files can also be used in Looker Studio after being uploaded or converted.\n\n\n\n\n\n\nNoteTo import a Excel\n\n\n\n\nGo to the Looker Studio homepage and log in with your credentials.\nClick the Create icon and select Data Source.\nChoose the Microsoft Excel connector from the list of available connectors. \nBrowse and select the Excel file you want to connect. \nConfigure Data Source Options \nClick CONNECT in the upper right to link your data source to Looker Studio.\nAt this step, you can check that all the fields are assigned the correct data type. \nSet the data credentials to Data Credentials → Owner Credentials so anyone with the link to your report can view the data.\nClick CREATE REPORT to start building visualizations using your newly connected Excel data.",
     "crumbs": [
       "**BAB**",
       "1. Looker Studio Fundamentals"
@@ -156,9 +178,9 @@
   {
     "objectID": "chapter1.html#metrics-vs-dimensions",
     "href": "chapter1.html#metrics-vs-dimensions",
-    "title": "LOOKER STUDIO FUNDAMENTALS",
+    "title": "LOOKER STUDIO FUNDAMENTALS”",
     "section": "2.1 Metrics vs Dimensions",
-    "text": "2.1 Metrics vs Dimensions\nFields in Looker Studio are categorized into dimensions and metrics.\nDimensions describe categorical information. They answer the question “what or which?”,\nExamples:\n\nRegion\nProduct\nProperty Project\nSales Channel\nDate\n\n\nMetrics represent numerical values that can be measured and aggregated.\nExamples:\n\nRevenue\nNumber of Units Sold\nLeads Generated\nMarketing Cost\n\nFor Example:\n\n\n\nDimension\nMetric\n\n\n\n\nProject Name\nRevenue\n\n\nRegion\nUnits Sold\n\n\nMonth\nMarketing Spend\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nDimensions group the data, while metrics provide the values being analyzed.",
+    "text": "2.1 Metrics vs Dimensions\nIn Looker Studio, you need metrics and dimensions to create meaningful reports. Your dataset must have at least one of these metrics for your visualizations to provide insight.\nSo, what are the metrics and dimensions in Looker Studio?\nMetrics are numerical values that measure or calculate. These values come from the implicit or explicit application of aggregation functions, such as COUNT(), SUM(), AVG(), etc.\nSuppose you want to create a product sales report. You can choose the following metrics:\n\nSales revenue from selling your products online\nNumber of customers who purchased your products\nMaximum sales\nMinimum sales\nAverage product price\n\n\n\n\n\n\n\nNoteDimensions\n\n\n\nDimensions are the names, descriptions, or other characteristics of the things you measure or calculate. There are many ways to view your metrics. And, with dimensions, you can analyze your data from various perspectives.\n\n\n\n\n\n\n\n\nTipMetrics\n\n\n\nTry breaking down your metrics to see if there is anything else you need to know by using phrases such as “broken down by,” “per,” “for each,” etc.\n\n\nSee the bold text in the following list for examples of dimensions:\n\nSales revenue from your online product sales, broken down by sales per month or per order type \nNumber of customers by country of origin, as well as their age, gender, and the type of device they use.\nProduct names with maximum sales\nDays of the week with minimum sales\nAverage product price per product type\n\nBefore you create a report in Looker Studio, you must prepare your dataset and dashboard layout. This includes determining which metrics are important for your report or dashboard so that they can be displayed in columns, rows, or charts.",
     "crumbs": [
       "**BAB**",
       "1. Looker Studio Fundamentals"
@@ -167,9 +189,9 @@
   {
     "objectID": "chapter1.html#aggregation-logic",
     "href": "chapter1.html#aggregation-logic",
-    "title": "LOOKER STUDIO FUNDAMENTALS",
+    "title": "LOOKER STUDIO FUNDAMENTALS”",
     "section": "2.2 Aggregation Logic",
-    "text": "2.2 Aggregation Logic\nMetrics are usually calculated using aggregation functions. Aggregation determines how multiple records are summarized in a chart.\n\nSUM\n\nAdds all values together.\nExample: total revenue across projects.\n\nAVG (Average)\n\nCalculates the average value.\nExample: average marketing cost per campaign.\n\nCOUNT\n\nCounts the number of records.\nExample: number of transactions.\n\n\nChoosing the correct aggregation ensures that the dashboard reflects the real performance of the business.\n\nIncorrect aggregation can lead to misleading insights.",
+    "text": "2.2 Aggregation Logic\nAggregation is the process of summarizing or reducing tabular data into a simpler form. In other words, aggregation takes many rows of data and combines them into a single value that represents the overall result.\nFor example, consider the following list of numbers: &gt; 100, 200, 300, 400, 500\nFrom this list, we can calculate several aggregated values.\n\n\n\nFact\nAggregation\n\n\n\n\nThere are 5 numbers\nCount\n\n\nThe smallest number is 100\nMinimum\n\n\nThe largest number is 500\nMaximum\n\n\nThe average of the numbers is 300\nAverage\n\n\nThe sum of the numbers is 1500\nSum\n\n\n\nAggregation can also be performed using other statistical calculations such as median, count distinct, quartiles, and percentiles.\nIn data analytics, aggregation helps analysts summarize large datasets and extract meaningful insights.\n\n2.2.1 Dimensions and Aggregation\nThe previous example only used a simple list of numbers. However, real-world data usually contains dimensions and metrics.\n\nDimensions are attributes that categorize or group data.\nMetrics are numerical values that measure the data.\n\nIn Looker Studio, aggregation always happens within the context of dimensions.\nA dataset can be aggregated in three different ways:\n\nUsing all dimensions. This shows the raw data.\nUsing some dimensions. This groups the data based on selected categories.\nUsing no dimensions. This produces a summary of the entire dataset.\n\nExample Dataset\nBelow is an example dataset representing stock prices.\n\n\n\nDate\nTicker\nPrice\n\n\n\n\nJanuary 1\nGOOG\n100\n\n\nJanuary 1\nAAPL\n200\n\n\nJanuary 2\nGOOG\n300\n\n\nJanuary 2\nAAPL\n400\n\n\nJanuary 3\nGOOG\n500\n\n\n\nIn this dataset:\n\nDate and Ticker are dimensions.\nPrice is a metric.\n\n\n\n2.2.2 Aggregating Data by Dimension\nWe can group the data using different dimensions.\nGrouped by Ticker\n\n\n\nTicker\nPrice\n\n\n\n\nGOOG\n?\n\n\nAAPL\n?\n\n\n\nGrouped by Date\n\n\n\nDate\nPrice\n\n\n\n\nJanuary 1\n?\n\n\nJanuary 2\n?\n\n\nJanuary 3\n?\n\n\n\nThe value of the metric depends on which aggregation method we apply.\n\nIf we calculate the average price for each company, we apply the Average aggregation together with the Ticker dimension.\n\n\n\nTicker\nAverage of Price\n\n\n\n\nGOOG\n(100 + 300 + 500) / 3 = 300\n\n\nAAPL\n(200 + 400) / 2 = 300\n\n\n\n\nIf we want to know how many companies have stock data on each day, we use the Date dimension and the Count aggregation.\n\n\n\nDate\nCount of Price\n\n\n\n\nJanuary 1\n2\n\n\nJanuary 2\n2\n\n\nJanuary 3\n1\n\n\n\n\nIf we use both Date and Ticker as dimensions, the aggregation result will look like this:\n\n\n\nDate\nTicker\nAVG(Price)\nSUM(Price)\n\n\n\n\nJanuary 1\nGOOG\n100\n100\n\n\nJanuary 1\nAAPL\n200\n200\n\n\nJanuary 2\nGOOG\n300\n300\n\n\nJanuary 2\nAAPL\n400\n400\n\n\nJanuary 3\nGOOG\n500\n500\n\n\n\nWhen all dimensions are included, the aggregated result becomes identical to the original data. This is technically still aggregation, but it does not change the data because each row forms its own group.\n\n\n2.2.3 Aggregation in Looker Studio\nIn Looker Studio, aggregation can be applied in several ways:\n\nIn the data source. Each field can have a default aggregation method.\nIn a chart. Report editors can override the default aggregation for specific charts.\nIn calculated fields. Aggregation functions can be used in formulas to create new metrics.\n\nDefault Aggregation Methods\nLooker Studio provides several aggregation methods that can be applied to fields.\n\n\n\n\n\n\n\n\nAggregation Method\nAbbreviation\nDescription\n\n\n\n\nSum\nSUM\nAdds all values together\n\n\nAverage\nAVG\nCalculates the average value\n\n\nCount\nCT\nCounts each value\n\n\nCount Distinct\nCTD\nCounts only unique values\n\n\nMin\nMIN\nReturns the smallest value\n\n\nMax\nMAX\nReturns the largest value\n\n\nAuto\nAUT\nAggregation is defined by the underlying dataset and cannot be changed\n\n\nNone\n\nNo aggregation is applied; the field behaves like a dimension\n\n\n\nIn most reports, the default aggregation for metrics is Sum.",
     "crumbs": [
       "**BAB**",
       "1. Looker Studio Fundamentals"
@@ -178,9 +200,9 @@
   {
     "objectID": "chapter1.html#basic-chart-types",
     "href": "chapter1.html#basic-chart-types",
-    "title": "LOOKER STUDIO FUNDAMENTALS",
+    "title": "LOOKER STUDIO FUNDAMENTALS”",
     "section": "3.1 Basic Chart Types",
-    "text": "3.1 Basic Chart Types\nChoosing the right chart is important because different charts serve different analytical purposes. Below are several common chart types that are widely used in Looker Studio dashboards.\nExample dataset:\n\n\n\n\n\n\n\n3.1.1 Bar Chart\nBar charts are used to compare values across different categories. They are one of the most commonly used charts in business dashboards.\n\n\n\n\n\n\n\n\n3.1.2 Line Chart\nLine charts are used to visualize trends or ordered comparisons. Since this dataset does not contain time variables, we can use the chart to compare average selling price across companies.\n\n\n\n\n\n\n\n\n3.1.3 Pie Chart / Doughnut Chart\nPie charts show how different categories contribute to a total.\n\n\n\n\n\n\n\n\n3.1.4 Scatter Plot\nScatter plots help analyze relationships between two numerical variables.\n\n\n\n\n\n\n\n\n3.1.5 Histogram\nHistograms show how frequently values fall within certain ranges. This helps analysts understand the distribution of a dataset.\n\n\n\n\n\n\n\n\n3.1.6 Area Chart\nArea charts are similar to line charts but emphasize the magnitude of change over time.\n\n\n\n\n\n\n\n\n3.1.7 Scorecard\nScorecards display a single KPI value with optional comparison indicators.",
+    "text": "3.1 Basic Chart Types\nCharts are an important component in Looker Studio because they turn raw data into visual information that is easier to understand.\nCharts display metrics (numerical values) and dimensions (data categories) to help users see patterns, comparisons, and trends.\nTo add a chart, click Add a Chart, choose the chart type, place it on the canvas, and then set the metrics and dimensions for the visualization.\n\nLooker Studio provides many visualization options that allow analysts to explore data from different perspectives. Some commonly used charts include:\n\nScorecard\nBar Chart\nPie Chart\nGeo Chart\nArea Chart\nTime Series\nLine Chart\nBubble Chart\nTree Map\n\nEach chart type serves a different purpose depending on the analysis that you want to perform.\n\n3.1.1 Scorecard\nA scorecard represents your data project’s key results, KPIs, and other metrics. It can visualize progress over time and provide a quick snapshot of key indicators.\nTo create a scorecard on Looker Studio, click “add a chart on your dashboard.” On the dropdown menu, click Scorecard.\n\nYou can easily change the dimensions or metrics you want to visualize\n\nYou can add a sparkline or other comparison options to add context, such as trends, or compare with a specific metric.\nThis is an example of a marketing and sales metrics map made using scorecards and custom images.\n\nA variation of the scorecard is the gauge chart. The main difference is that Gauge charts are better at tracking the performance of the metric vs. a goal or benchmark.\n\n\n3.1.2 Bar Chart\nBar charts display data similar to graphs. They are used to compare the relationship between two or more variables using rectangular bars, as shown below.\nAdding a bar chart follows a similar process.\n\nClick on “add a chart,” then choose a bar chart.\nDepending on how you want to visualize your data, you can choose a stacked bar chart, 100% stacked bar chart, or stacked column chart.\n\n\n\nAdd it to your report and select the metrics at least one dimension and metrics.\n\nLet’s examine each of them.\n\n\n3.1.3 Pie Chart\nThe next type of chart on Looker Studio is the pie chart. They are a popular means of visualizing data. Pie charts are circular charts that show the percentages of data represented in the chart.\nTo add a pie chart:\n\nClick on the pie chart in the drop-down menu after clicking “Add a chart.”\nOn Looker Studio, pie charts are visualized in two ways; regular pie charts and donut pie charts.\nAdd them to your page, Looker Studio will suggest automatically the metric and dimension\n\n\nRemember you can change the metric and dimension. For this example, I selected country as dimension and sessions as the main metrics.\n\nThis is the donut pie chart, it’s very similar to the regular pie chart but I think the donut is better.\n\n\n\n\n\n\nTipTip\n\n\n\nIf your pie charts have more than 5 variables, consider using a column chart instead; it’s easier to read.\n\n\n\n\n3.1.4 Geo Chart\nGoogle Maps visualizations can also be used in Looker Studio. The platform provides several map types, including bubble maps, filled maps, heat maps, and line maps.\nTo add one, click Add a Chart, go to the Google Maps section, and select the map type you want to display on your dashboard.\n\n\n\n3.1.5 Area Chart\nArea charts are used to show data trends over time. This chart usually displays one dimension and one metric to help users see changes in values.\nIn Looker Studio, there are three types of area charts that can be used to visualize data.\n\n3.1.5.1 Area Chart\n\n\n\n3.1.5.2 Stacked area charts\n\n\n\n3.1.5.3 Area Chart\n\n\n\n\n3.1.6 Time Series\nTime series charts are used to display data trends over a specific period of time.\nIn Looker Studio, there are several options for creating time series visualizations, including the standard time series chart.\n\nThis example shows how user traffic changes from September to November.\nIn Looker Studio, you can also use a Sparkline time series. This small chart shows the trend of a metric over time.\nSparkline charts are often combined with a scorecard, so users can see both the current value and its trend at the same time.\n\nAnother type of time series chart in Looker Studio is the smoothed time series. It works similarly to the regular time series, but it allows you to add a comparison period in the Setup tab to compare trends between different time ranges.\n\nIn this chart, the trend is shown with smoothed lines instead of sparklines. There is no strict rule about which type to use when creating reports.\nIn Looker Studio, you can also enable the Cumulative option in the Style tab to compare accumulated data with the previous period.\n\nIn this case, the goal is to compare the same time period with the previous one to clearly see whether the number of new users is increasing or not.\n\n\n3.1.7 Line Chart\nThis is another simple chart available in Looker Studio. It is used to compare three or more variables.\nThere are four ways to create a line chart. The first option is a basic line chart.\n\nAnother option is the smoothed line chart, which works the same as a regular line chart but with a smoother visual appearance.\nIn Looker Studio, you can also use a combo chart, which combines line charts and bar charts in one visualization.\n\nThe type of line chart you use depends on the data you want to visualize and the level of detail needed.\n\n\n3.1.8 Bubble Chart\nA bubble chart is a type of scatter chart used to analyze the relationship between three variables.\nThe data points appear as bubbles scattered across the chart, which is why it is called a bubble chart.\n\nThis bubble chart shows the relationship between users and conversions by country.\nFor example, the United States appears as the largest bubble and is positioned high on the y-axis, which means it has both the highest number of users and conversions.\nIn Looker Studio, you can also adjust the bubble size and colors to make the chart clearer for readers.\n\n\n3.1.9 Tree Map Chart\nTreemaps are used to visualize hierarchical data using nested rectangles on a dashboard.\n\nIn this chart, blue days represent the highest number of visitors, while green and orange days show fewer visitors. The larger squares indicate more visitors, while smaller squares represent fewer visitors.",
     "crumbs": [
       "**BAB**",
       "1. Looker Studio Fundamentals"
@@ -189,9 +211,9 @@
   {
     "objectID": "chapter1.html#chart-configuration",
     "href": "chapter1.html#chart-configuration",
-    "title": "LOOKER STUDIO FUNDAMENTALS",
+    "title": "LOOKER STUDIO FUNDAMENTALS”",
     "section": "3.2 Chart Configuration",
-    "text": "3.2 Chart Configuration\nAfter selecting a chart type, it is important to configure it correctly to ensure accurate reporting.\nKey chart settings include:\n\nDimension Selection → Defines how data is grouped.\nMetric Selection → Determines what values are displayed.\nSorting → Controls the order of data, such as ranking projects by revenue.\nDate Range → Limits the data to a specific time period.\nLabels and Titles →Provide context so users understand what the chart represents.\n\nProper configuration ensures that charts present reliable and meaningful information for decision-making.",
+    "text": "3.2 Chart Configuration\nIn Looker, visualizations can be customized using the Chart Config Editor. This tool allows users to modify chart formatting using JSON configuration based on the Highcharts API.\nIt is mainly used to customize column, bar, line, and other Cartesian charts. With this editor, users can adjust chart elements that are not available in the standard settings.\n\nTo use the Chart Config Editor, the user must have the can_override_vis_config permission. Without this permission, the editor cannot be accessed.\nOnce the permission is available, the editor can be opened while working with a visualization.\nTo customize a visualization with the Chart Config Editor, follow these steps:\n\nView a visualization in an Explore, or edit a visualization in a Look or dashboard.\nOpen the Edit menu in the visualization.\nClick the Edit Chart Config button in the Plot tab. Looker displays the Edit Chart Config dialog.\n\n\n\n\n\n\n\nTip\n\n\n\nThe Chart Config (Source) pane contains the original JSON of your visualization and cannot be edited.\nThe Chart Config (Override) pane contains the JSON that should override the source JSON. When you first open the Edit Chart Config dialog, Looker populates the pane with some default JSON. You can start with this JSON, or you can delete this JSON and enter any valid HighCharts JSON.\n\n\n\nSelect the Chart Config (Override) section and enter some valid HighCharts JSON. The new values will override any values in the Chart Config (Source) section.\n\n\n\n\n\n\n\nNote\n\n\n\nSee the  HighCharts API documentation section for examples of valid HighCharts JSON.\nLooker accepts any valid JSON values. Looker does not accept functions, dates, or undefined values. Click &lt;&gt; (Format code) to allow Looker to properly format your JSON.\n\n\n\nClick &lt;&gt; (Format code) to allow Looker to properly format your JSON.\nClick Preview to test your changes.\nClick Apply to apply your changes. The visualization will be displayed using the custom JSON values\n\nAfter customizing a visualization in Looker, you need to save the changes. If the chart is created in Explore, save the Explore. If it is in a Look or dashboard, click Save.\nIf the JSON code is invalid, Looker will show an Invalid JSON detected error. You can fix it using the Autofix option in the Chart Config (Override) panel.\n\n\n\n\n\n\nWarningCaution\n\n\n\nAfter making changes in the Chart Config Editor in Looker, avoid editing the default visualization settings. Doing so may cause unexpected results, such as blank charts.\n\n\n\n3.2.1 Conditional Formatting\nThe Chart Config Editor in Looker supports most valid Highcharts JSON configurations. It also includes a series formatters feature that allows users to apply custom style rules to chart data.\nThe series formatters attribute uses two main options:\n\nselect → defines which data values will be affected using a logical condition\nstyle → defines how the selected values will be formatted using JSON settings\n\nFor example, a rule can be created to color data values orange when the value is greater than or equal to 380.\n{\n  series: [{\n    formatters: [{\n      select: 'value &gt;= 380',\n      style: {\n        color: 'orange'\n      }\n    }]\n  }]\n}",
     "crumbs": [
       "**BAB**",
       "1. Looker Studio Fundamentals"
@@ -224,7 +246,7 @@
     "href": "chapter3.html#font-hierarchy",
     "title": "DASHBOARD DESIGN",
     "section": "2.1 Font Hierarchy",
-    "text": "2.1 Font Hierarchy\nIn a dashboard, not all information should have the same visual emphasis. Titles, key metrics, and labels should have different sizes and weights so users can easily understand the structure of the report.\n\n\n\n\n\n\n\n\n\nLevel\nPurpose\nExample\n\n\n\n\nTitle\nDashboard or section heading\n“Monthly Sales Dashboard”\n\n\nMetric\nImportant KPIs\nRevenue, Conversion Rate\n\n\nLabel\nSupporting information\nCategory, Date, Region\n\n\n\n\n\n2.1.1 Applying Font Hierarchy\nIn Looker Studio, font settings can be adjusted through the Theme and Layout panel or directly within each chart component.\nBasic steps to modify typography:\n\nSelect a chart or text element.\nOpen the Style panel on the right side.\nChoose the font family, font size, and font weight.\nApply consistent settings across titles, metrics, and labels.\n\n\nTypography in dashboards is like good plumbing – when it’s done right, nobody notices it, but when it’s wrong, everything breaks down.\nFont Hierarchy Guidelines:\n\nHeaders: 24-32px, bold weight, short and descriptive\nSubheaders: 16-20px, medium weight, contextual information\nBody/Data: 12-14px, regular weight, high readability\nAnnotations: 10-12px, light weight, supplementary details\n\nFont Choice: Stick to system fonts or widely supported web fonts. Avoid decorative fonts in data contexts – readability trumps personality every time.",
+    "text": "2.1 Font Hierarchy\nIn a dashboard, not all information should have the same visual emphasis. Titles, key metrics, and labels should have different sizes and weights so users can easily understand the structure of the report.\n\n\n\n\n\n\nTipA typical dashboard hierarchy\n\n\n\n\n\n\n\n\n\n\n\nLevel\nPurpose\nExample\n\n\n\n\nTitle\nDashboard or section heading\n“Monthly Sales Dashboard”\n\n\nMetric\nImportant KPIs\nRevenue, Conversion Rate\n\n\nLabel\nSupporting information\nCategory, Date, Region\n\n\n\n\n\n\n2.1.1 Applying Font Hierarchy\nIn Looker Studio, font settings can be adjusted through the Theme and Layout panel or directly within each chart component.\nBasic steps to modify typography:\n\nSelect a chart or text element.\nOpen the Style panel on the right side.\nChoose the font family, font size, and font weight.\nApply consistent settings across titles, metrics, and labels.\n\n\nTypography in dashboards is like good plumbing – when it’s done right, nobody notices it, but when it’s wrong, everything breaks down.\nFont Hierarchy Guidelines:\n\nHeaders: 24-32px, bold weight, short and descriptive\nSubheaders: 16-20px, medium weight, contextual information\nBody/Data: 12-14px, regular weight, high readability\nAnnotations: 10-12px, light weight, supplementary details\n\nFont Choice: Stick to system fonts or widely supported web fonts. Avoid decorative fonts in data contexts – readability trumps personality every time.",
     "crumbs": [
       "**BAB**",
       "3. Dashboard Design"
@@ -235,7 +257,7 @@
     "href": "chapter3.html#primary-vs-accent-colors",
     "title": "DASHBOARD DESIGN",
     "section": "3.1 Primary vs Accent Colors",
-    "text": "3.1 Primary vs Accent Colors\nColor hierarchy in dashboards typically consists of primary colors and accent colors. Each color plays a different role in guiding user attention.\n\n3.1.1 Primary Colors",
+    "text": "3.1 Primary vs Accent Colors\nColor hierarchy in dashboards typically consists of primary colors and accent colors. Each color plays a different role in guiding user attention.\n\n3.1.1 Primary Colors\nPrimary colors represent the main visual identity of a dashboard. They are used consistently across charts, titles, and interface elements to create a unified appearance.\nPrimary colors usually reflect the organization’s brand color and serve as the dominant color throughout the report. Because they appear frequently, they should remain visually balanced and not overly saturated.\nIn Looker Studio dashboards, primary colors are commonly used for:\n\nMain data series in charts\nSection titles or headers\nKey interface elements\n\nUsing the same primary color consistently helps users build familiarity with the dashboard structure.\n\n\n3.1.2 Accent Colors\nAccent colors are used sparingly to highlight important insights. Because they appear less frequently than primary colors, they naturally attract attention.\nAccent colors are often applied to elements that require immediate focus, such as KPI indicators, alerts, or significant changes in performance.\nFor example:\n\nRed may highlight negative performance\nGreen may indicate positive growth\nOrange or yellow may signal warnings or attention areas\n\nSince accent colors draw strong visual attention, they should be used carefully and only for critical insights.\n\nApplying Color Hierarchy in Dashboards\nA practical approach for dashboard color usage is the 60-30-10 rule:\n\n\n\n\n\n\nTipColor Rule\n\n\n\n\n\n\nUsage\nColor Role\nExample\n\n\n\n\n60%\nNeutral colors\nBackground, gridlines\n\n\n30%\nPrimary color\nMain charts\n\n\n10%\nAccent colors\nKPIs, alerts\n\n\n\n\n\nVisual seperti ini sangat efektif untuk training dashboard design.",
     "crumbs": [
       "**BAB**",
       "3. Dashboard Design"
@@ -246,7 +268,7 @@
     "href": "chapter3.html#grid-alignment",
     "title": "DASHBOARD DESIGN",
     "section": "4.1 Grid Alignment",
-    "text": "4.1 Grid Alignment",
+    "text": "4.1 Grid Alignment\nGrid arrangement is a layout technique used to place dashboard elements along consistent horizontal and vertical lines. It helps charts, filters, and text appear balanced and easy to read.\nIn Looker Studio, using a grid keeps the spacing between elements consistent. When components are aligned, the dashboard looks more professional and easier to understand. Misaligned elements can make the dashboard look messy and harder to read.\nA common dashboard layout structure follows this arrangement:\n\n\n\nSection\nContent\n\n\n\n\nTop Section\nKPI cards and summary metrics\n\n\nMiddle Section\nMain charts showing trends or comparisons\n\n\nBottom Section\nDetailed tables or supporting data\n\n\n\nSeveral design practices help create balanced dashboards:\n\n\n\n\n\n\n\nPrinciple\nDescription\n\n\n\n\nConsistent spacing\nMaintain equal distance between charts\n\n\nVisual grouping\nPlace related charts close together\n\n\nTop-down hierarchy\nShow summary information first\n\n\nBalanced distribution\nAvoid placing too many charts in one area",
     "crumbs": [
       "**BAB**",
       "3. Dashboard Design"
@@ -257,10 +279,65 @@
     "href": "chapter3.html#kpi-highlighting",
     "title": "DASHBOARD DESIGN",
     "section": "5.1 KPI Highlighting",
-    "text": "5.1 KPI Highlighting",
+    "text": "5.1 KPI Highlighting\nKey Performance Indicators (KPIs) represent the most critical metrics in a dashboard. Because these metrics are directly related to business performance, they should be visually emphasized.\nVisual hierarchy can highlight KPIs using several design techniques.\n\n5.1.1 Size Emphasis\nOne simple way to create visual hierarchy is by using different sizes for elements.\n\nDisplay main KPIs in a larger size than other metrics\nUse bigger charts for the most important data\nApply larger font sizes for titles and key numbers\n\nLarger elements usually attract attention first, which helps users quickly identify the most important information on the dashboard.\n\n\n5.1.2 Contrast and Color\nOn light dashboard backgrounds, darker colors create stronger contrast, so they usually appear more important.\n\nUse darker colors for primary data\nUse lighter colors for secondary information\nKeep gridlines or borders less bright so they don’t distract from the main data\n\nResearch also shows that high-contrast elements can be recognized faster by the human brain.\nColor saturation refers to how strong or intense a color appears.\n\nHigh saturation attracts attention and highlights important data\nLow saturation is better for supporting information\nGrayscale colors usually appear the least important\n\nBy adjusting color saturation, designers can create a clear visual hierarchy in a dashboard.\n\n\n\n5.1.3 Typography Emphasis\nTypography also plays an important role in creating visual contrast in a dashboard.\n\nBold text is usually used to highlight important information or key values, because it stands out more clearly than other text.\nRegular text is suitable for most content, such as descriptions or standard labels.\nItalic text is commonly used for notes, annotations, or additional information that supports the main content.\n\nStudies using eye-tracking technology show that bold text can be processed about 11% faster than regular text in dashboard environments. For this reason, bold formatting is often used for the most important labels and values.\n\n\n\n5.1.4 Positioning\nDashboard viewers typically scan reports from top to bottom and left to right. For this reason, primary KPIs should be positioned at the top section of the dashboard so users can see them immediately.\n\nWhen these techniques are applied together, dashboards clearly communicate which metrics represent the most important insights.",
     "crumbs": [
       "**BAB**",
       "3. Dashboard Design"
+    ]
+  },
+  {
+    "objectID": "chapter5.html",
+    "href": "chapter5.html",
+    "title": "REAL ESTATE CASE DASHBOARD",
+    "section": "",
+    "text": "Live real estate dashboards allow agencies and managers to monitor KPIs and performance in real time. This helps decision-makers access important metrics quickly without waiting for reports.\nWith a dashboard, teams can easily track lead conversions, pending contracts, sales performance, marketing ROI, cost per lead, and progress toward revenue targets.\nOverall, the dashboard provides a quick overview of the agency’s performance for both employees and management.",
+    "crumbs": [
+      "**BAB**",
+      "5. Real Estate Case Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter5.html#revenue-tracking",
+    "href": "chapter5.html#revenue-tracking",
+    "title": "REAL ESTATE CASE DASHBOARD",
+    "section": "1.1 Revenue Tracking",
+    "text": "1.1 Revenue Tracking",
+    "crumbs": [
+      "**BAB**",
+      "5. Real Estate Case Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter5.html#unit-conversion",
+    "href": "chapter5.html#unit-conversion",
+    "title": "REAL ESTATE CASE DASHBOARD",
+    "section": "1.2 Unit Conversion",
+    "text": "1.2 Unit Conversion",
+    "crumbs": [
+      "**BAB**",
+      "5. Real Estate Case Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter5.html#project-comparison",
+    "href": "chapter5.html#project-comparison",
+    "title": "REAL ESTATE CASE DASHBOARD",
+    "section": "1.3 Project Comparison",
+    "text": "1.3 Project Comparison",
+    "crumbs": [
+      "**BAB**",
+      "5. Real Estate Case Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter5.html#funnel-view",
+    "href": "chapter5.html#funnel-view",
+    "title": "REAL ESTATE CASE DASHBOARD",
+    "section": "1.4 Funnel View",
+    "text": "1.4 Funnel View",
+    "crumbs": [
+      "**BAB**",
+      "5. Real Estate Case Dashboard"
     ]
   },
   {

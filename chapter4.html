@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-03-06">
+<meta name="dcterms.date" content="2026-03-08">
 
 <title>DASHBOARD DEVELOPMENT – Looker Studio Data Analytics Bootcamp</title>
 <style>
@@ -216,7 +216,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 6, 2026</p>
+      <p class="date">March 8, 2026</p>
     </div>
   </div>
   
@@ -228,40 +228,159 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Dashboard development is the process of turning business needs into a functional dashboard that helps with data analysis and decision-making.</p>
+<p>The process usually starts by understanding business objectives, then selecting relevant KPIs, visualizations, and layout. A good dashboard does more than show data, it focuses on answering key business questions and highlighting important metrics.</p>
+<p>In general, the workflow includes:</p>
+<ul>
+<li>Defining objectives</li>
+<li>Choosing KPIs</li>
+<li>Building visualizations</li>
+<li>And reviewing the dashboard to ensure it provides clear insights.</li>
+</ul>
 <section id="business-framing" class="level1" data-number="1">
 <h1 data-number="1"><span class="header-section-number">1</span> Business Framing</h1>
 <section id="business-question-definition" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="business-question-definition"><span class="header-section-number">1.1</span> Business Question Definition</h2>
+<p>Dashboard development should start with clearly defined business questions. These questions determine what information the dashboard must provide and guide the selection of metrics and visualizations.</p>
+<p>Business questions translate organizational goals into analytical objectives. For example, a sales dashboard may aim to answer questions such as:</p>
+<ul>
+<li>How are monthly sales performing?</li>
+<li>Which product categories generate the highest revenue?</li>
+<li>Which regions contribute the most to overall sales?</li>
+</ul>
+<p>Defining business questions helps ensure that the dashboard focuses only on relevant data. Without clear questions, dashboards may contain unnecessary metrics that do not support decision-making.</p>
+<p>Once business questions are defined, analysts can identify the specific indicators and datasets required to answer those questions effectively.</p>
 </section>
 </section>
 <section id="visualization-planning" class="level1" data-number="2">
 <h1 data-number="2"><span class="header-section-number">2</span> Visualization Planning</h1>
 <section id="chart-selection" class="level2" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="chart-selection"><span class="header-section-number">2.1</span> Chart Selection</h2>
+<p>Selecting the appropriate chart type is essential for communicating insights clearly. Different visualization types answer different analytical questions, and choosing the wrong chart can make data difficult to interpret.</p>
+<p><strong>For example:</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><strong>Analytical Goal</strong></th>
+<th><strong>Recommended Chart</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Category comparison</td>
+<td>Bar or Column Chart</td>
+</tr>
+<tr class="even">
+<td>Time trend analysis</td>
+<td>Line Chart</td>
+</tr>
+<tr class="odd">
+<td>Part-to-whole relationship</td>
+<td>Pie or Stacked Bar Chart</td>
+</tr>
+<tr class="even">
+<td>Correlation analysis</td>
+<td>Scatter Plot</td>
+</tr>
+</tbody>
+</table>
+<p>Each visualization should be selected based on the question the data needs to answer. A well-chosen chart simplifies complex data and allows stakeholders to understand insights quickly.</p>
 </section>
 </section>
 <section id="kpi-dashboard" class="level1" data-number="3">
 <h1 data-number="3"><span class="header-section-number">3</span> KPI Dashboard</h1>
 <section id="kpi-summary-page" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="kpi-summary-page"><span class="header-section-number">3.1</span> KPI Summary Page</h2>
+<p>A KPI summary page presents the most important business indicators in a single view. These metrics represent the core performance measures used by executives and decision makers.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Common KPI elements include">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Common KPI elements include
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Revenue or sales performance</li>
+<li>Growth rate or trend indicators</li>
+<li>Conversion or efficiency metrics</li>
+</ul>
+</div>
+</div>
+<p>KPI dashboards should highlight only the most critical indicators to avoid overwhelming users with too many metrics. Focusing on a small set of key measures improves clarity and ensures that stakeholders can quickly understand business performance.</p>
+<p>A typical KPI dashboard places summary metrics at the top of the page, followed by charts that provide deeper analysis.</p>
 </section>
 </section>
 <section id="analytical-views" class="level1" data-number="4">
 <h1 data-number="4"><span class="header-section-number">4</span> Analytical Views</h1>
 <section id="supporting-charts" class="level2" data-number="4.1">
 <h2 data-number="4.1" class="anchored" data-anchor-id="supporting-charts"><span class="header-section-number">4.1</span> Supporting Charts</h2>
+<p>Supporting charts provide additional analytical context for the KPIs displayed in the dashboard. While KPI indicators summarize performance, supporting charts explain the underlying patterns behind those numbers.</p>
+<p>For example, if a dashboard shows total revenue as a KPI, supporting charts may include:</p>
+<ul>
+<li>Sales trend over time</li>
+<li>Sales by region</li>
+<li>Sales by product category</li>
+</ul>
+<p>Grouping related charts helps users explore insights in a structured way and understand how different variables influence overall performance.</p>
+<p>Supporting charts therefore transform dashboards from simple reporting tools into analytical platforms.</p>
 </section>
 </section>
 <section id="interactivity" class="level1" data-number="5">
 <h1 data-number="5"><span class="header-section-number">5</span> Interactivity</h1>
 <section id="interactive-controls" class="level2" data-number="5.1">
 <h2 data-number="5.1" class="anchored" data-anchor-id="interactive-controls"><span class="header-section-number">5.1</span> Interactive Controls</h2>
+<p>Interactive controls allow users to explore data dynamically. Instead of viewing static reports, stakeholders can filter and navigate information based on their specific needs.</p>
+<p>Common interactive features include:</p>
+<ul>
+<li>Date range filters</li>
+<li>Category filters</li>
+<li>Region or product selectors</li>
+<li>Drill-down interactions</li>
+</ul>
+<p>These controls enable users to investigate data from different perspectives without requiring multiple reports. Interactive dashboards improve analytical flexibility and help decision makers quickly explore relevant insights.</p>
 </section>
 </section>
 <section id="dashboard-review" class="level1" data-number="6">
 <h1 data-number="6"><span class="header-section-number">6</span> Dashboard Review</h1>
 <section id="clarity-check" class="level2" data-number="6.1">
 <h2 data-number="6.1" class="anchored" data-anchor-id="clarity-check"><span class="header-section-number">6.1</span> Clarity Check</h2>
+<p>Before deployment, dashboards should be reviewed to ensure clarity and usability. A clarity check evaluates whether the dashboard effectively communicates insights and whether users can easily interpret the information presented.</p>
+<p>Key review criteria include:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 29%">
+<col style="width: 70%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Evaluation Aspect</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Insight clarity</td>
+<td>Are the main insights immediately visible?</td>
+</tr>
+<tr class="even">
+<td>Visual consistency</td>
+<td>Are charts and colors used consistently?</td>
+</tr>
+<tr class="odd">
+<td>Data relevance</td>
+<td>Are all metrics relevant to business objectives?</td>
+</tr>
+<tr class="even">
+<td>Usability</td>
+<td>Can users easily navigate the dashboard?</td>
+</tr>
+</tbody>
+</table>
+<p>Dashboard development is often an iterative process. Feedback from stakeholders helps refine visualizations, improve layout, and ensure that the dashboard aligns with business needs over time.</p>
+<p>Regular evaluation ensures that dashboards remain relevant and continue to support effective decision-making.</p>
 
 
 </section>
