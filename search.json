@@ -99,11 +99,33 @@
     ]
   },
   {
+    "objectID": "chapter2.html#create-filter",
+    "href": "chapter2.html#create-filter",
+    "title": "INTERACTIVE DASHBOARD",
+    "section": "2.1 Create Filter",
+    "text": "2.1 Create Filter\nOpen the filter editor\n\nFrom the top menu: Resources &gt; Manage Filters &gt; Add a filter\nOr directly from a visualization in your report: Add filter\n\n\nDefine the filter conditions\nWhen creating a filter in Looker Studio, you need to choose the filter name, data source, include or exclude option, and the field to apply it to.\nYou can also add multiple conditions using logical operators:\n\nAND → all conditions must be true\nOR → at least one condition must be true\n\nExamples of filters:\n\nDisplay only campaigns that start with “SEARCH.”\n\n\n\nExclude “(not set)” values from the Source dimension.",
+    "crumbs": [
+      "**BAB**",
+      "2. Interactive Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#add-filter",
+    "href": "chapter2.html#add-filter",
+    "title": "INTERACTIVE DASHBOARD",
+    "section": "2.2 Add Filter",
+    "text": "2.2 Add Filter\nThere are three ways to apply a filter in Looker Studio.\nAt the report level\nIf you apply a filter at the report level, it will affect all pages and all visualizations.\n\nClick File &gt; Report Settings\nIn the right panel, click Add filter\nChoose your filter",
+    "crumbs": [
+      "**BAB**",
+      "2. Interactive Dashboard"
+    ]
+  },
+  {
     "objectID": "chapter2.html#drop-down-filter",
     "href": "chapter2.html#drop-down-filter",
     "title": "INTERACTIVE DASHBOARD",
-    "section": "2.1 Drop-down Filter",
-    "text": "2.1 Drop-down Filter\nA Drop-down Filter allows users to select values from a list.\nCommon examples include filtering by:\n\nProduct category\nRegion\nBrand or company\nProperty project\n\nWhen a user selects a value from the drop-down filter, all connected charts update automatically.",
+    "section": "2.3 Drop-down Filter",
+    "text": "2.3 Drop-down Filter\nA drop-down list filter is a compact menu from which Looker users can select one or multiple values. It’s great for dimensions with numerous values, such as campaign names or countries.\nMarketers can choose specific campaigns to view performance metrics, focusing on areas of interest without being overwhelmed by a range of irrelevant data points from other performance channels.\n\n2.3.1 Create a Drop-down Filter\n\nOpen the Control Menu\n\nGo to the top toolbar in Looker Studio and click Add a control &gt; Drop-down list\n\n\nStep 2 — Place the Dropdown Control on the Dashboard\n\nAfter selecting Dropdown list, click anywhere on the dashboard canvas to place the filter.\nThe dropdown control will appear as a small interactive component on the dashboard. You can move or resize this control to match the layout of your dashboard.\n\n\nConfigure the Dropdown Field\n\nAfter placing the dropdown control, you need to configure what data the filter will use. On the right side of the screen, you will see the Control settings panel.\nIn this panel, look for the Control field option. This field determines which dimension will be used for filtering the data. Initially, the dropdown may use a default field such as Date.\n\n\nChange the Filter Dimension\n\nTo analyze acquisition channels, the filter dimension can be changed. In the Control field section, search for and select Session source.\nThis configuration allows the dropdown to filter the dashboard data based on different traffic sources. Once selected, the dropdown label will automatically update to Session source.\n\nDropdown filters are one of the most useful interactive controls in Looker Studio dashboards. They allow users to dynamically filter data without editing the report structure.\nBy selecting different values in the dropdown list, users can explore data from different perspectives and focus on the information that is most relevant to their analysis.",
     "crumbs": [
       "**BAB**",
       "2. Interactive Dashboard"
@@ -114,7 +136,7 @@
     "href": "chapter2.html#segment-filtering",
     "title": "INTERACTIVE DASHBOARD",
     "section": "3.1 Segment Filtering",
-    "text": "3.1 Segment Filtering\nSegment filtering allows users to isolate specific groups of data for deeper analysis.\nExamples include:\n\nViewing sales for a single region\nAnalyzing performance for one product category\nComparing results between customer segments\n\nSegment filters allow decision-makers to quickly answer targeted questions without modifying the dataset.",
+    "text": "3.1 Segment Filtering\n\n3.1.1 Chart-level filters\nUse chart-level filters when you want to segment data for a single chart without affecting others.\nSteps:\n\nSelect the chart you want to filter\nIn the Setup panel, click Add a filter\nDefine your condition, for example:\n\n\nInclude → Device Category → Equals → Mobile (to show only mobile traffic)\n\n\nInclude → Page → Contains → /en/ (to focus on a specific page section)\n\nThis lets you customize one chart independently from the rest of the dashboard.\n\n\n3.1.2 Page-level filters\nUse page-level filters when you want all charts on a page to show the same data segment, such as UK visitors.\nSteps:\n\nGo to Page → Current page settings\nAdd a filter in the Setup panel\nDefine your filter, for example:\n\n\nInclude → Country → Equals → United Kingdom\n\nNow, every chart on the page will automatically reflect the UK data, saving you from applying the filter to each chart individually.\n\n\n3.1.3 Report-level filters\nUse report-level filters when the whole report should focus on a single segment, such as users from a specific campaign.\nSteps:\n\nGo to Resource → Manage filters to create your filter, or\nGo to File → Report Settings and scroll to Report Filter\n\nOnce applied, this filter applies to every chart on every page, ensuring consistent reporting throughout the report.\n\n\n3.1.4 Adding interactive filter controls\nOne great feature in Looker Studio is letting viewers segment data themselves.\nSteps to add interactive controls:\n\nClick Add a control in the toolbar\nChoose a control type, like Dropdown or Slider\nConfigure it to filter by a dimension, such as Device Category or Country\n\nFor example, a dropdown letting users select Mobile, Desktop, or Tablet makes the report interactive and easier to explore.\n\n\n3.1.5 Grouping filter controls with specific charts\nIf you want a filter control to affect only certain charts instead of the whole page, you can use grouping.\nSteps:\n\nSelect the filter control and the charts you want it to affect\nRight-click → Group\n\nThis limits the filter to only those selected elements, which is useful for building modular dashboards.",
     "crumbs": [
       "**BAB**",
       "2. Interactive Dashboard"
@@ -125,7 +147,29 @@
     "href": "chapter2.html#cross-filtering",
     "title": "INTERACTIVE DASHBOARD",
     "section": "4.1 Cross-filtering",
-    "text": "4.1 Cross-filtering\nCross-filtering enables charts to act as interactive filters.\nFor example:\n\nClicking on a product category in a bar chart filters other charts to show only that category.\nSelecting a region updates revenue, demand, and KPI charts for that region.\n\nThis interaction helps users move quickly from high-level insights to detailed analysis.",
+    "text": "4.1 Cross-filtering\nDynamic cross filtering is an interactive feature in Looker Studio that links charts within a report.\nWhen a user clicks a value in one chart (like a bar, line, or table), all other charts update automatically to show only data related to that selection.\nThis makes each chart act as an interactive filter.\n\nThis feature lets you:\n\nExplore data dynamically without changing existing filters\nCreate interactive dashboards\nAnalyze data subsets quickly\nMake data easier to read and interpret\n\nBy default, cross filtering applies to the whole page, but you can disable it on specific charts if needed.\nIt does not override existing filters; it refines the currently filtered data. A reset button is also available to clear all selections at once.",
+    "crumbs": [
+      "**BAB**",
+      "2. Interactive Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#how-to-use",
+    "href": "chapter2.html#how-to-use",
+    "title": "INTERACTIVE DASHBOARD",
+    "section": "4.2 How to use",
+    "text": "4.2 How to use\nCross filtering is enabled by default on all compatible charts in Looker Studio.\nTo check or change it:\n\nSelect the chart\nOpen the Setup tab in the right-hand panel\nGo to Chart interactions\nCheck the Cross-filtering option to enable, or uncheck to disable\n\n\n\n\n\n\n\nNote\n\n\n\nDisabling cross filtering only stops click-based filtering; it does not remove the chart’s overall filtering capability.",
+    "crumbs": [
+      "**BAB**",
+      "2. Interactive Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#limitations",
+    "href": "chapter2.html#limitations",
+    "title": "INTERACTIVE DASHBOARD",
+    "section": "4.3 Limitations",
+    "text": "4.3 Limitations\nFor cross filtering to work correctly in Looker Studio, these conditions must be met:\n\nCharts must use the same data source.\nCharts cannot be Pivot Tables or Scorecards, as these don’t trigger cross filtering.\nCross filters do not replace global filters or controls (like date selectors); they work alongside them.",
     "crumbs": [
       "**BAB**",
       "2. Interactive Dashboard"

@@ -179,15 +179,29 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#category-filtering" id="toc-category-filtering" class="nav-link" data-scroll-target="#category-filtering"><span class="header-section-number">2</span> Category Filtering</a>
   <ul class="collapse">
-  <li><a href="#drop-down-filter" id="toc-drop-down-filter" class="nav-link" data-scroll-target="#drop-down-filter"><span class="header-section-number">2.1</span> Drop-down Filter</a></li>
+  <li><a href="#create-filter" id="toc-create-filter" class="nav-link" data-scroll-target="#create-filter"><span class="header-section-number">2.1</span> Create Filter</a></li>
+  <li><a href="#add-filter" id="toc-add-filter" class="nav-link" data-scroll-target="#add-filter"><span class="header-section-number">2.2</span> Add Filter</a></li>
+  <li><a href="#drop-down-filter" id="toc-drop-down-filter" class="nav-link" data-scroll-target="#drop-down-filter"><span class="header-section-number">2.3</span> Drop-down Filter</a>
+  <ul class="collapse">
+  <li><a href="#create-a-drop-down-filter" id="toc-create-a-drop-down-filter" class="nav-link" data-scroll-target="#create-a-drop-down-filter"><span class="header-section-number">2.3.1</span> Create a Drop-down Filter</a></li>
+  </ul></li>
   </ul></li>
   <li><a href="#segmentation" id="toc-segmentation" class="nav-link" data-scroll-target="#segmentation"><span class="header-section-number">3</span> Segmentation</a>
   <ul class="collapse">
-  <li><a href="#segment-filtering" id="toc-segment-filtering" class="nav-link" data-scroll-target="#segment-filtering"><span class="header-section-number">3.1</span> Segment Filtering</a></li>
+  <li><a href="#segment-filtering" id="toc-segment-filtering" class="nav-link" data-scroll-target="#segment-filtering"><span class="header-section-number">3.1</span> Segment Filtering</a>
+  <ul class="collapse">
+  <li><a href="#chart-level-filters" id="toc-chart-level-filters" class="nav-link" data-scroll-target="#chart-level-filters"><span class="header-section-number">3.1.1</span> Chart-level filters</a></li>
+  <li><a href="#page-level-filters" id="toc-page-level-filters" class="nav-link" data-scroll-target="#page-level-filters"><span class="header-section-number">3.1.2</span> Page-level filters</a></li>
+  <li><a href="#report-level-filters" id="toc-report-level-filters" class="nav-link" data-scroll-target="#report-level-filters"><span class="header-section-number">3.1.3</span> Report-level filters</a></li>
+  <li><a href="#adding-interactive-filter-controls" id="toc-adding-interactive-filter-controls" class="nav-link" data-scroll-target="#adding-interactive-filter-controls"><span class="header-section-number">3.1.4</span> Adding interactive filter controls</a></li>
+  <li><a href="#grouping-filter-controls-with-specific-charts" id="toc-grouping-filter-controls-with-specific-charts" class="nav-link" data-scroll-target="#grouping-filter-controls-with-specific-charts"><span class="header-section-number">3.1.5</span> Grouping filter controls with specific charts</a></li>
+  </ul></li>
   </ul></li>
   <li><a href="#cross-interaction" id="toc-cross-interaction" class="nav-link" data-scroll-target="#cross-interaction"><span class="header-section-number">4</span> Cross Interaction</a>
   <ul class="collapse">
   <li><a href="#cross-filtering" id="toc-cross-filtering" class="nav-link" data-scroll-target="#cross-filtering"><span class="header-section-number">4.1</span> Cross-filtering</a></li>
+  <li><a href="#how-to-use" id="toc-how-to-use" class="nav-link" data-scroll-target="#how-to-use"><span class="header-section-number">4.2</span> How to use</a></li>
+  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations"><span class="header-section-number">4.3</span> Limitations</a></li>
   </ul></li>
   <li><a href="#user-exploration" id="toc-user-exploration" class="nav-link" data-scroll-target="#user-exploration"><span class="header-section-number">5</span> User Exploration</a>
   <ul class="collapse">
@@ -285,49 +299,211 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="category-filtering" class="level1" data-number="2">
 <h1 data-number="2"><span class="header-section-number">2</span> Category Filtering</h1>
-<p>Category filtering allows users to focus on specific groups of data. Instead of showing all categories at once, users can select the category they want to analyze.</p>
-<p>This makes dashboards easier to explore and reduces visual clutter.</p>
-<section id="drop-down-filter" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="drop-down-filter"><span class="header-section-number">2.1</span> Drop-down Filter</h2>
-<p>A Drop-down Filter allows users to select values from a list.</p>
-<p>Common examples include filtering by:</p>
+<p>A filter in Looker Studio controls which data appears in charts, tables, and reports. Multiple filters can be applied within the same report.</p>
+<p>Filters are different from controls. A filter is static and can only be set in edit mode, while a control is dynamic and can be used by viewers to interact with the report.</p>
+<section id="create-filter" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="create-filter"><span class="header-section-number">2.1</span> Create Filter</h2>
+<p><strong>Open the filter editor</strong></p>
 <ul>
-<li>Product category</li>
-<li>Region</li>
-<li>Brand or company</li>
-<li>Property project</li>
+<li>From the top menu: <strong>Resources</strong> &gt; <strong>Manage Filters</strong> &gt; <strong>Add a filter</strong></li>
+<li>Or directly from a visualization in your report: <strong>Add filter</strong></li>
 </ul>
-<p>When a user selects a value from the drop-down filter, all connected charts update automatically.</p>
+<p><img class="fotbar" src="img/filter.gif"></p>
+<p><strong>Define the filter conditions</strong></p>
+<p>When creating a filter in Looker Studio, you need to choose the filter name, data source, include or exclude option, and the field to apply it to.</p>
+<p>You can also add <strong>multiple conditions</strong> using logical operators:</p>
+<ul>
+<li><strong>AND</strong> → all conditions must be true</li>
+<li><strong>OR</strong> → at least one condition must be true</li>
+</ul>
+<p>Examples of filters:</p>
+<ul>
+<li>Display only campaigns that start with “SEARCH.”</li>
+</ul>
+<p><img class="fotbar" src="img/filter.png"></p>
+<ul>
+<li>Exclude “(not set)” values from the Source dimension.</li>
+</ul>
+<p><img class="fotbar" src="img/filter2.png"></p>
+</section>
+<section id="add-filter" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="add-filter"><span class="header-section-number">2.2</span> Add Filter</h2>
+<p>There are three ways to apply a filter in Looker Studio.</p>
+<p><strong>At the report level</strong></p>
+<p>If you apply a filter at the report level, it will affect all pages and all visualizations.</p>
+<ul>
+<li>Click <strong>File</strong> &gt; <strong>Report Settings</strong></li>
+<li>In the right panel, click <strong>Add filter</strong></li>
+<li>Choose your filter</li>
+</ul>
+<p><img class="fotbar" src="img/filter2.gif"></p>
+</section>
+<section id="drop-down-filter" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="drop-down-filter"><span class="header-section-number">2.3</span> Drop-down Filter</h2>
+<p>A drop-down list filter is a compact menu from which Looker users can select one or multiple values. It’s great for dimensions with numerous values, such as campaign names or countries.</p>
+<p>Marketers can choose specific campaigns to view performance metrics, focusing on areas of interest without being overwhelmed by a range of irrelevant data points from other performance channels.</p>
+<section id="create-a-drop-down-filter" class="level3" data-number="2.3.1">
+<h3 data-number="2.3.1" class="anchored" data-anchor-id="create-a-drop-down-filter"><span class="header-section-number">2.3.1</span> Create a Drop-down Filter</h3>
+<ol type="1">
+<li><strong>Open the Control Menu</strong></li>
+</ol>
+<p>Go to the top toolbar in Looker Studio and click <strong>Add a control</strong> &gt; <strong>Drop-down list</strong></p>
+<p><img class="fotbar" src="img/dropdown.png"></p>
+<ol start="2" type="1">
+<li><strong>Step 2 — Place the Dropdown Control on the Dashboard</strong></li>
+</ol>
+<p>After selecting <strong>Dropdown list</strong>, click anywhere on the dashboard canvas to place the filter.</p>
+<p>The dropdown control will appear as a small interactive component on the dashboard. You can move or resize this control to match the layout of your dashboard.</p>
+<p><img class="fotbar" src="img/dropdown2.png"></p>
+<ol start="3" type="1">
+<li><strong>Configure the Dropdown Field</strong></li>
+</ol>
+<p>After placing the dropdown control, you need to configure what data the filter will use. On the right side of the screen, you will see the <strong>Control settings panel</strong>.</p>
+<p>In this panel, look for the Control field option. This field determines which dimension will be used for filtering the data. Initially, the dropdown may use a default field such as <strong>Date.</strong></p>
+<p><img class="fotbar" src="img/dropdown3.png"></p>
+<ol start="4" type="1">
+<li><strong>Change the Filter Dimension</strong></li>
+</ol>
+<p>To analyze acquisition channels, the filter dimension can be changed. In the <strong>Control field</strong> section, search for and select <strong>Session source</strong>.</p>
+<p>This configuration allows the dropdown to filter the dashboard data based on different traffic sources. Once selected, the dropdown label will automatically update to <strong>Session source</strong>.</p>
+<p><img class="fotbar" src="img/dropdown4.png"></p>
+<p><strong>Dropdown filters</strong> are one of the most useful interactive controls in Looker Studio dashboards. They allow users to dynamically filter data without editing the report structure.</p>
+<p>By selecting different values in the dropdown list, users can explore data from different perspectives and focus on the information that is most relevant to their analysis.</p>
+</section>
 </section>
 </section>
 <section id="segmentation" class="level1" data-number="3">
 <h1 data-number="3"><span class="header-section-number">3</span> Segmentation</h1>
-<p>Segmentation allows analysts to divide data into meaningful groups. This helps identify differences in performance between segments.</p>
-<p>For example, sales performance may vary depending on region, product category, or marketing channel.</p>
+<p>If a dashboard contains too much information, <strong>data segmentation in Looker Studio</strong> can help. By using filters, data can be divided into smaller and more focused views.</p>
+<p>For example, you can display only mobile traffic, visitors from the UK, or specific campaigns. This helps present data more clearly without overwhelming users.</p>
+<p>This guide covers chart, page, and report-level filters, interactive filter controls, grouping filters with charts, and best practices for using filters effectively.</p>
+<p><strong>WHAT IS DATA SEGEMENTATION IN LOOKER STUDIO?</strong></p>
+<p><strong>Data segmentation</strong> in Looker Studio means dividing data into smaller groups to focus on the most important insights, such as device type, location, or user behavior.</p>
+<p>Looker Studio provides several filtering levels:</p>
+<ul>
+<li><strong>Chart-level filter</strong> → applies to one specific chart</li>
+<li><strong>Page-level filter</strong> → applies to all charts on a page</li>
+<li><strong>Report-level filter</strong> → applies to the entire report</li>
+</ul>
+<p>Let’s look at each in a bit more detail.</p>
 <section id="segment-filtering" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="segment-filtering"><span class="header-section-number">3.1</span> Segment Filtering</h2>
-<p>Segment filtering allows users to isolate specific groups of data for deeper analysis.</p>
-<p>Examples include:</p>
+<section id="chart-level-filters" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="chart-level-filters"><span class="header-section-number">3.1.1</span> Chart-level filters</h3>
+<p>Use chart-level filters when you want to segment data for a single chart without affecting others.</p>
+<p>Steps:</p>
+<ol type="1">
+<li>Select the chart you want to filter</li>
+<li>In the Setup panel, click <strong>Add a filter</strong></li>
+<li>Define your condition, for example:</li>
+</ol>
+<blockquote class="blockquote">
+<p><code>Include → Device Category → Equals → Mobile</code> (to show only mobile traffic)</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><code>Include → Page → Contains → /en/</code> (to focus on a specific page section)</p>
+</blockquote>
+<p>This lets you customize one chart independently from the rest of the dashboard.</p>
+</section>
+<section id="page-level-filters" class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="page-level-filters"><span class="header-section-number">3.1.2</span> Page-level filters</h3>
+<p>Use page-level filters when you want all charts on a page to show the same data segment, such as UK visitors.</p>
+<p>Steps:</p>
 <ul>
-<li>Viewing sales for a single region</li>
-<li>Analyzing performance for one product category</li>
-<li>Comparing results between customer segments</li>
+<li>Go to <strong>Page</strong> → <strong>Current page settings</strong></li>
+<li><strong>Add a filter</strong> in the Setup panel</li>
+<li>Define your filter, for example:</li>
 </ul>
-<p>Segment filters allow decision-makers to quickly answer targeted questions without modifying the dataset.</p>
+<blockquote class="blockquote">
+<p>Include → Country → Equals → United Kingdom</p>
+</blockquote>
+<p>Now, every chart on the page will automatically reflect the UK data, saving you from applying the filter to each chart individually.</p>
+</section>
+<section id="report-level-filters" class="level3" data-number="3.1.3">
+<h3 data-number="3.1.3" class="anchored" data-anchor-id="report-level-filters"><span class="header-section-number">3.1.3</span> Report-level filters</h3>
+<p>Use report-level filters when the whole report should focus on a single segment, such as users from a specific campaign.</p>
+<p>Steps:</p>
+<ul>
+<li>Go to <strong>Resource</strong> → <strong>Manage filters</strong> to create your filter, or</li>
+<li>Go to <strong>File</strong> → <strong>Report Settings</strong> and scroll to Report Filter</li>
+</ul>
+<p>Once applied, this filter applies to every chart on every page, ensuring consistent reporting throughout the report.</p>
+</section>
+<section id="adding-interactive-filter-controls" class="level3" data-number="3.1.4">
+<h3 data-number="3.1.4" class="anchored" data-anchor-id="adding-interactive-filter-controls"><span class="header-section-number">3.1.4</span> Adding interactive filter controls</h3>
+<p>One great feature in Looker Studio is letting viewers segment data themselves.</p>
+<p>Steps to add interactive controls:</p>
+<ul>
+<li>Click <strong>Add a control</strong> in the toolbar</li>
+<li>Choose a control type, like <strong>Dropdown</strong> or <strong>Slider</strong></li>
+<li>Configure it to filter by a dimension, such as <code>Device Category</code> or <code>Country</code></li>
+</ul>
+<p>For example, a dropdown letting users select <em>Mobile</em>, <em>Desktop</em>, or <em>Tablet</em> makes the report interactive and easier to explore.</p>
+</section>
+<section id="grouping-filter-controls-with-specific-charts" class="level3" data-number="3.1.5">
+<h3 data-number="3.1.5" class="anchored" data-anchor-id="grouping-filter-controls-with-specific-charts"><span class="header-section-number">3.1.5</span> Grouping filter controls with specific charts</h3>
+<p>If you want a filter control to affect only certain charts instead of the whole page, you can use grouping.</p>
+<p>Steps:</p>
+<ul>
+<li>Select the <strong>filter control</strong> and the charts you want it to affect</li>
+<li><strong>Right-click</strong> → <strong>Group</strong></li>
+</ul>
+<p>This limits the filter to only those selected elements, which is useful for building modular dashboards.</p>
+</section>
 </section>
 </section>
 <section id="cross-interaction" class="level1" data-number="4">
 <h1 data-number="4"><span class="header-section-number">4</span> Cross Interaction</h1>
-<p>Interaksi silang memungkinkan grafik dalam dasbor untuk berinteraksi satu sama lain. Alih-alih menyaring data secara manual, pengguna dapat mengklik elemen grafik untuk memperbarui grafik lain secara otomatis.</p>
+<p>Cross-interaction allows charts in a dashboard to interact with each other. Instead of manually applying filters, users can click on a chart element to automatically update other charts.</p>
 <section id="cross-filtering" class="level2" data-number="4.1">
 <h2 data-number="4.1" class="anchored" data-anchor-id="cross-filtering"><span class="header-section-number">4.1</span> Cross-filtering</h2>
-<p>Cross-filtering enables charts to act as interactive filters.</p>
-<p><strong>For example:</strong></p>
+<p>Dynamic cross filtering is an interactive feature in Looker Studio that links charts within a report.</p>
+<p>When a user clicks a value in one chart (like a bar, line, or table), all other charts update automatically to show only data related to that selection.</p>
+<p>This makes each chart act as an interactive filter.</p>
+<p><img class="fotbar" src="img/cross-filter.gif"></p>
+<p>This feature lets you:</p>
 <ul>
-<li>Clicking on a product category in a bar chart filters other charts to show only that category.</li>
-<li>Selecting a region updates revenue, demand, and KPI charts for that region.</li>
+<li>Explore data dynamically without changing existing filters</li>
+<li>Create interactive dashboards</li>
+<li>Analyze data subsets quickly</li>
+<li>Make data easier to read and interpret</li>
 </ul>
-<p>This interaction helps users move quickly from high-level insights to detailed analysis.</p>
+<p>By default, cross filtering applies to the whole page, but you can disable it on specific charts if needed.</p>
+<p>It does not override existing filters; it refines the currently filtered data. A reset button is also available to clear all selections at once.</p>
+</section>
+<section id="how-to-use" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="how-to-use"><span class="header-section-number">4.2</span> How to use</h2>
+<p>Cross filtering is enabled by default on all compatible charts in Looker Studio.</p>
+<p>To check or change it:</p>
+<ul>
+<li>Select the chart</li>
+<li>Open the <strong>Setup</strong> tab in the right-hand panel</li>
+<li>Go to <strong>Chart interactions</strong></li>
+<li>Check the <strong>Cross-filtering</strong> option to enable, or uncheck to disable</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Disabling cross filtering only stops click-based filtering; it does not remove the chart’s overall filtering capability.</p>
+</div>
+</div>
+<p><img class="fotbar" src="img/cross-filter.gif"></p>
+</section>
+<section id="limitations" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="limitations"><span class="header-section-number">4.3</span> Limitations</h2>
+<p>For cross filtering to work correctly in Looker Studio, these conditions must be met:</p>
+<ul>
+<li>Charts must use the <strong>same data source</strong>.</li>
+<li>Charts cannot be <strong>Pivot Tables</strong> or <strong>Scorecards</strong>, as these don’t trigger cross filtering.</li>
+<li>Cross filters do not replace global filters or controls (like date selectors); they work alongside them.</li>
+</ul>
 </section>
 </section>
 <section id="user-exploration" class="level1" data-number="5">
