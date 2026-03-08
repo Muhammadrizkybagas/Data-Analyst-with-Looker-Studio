@@ -232,19 +232,55 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="https://lookerstudio.google.com">Looker Studio</a> provides built-in date filtering tools that make it easy for users to adjust the time range without modifying the dataset.</p>
 <section id="date-range-filter" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="date-range-filter"><span class="header-section-number">1.1</span> Date Range Filter</h2>
-<p>A Date Range Filter allows users to dynamically change the time window displayed in a dashboard.</p>
-<p>For example, users can switch between:</p>
-<ul>
-<li>Last 7 days</li>
-<li>Last 30 days</li>
-<li>This year</li>
-<li>Custom date ranges</li>
-</ul>
-<p>This helps users quickly answer questions such as:</p>
-<ul>
-<li>How did sales perform this month?</li>
-<li>Is revenue growing compared to last quarter?</li>
-</ul>
+<p>The Advanced Date Functionality is available in the date picker in Looker Studio.</p>
+<p>This feature helps users combine marketing data from sources like <strong>Google Analytics</strong>, <strong>Google BigQuery</strong>, <strong>Google Ads</strong>, and <strong>Spreadsheet</strong>s. It also allows teams to create reports, visualize results, and collaborate on dashboards using access permissions.</p>
+<p><img class="fotbar" src="img/time-filter.webp"></p>
+<ol type="1">
+<li>Open the report that you want to give a rolling timeframe.</li>
+<li>Click on <strong>Edit.</strong></li>
+</ol>
+<p>Next, create a chart that matches the selected time range. Add a time series chart in Looker Studio to view data based on different date ranges.</p>
+<ol start="3" type="1">
+<li>To do this, click <strong>Add as chart</strong> and select <strong>Time series chart</strong>.</li>
+</ol>
+<p><img class="fotbar" src="img/time-filter2.webp"></p>
+<p>On the Looker Studio space, the time series chart will be displayed.</p>
+<ol start="4" type="1">
+<li>By default, charts in Looker Studio use the <strong>Auto</strong> date range, which displays data from the last 28 days.</li>
+</ol>
+<p><img class="fotbar" src="img/time-filter3.webp"></p>
+<ol start="5" type="1">
+<li>However, Looker Studio provides several options to customize the date range. You can choose a different time period by selecting <strong>Custom</strong> default date range.</li>
+</ol>
+<p><img class="fotbar" src="img/time-filter4.webp"></p>
+<ol start="6" type="1">
+<li>Next, open the date range selector under the Custom date range option in Looker Studio to see the available date range options.</li>
+</ol>
+<p><img class="fotbar" src="img/time-filter5.webp"></p>
+<ol start="7" type="1">
+<li>Then, click the date range dropdown menu in the top-right corner of the window in Looker Studio.</li>
+</ol>
+<p><img class="fotbar" src="img/time-filter6.webp"></p>
+<ol start="8" type="1">
+<li>In Looker Studio, the dropdown menu provides several date options. One of them is <strong>Fixed</strong>, which allows you to set a specific start date and end date.</li>
+</ol>
+<p><img class="fotbar" src="img/time-filter7.webp"></p>
+<p>Instead of showing the last 28 days, you can set a fixed range, for example May 1 to May 14.</p>
+<ol start="9" type="1">
+<li>After choosing the date range in Looker Studio, click <strong>Apply.</strong></li>
+</ol>
+<p><img class="fotbar" src="img/time-filter8.webp"></p>
+<ol start="10" type="1">
+<li>Click on <strong>View</strong> to see a preview of the date range selected.</li>
+</ol>
+<p>Regardless of the date when the end-user accesses this chart and views this report, they’re always going to see the report from the first of May to the 14th of May.</p>
+<p><strong>Rolling Time Frame with Dynamic Dates</strong></p>
+<p>The Fixed date option is static, but Looker Studio also provides dynamic date options based on when the report is opened.</p>
+<p>These options include last 7, 14, 28, or 30 days, as well as last calendar week, month, quarter, or year.</p>
+<p><img class="fotbar" src="img/time-filter8.webp"></p>
+<p>Sometimes we need more flexible date ranges that are not available in the standard options in Looker Studio.</p>
+<p>For example, showing data from two months ago until two weeks ago, the week before yesterday, or the last three weeks excluding the current week.</p>
+<p>To create these kinds of ranges, we need to use the Advanced date settings to customize a rolling timeframe.</p>
 </section>
 </section>
 <section id="category-filtering" class="level1" data-number="2">
