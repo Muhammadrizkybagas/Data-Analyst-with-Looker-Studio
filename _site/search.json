@@ -1,761 +1,519 @@
 [
   {
-    "objectID": "chapter7.html#channel-roi",
-    "href": "chapter7.html#channel-roi",
-    "title": "REAL ESTATE CASE",
+    "objectID": "chapter4.html",
+    "href": "chapter4.html",
+    "title": "DASHBOARD DEVELOPMENT",
+    "section": "",
+    "text": "Dashboard development is the process of turning business needs into a functional dashboard that helps with data analysis and decision-making.\nThe process usually starts by understanding business objectives, then selecting relevant KPIs, visualizations, and layout. A good dashboard does more than show data, it focuses on answering key business questions and highlighting important metrics.\nIn general, the workflow includes:",
+    "crumbs": [
+      "**BAB**",
+      "4. Dashboard Development"
+    ]
+  },
+  {
+    "objectID": "chapter4.html#business-question-definition",
+    "href": "chapter4.html#business-question-definition",
+    "title": "DASHBOARD DEVELOPMENT",
+    "section": "1.1 Business Question Definition",
+    "text": "1.1 Business Question Definition\nDashboard development should start with clearly defined business questions. These questions determine what information the dashboard must provide and guide the selection of metrics and visualizations.\nBusiness questions translate organizational goals into analytical objectives. For example, a sales dashboard may aim to answer questions such as:\n\nHow are monthly sales performing?\nWhich product categories generate the highest revenue?\nWhich regions contribute the most to overall sales?\n\nDefining business questions helps ensure that the dashboard focuses only on relevant data. Without clear questions, dashboards may contain unnecessary metrics that do not support decision-making.\nOnce business questions are defined, analysts can identify the specific indicators and datasets required to answer those questions effectively.",
+    "crumbs": [
+      "**BAB**",
+      "4. Dashboard Development"
+    ]
+  },
+  {
+    "objectID": "chapter4.html#chart-selection",
+    "href": "chapter4.html#chart-selection",
+    "title": "DASHBOARD DEVELOPMENT",
+    "section": "2.1 Chart Selection",
+    "text": "2.1 Chart Selection\nSelecting the appropriate chart type is essential for communicating insights clearly. Different visualization types answer different analytical questions, and choosing the wrong chart can make data difficult to interpret.\nFor example:\n\n\n\nAnalytical Goal\nRecommended Chart\n\n\n\n\nCategory comparison\nBar or Column Chart\n\n\nTime trend analysis\nLine Chart\n\n\nPart-to-whole relationship\nPie or Stacked Bar Chart\n\n\nCorrelation analysis\nScatter Plot\n\n\n\nEach visualization should be selected based on the question the data needs to answer. A well-chosen chart simplifies complex data and allows stakeholders to understand insights quickly.",
+    "crumbs": [
+      "**BAB**",
+      "4. Dashboard Development"
+    ]
+  },
+  {
+    "objectID": "chapter4.html#kpi-summary-page",
+    "href": "chapter4.html#kpi-summary-page",
+    "title": "DASHBOARD DEVELOPMENT",
+    "section": "3.1 KPI Summary Page",
+    "text": "3.1 KPI Summary Page\nA KPI summary page presents the most important business indicators in a single view. These metrics represent the core performance measures used by executives and decision makers.\n\n\n\n\n\n\nNoteCommon KPI elements include\n\n\n\n\nRevenue or sales performance\nGrowth rate or trend indicators\nConversion or efficiency metrics\n\n\n\nKPI dashboards should highlight only the most critical indicators to avoid overwhelming users with too many metrics. Focusing on a small set of key measures improves clarity and ensures that stakeholders can quickly understand business performance.\nA typical KPI dashboard places summary metrics at the top of the page, followed by charts that provide deeper analysis.",
+    "crumbs": [
+      "**BAB**",
+      "4. Dashboard Development"
+    ]
+  },
+  {
+    "objectID": "chapter4.html#supporting-charts",
+    "href": "chapter4.html#supporting-charts",
+    "title": "DASHBOARD DEVELOPMENT",
+    "section": "4.1 Supporting Charts",
+    "text": "4.1 Supporting Charts\nSupporting charts provide additional analytical context for the KPIs displayed in the dashboard. While KPI indicators summarize performance, supporting charts explain the underlying patterns behind those numbers.\nFor example, if a dashboard shows total revenue as a KPI, supporting charts may include:\n\nSales trend over time\nSales by region\nSales by product category\n\nGrouping related charts helps users explore insights in a structured way and understand how different variables influence overall performance.\nSupporting charts therefore transform dashboards from simple reporting tools into analytical platforms.",
+    "crumbs": [
+      "**BAB**",
+      "4. Dashboard Development"
+    ]
+  },
+  {
+    "objectID": "chapter4.html#interactive-controls",
+    "href": "chapter4.html#interactive-controls",
+    "title": "DASHBOARD DEVELOPMENT",
+    "section": "5.1 Interactive Controls",
+    "text": "5.1 Interactive Controls\nInteractive controls allow users to explore data dynamically. Instead of viewing static reports, stakeholders can filter and navigate information based on their specific needs.\nCommon interactive features include:\n\nDate range filters\nCategory filters\nRegion or product selectors\nDrill-down interactions\n\nThese controls enable users to investigate data from different perspectives without requiring multiple reports. Interactive dashboards improve analytical flexibility and help decision makers quickly explore relevant insights.",
+    "crumbs": [
+      "**BAB**",
+      "4. Dashboard Development"
+    ]
+  },
+  {
+    "objectID": "chapter4.html#clarity-check",
+    "href": "chapter4.html#clarity-check",
+    "title": "DASHBOARD DEVELOPMENT",
+    "section": "6.1 Clarity Check",
+    "text": "6.1 Clarity Check\nBefore deployment, dashboards should be reviewed to ensure clarity and usability. A clarity check evaluates whether the dashboard effectively communicates insights and whether users can easily interpret the information presented.\nKey review criteria include:\n\n\n\n\n\n\n\nEvaluation Aspect\nDescription\n\n\n\n\nInsight clarity\nAre the main insights immediately visible?\n\n\nVisual consistency\nAre charts and colors used consistently?\n\n\nData relevance\nAre all metrics relevant to business objectives?\n\n\nUsability\nCan users easily navigate the dashboard?\n\n\n\nDashboard development is often an iterative process. Feedback from stakeholders helps refine visualizations, improve layout, and ensure that the dashboard aligns with business needs over time.\nRegular evaluation ensures that dashboards remain relevant and continue to support effective decision-making.",
+    "crumbs": [
+      "**BAB**",
+      "4. Dashboard Development"
+    ]
+  },
+  {
+    "objectID": "chapter2.html",
+    "href": "chapter2.html",
+    "title": "INTERACTIVE DASHBOARD",
+    "section": "",
+    "text": "In Looker Studio, interactivity helps stakeholders quickly focus on the information that matters most. This is especially useful when analyzing trends, comparing categories, or investigating performance across different segments.\nBy adding filters and navigation controls, dashboards become tools for data exploration, not just data display.",
+    "crumbs": [
+      "**BAB**",
+      "2. Interactive Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#date-range-filter",
+    "href": "chapter2.html#date-range-filter",
+    "title": "INTERACTIVE DASHBOARD",
+    "section": "1.1 Date Range Filter",
+    "text": "1.1 Date Range Filter\nThe Advanced Date Functionality is available in the date picker in Looker Studio.\nThis feature helps users combine marketing data from sources like Google Analytics, Google BigQuery, Google Ads, and Spreadsheets. It also allows teams to create reports, visualize results, and collaborate on dashboards using access permissions.\n\n\nOpen the report that you want to give a rolling timeframe.\nClick on Edit.\n\nNext, create a chart that matches the selected time range. Add a time series chart in Looker Studio to view data based on different date ranges.\n\nTo do this, click Add as chart and select Time series chart.\n\n\nOn the Looker Studio space, the time series chart will be displayed.\n\nBy default, charts in Looker Studio use the Auto date range, which displays data from the last 28 days.\n\n\n\nHowever, Looker Studio provides several options to customize the date range. You can choose a different time period by selecting Custom default date range.\n\n\n\nNext, open the date range selector under the Custom date range option in Looker Studio to see the available date range options.\n\n\n\nThen, click the date range dropdown menu in the top-right corner of the window in Looker Studio.\n\n\n\nIn Looker Studio, the dropdown menu provides several date options. One of them is Fixed, which allows you to set a specific start date and end date.\n\n\nInstead of showing the last 28 days, you can set a fixed range, for example May 1 to May 14.\n\nAfter choosing the date range in Looker Studio, click Apply.\n\n\n\nClick on View to see a preview of the date range selected.\n\nRegardless of the date when the end-user accesses this chart and views this report, they’re always going to see the report from the first of May to the 14th of May.\nRolling Time Frame with Dynamic Dates\nThe Fixed date option is static, but Looker Studio also provides dynamic date options based on when the report is opened.\nThese options include last 7, 14, 28, or 30 days, as well as last calendar week, month, quarter, or year.\n\nSometimes we need more flexible date ranges that are not available in the standard options in Looker Studio.\nFor example, showing data from two months ago until two weeks ago, the week before yesterday, or the last three weeks excluding the current week.\nTo create these kinds of ranges, we need to use the Advanced date settings to customize a rolling timeframe.",
+    "crumbs": [
+      "**BAB**",
+      "2. Interactive Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#create-filter",
+    "href": "chapter2.html#create-filter",
+    "title": "INTERACTIVE DASHBOARD",
+    "section": "2.1 Create Filter",
+    "text": "2.1 Create Filter\nOpen the filter editor\n\nFrom the top menu: Resources &gt; Manage Filters &gt; Add a filter\nOr directly from a visualization in your report: Add filter\n\n\nDefine the filter conditions\nWhen creating a filter in Looker Studio, you need to choose the filter name, data source, include or exclude option, and the field to apply it to.\nYou can also add multiple conditions using logical operators:\n\nAND → all conditions must be true\nOR → at least one condition must be true\n\nExamples of filters:\n\nDisplay only campaigns that start with “SEARCH.”\n\n\n\nExclude “(not set)” values from the Source dimension.",
+    "crumbs": [
+      "**BAB**",
+      "2. Interactive Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#add-filter",
+    "href": "chapter2.html#add-filter",
+    "title": "INTERACTIVE DASHBOARD",
+    "section": "2.2 Add Filter",
+    "text": "2.2 Add Filter\nThere are three ways to apply a filter in Looker Studio.\nAt the report level\nIf you apply a filter at the report level, it will affect all pages and all visualizations.\n\nClick File &gt; Report Settings\nIn the right panel, click Add filter\nChoose your filter",
+    "crumbs": [
+      "**BAB**",
+      "2. Interactive Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#drop-down-filter",
+    "href": "chapter2.html#drop-down-filter",
+    "title": "INTERACTIVE DASHBOARD",
+    "section": "2.3 Drop-down Filter",
+    "text": "2.3 Drop-down Filter\nA drop-down list filter is a compact menu from which Looker users can select one or multiple values. It’s great for dimensions with numerous values, such as campaign names or countries.\nMarketers can choose specific campaigns to view performance metrics, focusing on areas of interest without being overwhelmed by a range of irrelevant data points from other performance channels.\n\n2.3.1 Create a Drop-down Filter\n\nOpen the Control Menu\n\nGo to the top toolbar in Looker Studio and click Add a control &gt; Drop-down list\n\n\nStep 2 — Place the Dropdown Control on the Dashboard\n\nAfter selecting Dropdown list, click anywhere on the dashboard canvas to place the filter.\nThe dropdown control will appear as a small interactive component on the dashboard. You can move or resize this control to match the layout of your dashboard.\n\n\nConfigure the Dropdown Field\n\nAfter placing the dropdown control, you need to configure what data the filter will use. On the right side of the screen, you will see the Control settings panel.\nIn this panel, look for the Control field option. This field determines which dimension will be used for filtering the data. Initially, the dropdown may use a default field such as Date.\n\n\nChange the Filter Dimension\n\nTo analyze acquisition channels, the filter dimension can be changed. In the Control field section, search for and select Session source.\nThis configuration allows the dropdown to filter the dashboard data based on different traffic sources. Once selected, the dropdown label will automatically update to Session source.\n\nDropdown filters are one of the most useful interactive controls in Looker Studio dashboards. They allow users to dynamically filter data without editing the report structure.\nBy selecting different values in the dropdown list, users can explore data from different perspectives and focus on the information that is most relevant to their analysis.",
+    "crumbs": [
+      "**BAB**",
+      "2. Interactive Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#segment-filtering",
+    "href": "chapter2.html#segment-filtering",
+    "title": "INTERACTIVE DASHBOARD",
+    "section": "3.1 Segment Filtering",
+    "text": "3.1 Segment Filtering\n\n3.1.1 Chart-level filters\nUse chart-level filters when you want to segment data for a single chart without affecting others.\nSteps:\n\nSelect the chart you want to filter\nIn the Setup panel, click Add a filter\nDefine your condition, for example:\n\n\nInclude → Device Category → Equals → Mobile (to show only mobile traffic)\n\n\nInclude → Page → Contains → /en/ (to focus on a specific page section)\n\nThis lets you customize one chart independently from the rest of the dashboard.\n\n\n3.1.2 Page-level filters\nUse page-level filters when you want all charts on a page to show the same data segment, such as UK visitors.\nSteps:\n\nGo to Page → Current page settings\nAdd a filter in the Setup panel\nDefine your filter, for example:\n\n\nInclude → Country → Equals → United Kingdom\n\nNow, every chart on the page will automatically reflect the UK data, saving you from applying the filter to each chart individually.\n\n\n3.1.3 Report-level filters\nUse report-level filters when the whole report should focus on a single segment, such as users from a specific campaign.\nSteps:\n\nGo to Resource → Manage filters to create your filter, or\nGo to File → Report Settings and scroll to Report Filter\n\nOnce applied, this filter applies to every chart on every page, ensuring consistent reporting throughout the report.\n\n\n3.1.4 Adding interactive filter controls\nOne great feature in Looker Studio is letting viewers segment data themselves.\nSteps to add interactive controls:\n\nClick Add a control in the toolbar\nChoose a control type, like Dropdown or Slider\nConfigure it to filter by a dimension, such as Device Category or Country\n\nFor example, a dropdown letting users select Mobile, Desktop, or Tablet makes the report interactive and easier to explore.\n\n\n3.1.5 Grouping filter controls with specific charts\nIf you want a filter control to affect only certain charts instead of the whole page, you can use grouping.\nSteps:\n\nSelect the filter control and the charts you want it to affect\nRight-click → Group\n\nThis limits the filter to only those selected elements, which is useful for building modular dashboards.",
+    "crumbs": [
+      "**BAB**",
+      "2. Interactive Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#cross-filtering",
+    "href": "chapter2.html#cross-filtering",
+    "title": "INTERACTIVE DASHBOARD",
+    "section": "4.1 Cross-filtering",
+    "text": "4.1 Cross-filtering\nDynamic cross filtering is an interactive feature in Looker Studio that links charts within a report.\nWhen a user clicks a value in one chart (like a bar, line, or table), all other charts update automatically to show only data related to that selection.\nThis makes each chart act as an interactive filter.\n\nThis feature lets you:\n\nExplore data dynamically without changing existing filters\nCreate interactive dashboards\nAnalyze data subsets quickly\nMake data easier to read and interpret\n\nBy default, cross filtering applies to the whole page, but you can disable it on specific charts if needed.\nIt does not override existing filters; it refines the currently filtered data. A reset button is also available to clear all selections at once.",
+    "crumbs": [
+      "**BAB**",
+      "2. Interactive Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#how-to-use",
+    "href": "chapter2.html#how-to-use",
+    "title": "INTERACTIVE DASHBOARD",
+    "section": "4.2 How to use",
+    "text": "4.2 How to use\nCross filtering is enabled by default on all compatible charts in Looker Studio.\nTo check or change it:\n\nSelect the chart\nOpen the Setup tab in the right-hand panel\nGo to Chart interactions\nCheck the Cross-filtering option to enable, or uncheck to disable\n\n\n\n\n\n\n\nNote\n\n\n\nDisabling cross filtering only stops click-based filtering; it does not remove the chart’s overall filtering capability.",
+    "crumbs": [
+      "**BAB**",
+      "2. Interactive Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#limitations",
+    "href": "chapter2.html#limitations",
+    "title": "INTERACTIVE DASHBOARD",
+    "section": "4.3 Limitations",
+    "text": "4.3 Limitations\nFor cross filtering to work correctly in Looker Studio, these conditions must be met:\n\nCharts must use the same data source.\nCharts cannot be Pivot Tables or Scorecards, as these don’t trigger cross filtering.\nCross filters do not replace global filters or controls (like date selectors); they work alongside them.",
+    "crumbs": [
+      "**BAB**",
+      "2. Interactive Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#interactive-navigation",
+    "href": "chapter2.html#interactive-navigation",
+    "title": "INTERACTIVE DASHBOARD",
+    "section": "5.1 Interactive Navigation",
+    "text": "5.1 Interactive Navigation\nInteractive navigation helps users move between different views or sections of a dashboard.\nExamples include:\n\nNavigating between overview and detailed analysis pages\nSwitching between sales and marketing dashboards\nExploring different product segments\n\nNavigation controls help organize complex dashboards and make them easier to use.",
+    "crumbs": [
+      "**BAB**",
+      "2. Interactive Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter1.html",
+    "href": "chapter1.html",
+    "title": "LOOKER STUDIO FUNDAMENTALS”",
+    "section": "",
+    "text": "Looker Studio is a business intelligence tool that helps transform raw data into clear and interactive dashboards. Instead of analyzing data directly from spreadsheets, analysts can visualize patterns, trends, and performance indicators in a structured way.\nIn business environments, dashboards are used to monitor KPIs, identify problems early, and support decision-making. Before building advanced dashboards, it is important to understand how data is connected, structured, and visualized in Looker Studio.",
+    "crumbs": [
+      "**BAB**",
+      "1. Looker Studio Fundamentals"
+    ]
+  },
+  {
+    "objectID": "chapter1.html#connect-google-sheets",
+    "href": "chapter1.html#connect-google-sheets",
+    "title": "LOOKER STUDIO FUNDAMENTALS”",
+    "section": "1.1 Connect Google Sheets",
+    "text": "1.1 Connect Google Sheets\nGoogle Sheets is an online spreadsheet tool in Google Workspace. It allows users to create spreadsheets and work on them together in real time.\nIn Looker Studio, the Google Sheets connector lets you use data from a Google Sheets file as a data source for dashboards.\n\n\n\n\n\n\nNoteTo connect a Google Sheet\n\n\n\n\nFirst, log in to your Looker Studio account. Then, press Create → Data Source. \nYou will be redirected to the page with listed data sources options. Select Google Sheets and click Connect. \nIn the next step, select the worksheet with the data you want to visualize. You can use the search bar to find it faster.\nNext, specify what sheet you want to connect to Looker Studio.\nYou can also select some additional settings. For example, you can choose to only include a specific range of columns if you don’t need to transfer all the data on the sheet.\n\nOnce this is done, click Connect.\n\n\nAfter this, you can review your data – in our example, it’s the list of dimensions from a LinkedIn Ads report. At this step, you can check that all the fields are assigned the correct data type, such as text, number, or date and time. If something is wrong, you can change the data type manually.\nWhen everything is ready, click Create Report. \nNow, you’ve connected Google Sheets to Looker Studio and can start working on your dashboard. \n\n\n\nUsing this method, you can make your Google Sheets spreadsheet with the source data self-updating, so that it always contains only the latest data to be displayed in your dashboard.",
+    "crumbs": [
+      "**BAB**",
+      "1. Looker Studio Fundamentals"
+    ]
+  },
+  {
+    "objectID": "chapter1.html#import-excel-csv-files",
+    "href": "chapter1.html#import-excel-csv-files",
+    "title": "LOOKER STUDIO FUNDAMENTALS”",
+    "section": "1.2 Import Excel / CSV Files",
+    "text": "1.2 Import Excel / CSV Files\nIn some situations, data may come from external systems in Excel or CSV format. These files can also be used in Looker Studio after being uploaded or converted.\n\n\n\n\n\n\nNoteTo import a Excel\n\n\n\n\nGo to the Looker Studio homepage and log in with your credentials.\nClick the Create icon and select Data Source.\nChoose the Microsoft Excel connector from the list of available connectors. \nBrowse and select the Excel file you want to connect. \nConfigure Data Source Options \nClick CONNECT in the upper right to link your data source to Looker Studio.\nAt this step, you can check that all the fields are assigned the correct data type. \nSet the data credentials to Data Credentials → Owner Credentials so anyone with the link to your report can view the data.\nClick CREATE REPORT to start building visualizations using your newly connected Excel data.",
+    "crumbs": [
+      "**BAB**",
+      "1. Looker Studio Fundamentals"
+    ]
+  },
+  {
+    "objectID": "chapter1.html#metrics-vs-dimensions",
+    "href": "chapter1.html#metrics-vs-dimensions",
+    "title": "LOOKER STUDIO FUNDAMENTALS”",
+    "section": "2.1 Metrics vs Dimensions",
+    "text": "2.1 Metrics vs Dimensions\nIn Looker Studio, you need metrics and dimensions to create meaningful reports. Your dataset must have at least one of these metrics for your visualizations to provide insight.\nSo, what are the metrics and dimensions in Looker Studio?\nMetrics are numerical values that measure or calculate. These values come from the implicit or explicit application of aggregation functions, such as COUNT(), SUM(), AVG(), etc.\nSuppose you want to create a product sales report. You can choose the following metrics:\n\nSales revenue from selling your products online\nNumber of customers who purchased your products\nMaximum sales\nMinimum sales\nAverage product price\n\n\n\n\n\n\n\nNoteDimensions\n\n\n\nDimensions are the names, descriptions, or other characteristics of the things you measure or calculate. There are many ways to view your metrics. And, with dimensions, you can analyze your data from various perspectives.\n\n\n\n\n\n\n\n\nTipMetrics\n\n\n\nTry breaking down your metrics to see if there is anything else you need to know by using phrases such as “broken down by,” “per,” “for each,” etc.\n\n\nSee the bold text in the following list for examples of dimensions:\n\nSales revenue from your online product sales, broken down by sales per month or per order type \nNumber of customers by country of origin, as well as their age, gender, and the type of device they use.\nProduct names with maximum sales\nDays of the week with minimum sales\nAverage product price per product type\n\nBefore you create a report in Looker Studio, you must prepare your dataset and dashboard layout. This includes determining which metrics are important for your report or dashboard so that they can be displayed in columns, rows, or charts.",
+    "crumbs": [
+      "**BAB**",
+      "1. Looker Studio Fundamentals"
+    ]
+  },
+  {
+    "objectID": "chapter1.html#aggregation-logic",
+    "href": "chapter1.html#aggregation-logic",
+    "title": "LOOKER STUDIO FUNDAMENTALS”",
+    "section": "2.2 Aggregation Logic",
+    "text": "2.2 Aggregation Logic\nAggregation is the process of summarizing or reducing tabular data into a simpler form. In other words, aggregation takes many rows of data and combines them into a single value that represents the overall result.\nFor example, consider the following list of numbers: &gt; 100, 200, 300, 400, 500\nFrom this list, we can calculate several aggregated values.\n\n\n\nFact\nAggregation\n\n\n\n\nThere are 5 numbers\nCount\n\n\nThe smallest number is 100\nMinimum\n\n\nThe largest number is 500\nMaximum\n\n\nThe average of the numbers is 300\nAverage\n\n\nThe sum of the numbers is 1500\nSum\n\n\n\nAggregation can also be performed using other statistical calculations such as median, count distinct, quartiles, and percentiles.\nIn data analytics, aggregation helps analysts summarize large datasets and extract meaningful insights.\n\n2.2.1 Dimensions and Aggregation\nThe previous example only used a simple list of numbers. However, real-world data usually contains dimensions and metrics.\n\nDimensions are attributes that categorize or group data.\nMetrics are numerical values that measure the data.\n\nIn Looker Studio, aggregation always happens within the context of dimensions.\nA dataset can be aggregated in three different ways:\n\nUsing all dimensions. This shows the raw data.\nUsing some dimensions. This groups the data based on selected categories.\nUsing no dimensions. This produces a summary of the entire dataset.\n\nExample Dataset\nBelow is an example dataset representing stock prices.\n\n\n\nDate\nTicker\nPrice\n\n\n\n\nJanuary 1\nGOOG\n100\n\n\nJanuary 1\nAAPL\n200\n\n\nJanuary 2\nGOOG\n300\n\n\nJanuary 2\nAAPL\n400\n\n\nJanuary 3\nGOOG\n500\n\n\n\nIn this dataset:\n\nDate and Ticker are dimensions.\nPrice is a metric.\n\n\n\n2.2.2 Aggregating Data by Dimension\nWe can group the data using different dimensions.\nGrouped by Ticker\n\n\n\nTicker\nPrice\n\n\n\n\nGOOG\n?\n\n\nAAPL\n?\n\n\n\nGrouped by Date\n\n\n\nDate\nPrice\n\n\n\n\nJanuary 1\n?\n\n\nJanuary 2\n?\n\n\nJanuary 3\n?\n\n\n\nThe value of the metric depends on which aggregation method we apply.\n\nIf we calculate the average price for each company, we apply the Average aggregation together with the Ticker dimension.\n\n\n\nTicker\nAverage of Price\n\n\n\n\nGOOG\n(100 + 300 + 500) / 3 = 300\n\n\nAAPL\n(200 + 400) / 2 = 300\n\n\n\n\nIf we want to know how many companies have stock data on each day, we use the Date dimension and the Count aggregation.\n\n\n\nDate\nCount of Price\n\n\n\n\nJanuary 1\n2\n\n\nJanuary 2\n2\n\n\nJanuary 3\n1\n\n\n\n\nIf we use both Date and Ticker as dimensions, the aggregation result will look like this:\n\n\n\nDate\nTicker\nAVG(Price)\nSUM(Price)\n\n\n\n\nJanuary 1\nGOOG\n100\n100\n\n\nJanuary 1\nAAPL\n200\n200\n\n\nJanuary 2\nGOOG\n300\n300\n\n\nJanuary 2\nAAPL\n400\n400\n\n\nJanuary 3\nGOOG\n500\n500\n\n\n\nWhen all dimensions are included, the aggregated result becomes identical to the original data. This is technically still aggregation, but it does not change the data because each row forms its own group.\n\n\n2.2.3 Aggregation in Looker Studio\nIn Looker Studio, aggregation can be applied in several ways:\n\nIn the data source. Each field can have a default aggregation method.\nIn a chart. Report editors can override the default aggregation for specific charts.\nIn calculated fields. Aggregation functions can be used in formulas to create new metrics.\n\nDefault Aggregation Methods\nLooker Studio provides several aggregation methods that can be applied to fields.\n\n\n\n\n\n\n\n\nAggregation Method\nAbbreviation\nDescription\n\n\n\n\nSum\nSUM\nAdds all values together\n\n\nAverage\nAVG\nCalculates the average value\n\n\nCount\nCT\nCounts each value\n\n\nCount Distinct\nCTD\nCounts only unique values\n\n\nMin\nMIN\nReturns the smallest value\n\n\nMax\nMAX\nReturns the largest value\n\n\nAuto\nAUT\nAggregation is defined by the underlying dataset and cannot be changed\n\n\nNone\n\nNo aggregation is applied; the field behaves like a dimension\n\n\n\nIn most reports, the default aggregation for metrics is Sum.",
+    "crumbs": [
+      "**BAB**",
+      "1. Looker Studio Fundamentals"
+    ]
+  },
+  {
+    "objectID": "chapter1.html#basic-chart-types",
+    "href": "chapter1.html#basic-chart-types",
+    "title": "LOOKER STUDIO FUNDAMENTALS”",
+    "section": "3.1 Basic Chart Types",
+    "text": "3.1 Basic Chart Types\nCharts are an important component in Looker Studio because they turn raw data into visual information that is easier to understand.\nCharts display metrics (numerical values) and dimensions (data categories) to help users see patterns, comparisons, and trends.\nTo add a chart, click Add a Chart, choose the chart type, place it on the canvas, and then set the metrics and dimensions for the visualization.\n\nLooker Studio provides many visualization options that allow analysts to explore data from different perspectives. Some commonly used charts include:\n\nScorecard\nBar Chart\nPie Chart\nGeo Chart\nArea Chart\nTime Series\nLine Chart\nBubble Chart\nTree Map\n\nEach chart type serves a different purpose depending on the analysis that you want to perform.\n\n3.1.1 Scorecard\nA scorecard represents your data project’s key results, KPIs, and other metrics. It can visualize progress over time and provide a quick snapshot of key indicators.\nTo create a scorecard on Looker Studio, click “add a chart on your dashboard.” On the dropdown menu, click Scorecard.\n\nYou can easily change the dimensions or metrics you want to visualize\n\nYou can add a sparkline or other comparison options to add context, such as trends, or compare with a specific metric.\nThis is an example of a marketing and sales metrics map made using scorecards and custom images.\n\nA variation of the scorecard is the gauge chart. The main difference is that Gauge charts are better at tracking the performance of the metric vs. a goal or benchmark.\n\n\n3.1.2 Bar Chart\nBar charts display data similar to graphs. They are used to compare the relationship between two or more variables using rectangular bars, as shown below.\nAdding a bar chart follows a similar process.\n\nClick on “add a chart,” then choose a bar chart.\nDepending on how you want to visualize your data, you can choose a stacked bar chart, 100% stacked bar chart, or stacked column chart.\n\n\n\nAdd it to your report and select the metrics at least one dimension and metrics.\n\nLet’s examine each of them.\n\n\n3.1.3 Pie Chart\nThe next type of chart on Looker Studio is the pie chart. They are a popular means of visualizing data. Pie charts are circular charts that show the percentages of data represented in the chart.\nTo add a pie chart:\n\nClick on the pie chart in the drop-down menu after clicking “Add a chart.”\nOn Looker Studio, pie charts are visualized in two ways; regular pie charts and donut pie charts.\nAdd them to your page, Looker Studio will suggest automatically the metric and dimension\n\n\nRemember you can change the metric and dimension. For this example, I selected country as dimension and sessions as the main metrics.\n\nThis is the donut pie chart, it’s very similar to the regular pie chart but I think the donut is better.\n\n\n\n\n\n\nTipTip\n\n\n\nIf your pie charts have more than 5 variables, consider using a column chart instead; it’s easier to read.\n\n\n\n\n3.1.4 Geo Chart\nGoogle Maps visualizations can also be used in Looker Studio. The platform provides several map types, including bubble maps, filled maps, heat maps, and line maps.\nTo add one, click Add a Chart, go to the Google Maps section, and select the map type you want to display on your dashboard.\n\n\n\n3.1.5 Area Chart\nArea charts are used to show data trends over time. This chart usually displays one dimension and one metric to help users see changes in values.\nIn Looker Studio, there are three types of area charts that can be used to visualize data.\n\n3.1.5.1 Area Chart\n\n\n\n3.1.5.2 Stacked area charts\n\n\n\n3.1.5.3 Area Chart\n\n\n\n\n3.1.6 Time Series\nTime series charts are used to display data trends over a specific period of time.\nIn Looker Studio, there are several options for creating time series visualizations, including the standard time series chart.\n\nThis example shows how user traffic changes from September to November.\nIn Looker Studio, you can also use a Sparkline time series. This small chart shows the trend of a metric over time.\nSparkline charts are often combined with a scorecard, so users can see both the current value and its trend at the same time.\n\nAnother type of time series chart in Looker Studio is the smoothed time series. It works similarly to the regular time series, but it allows you to add a comparison period in the Setup tab to compare trends between different time ranges.\n\nIn this chart, the trend is shown with smoothed lines instead of sparklines. There is no strict rule about which type to use when creating reports.\nIn Looker Studio, you can also enable the Cumulative option in the Style tab to compare accumulated data with the previous period.\n\nIn this case, the goal is to compare the same time period with the previous one to clearly see whether the number of new users is increasing or not.\n\n\n3.1.7 Line Chart\nThis is another simple chart available in Looker Studio. It is used to compare three or more variables.\nThere are four ways to create a line chart. The first option is a basic line chart.\n\nAnother option is the smoothed line chart, which works the same as a regular line chart but with a smoother visual appearance.\nIn Looker Studio, you can also use a combo chart, which combines line charts and bar charts in one visualization.\n\nThe type of line chart you use depends on the data you want to visualize and the level of detail needed.\n\n\n3.1.8 Bubble Chart\nA bubble chart is a type of scatter chart used to analyze the relationship between three variables.\nThe data points appear as bubbles scattered across the chart, which is why it is called a bubble chart.\n\nThis bubble chart shows the relationship between users and conversions by country.\nFor example, the United States appears as the largest bubble and is positioned high on the y-axis, which means it has both the highest number of users and conversions.\nIn Looker Studio, you can also adjust the bubble size and colors to make the chart clearer for readers.\n\n\n3.1.9 Tree Map Chart\nTreemaps are used to visualize hierarchical data using nested rectangles on a dashboard.\n\nIn this chart, blue days represent the highest number of visitors, while green and orange days show fewer visitors. The larger squares indicate more visitors, while smaller squares represent fewer visitors.",
+    "crumbs": [
+      "**BAB**",
+      "1. Looker Studio Fundamentals"
+    ]
+  },
+  {
+    "objectID": "chapter1.html#chart-configuration",
+    "href": "chapter1.html#chart-configuration",
+    "title": "LOOKER STUDIO FUNDAMENTALS”",
+    "section": "3.2 Chart Configuration",
+    "text": "3.2 Chart Configuration\nIn Looker, visualizations can be customized using the Chart Config Editor. This tool allows users to modify chart formatting using JSON configuration based on the Highcharts API.\nIt is mainly used to customize column, bar, line, and other Cartesian charts. With this editor, users can adjust chart elements that are not available in the standard settings.\n\nTo use the Chart Config Editor, the user must have the can_override_vis_config permission. Without this permission, the editor cannot be accessed.\nOnce the permission is available, the editor can be opened while working with a visualization.\nTo customize a visualization with the Chart Config Editor, follow these steps:\n\nView a visualization in an Explore, or edit a visualization in a Look or dashboard.\nOpen the Edit menu in the visualization.\nClick the Edit Chart Config button in the Plot tab. Looker displays the Edit Chart Config dialog.\n\n\n\n\n\n\n\nTip\n\n\n\nThe Chart Config (Source) pane contains the original JSON of your visualization and cannot be edited.\nThe Chart Config (Override) pane contains the JSON that should override the source JSON. When you first open the Edit Chart Config dialog, Looker populates the pane with some default JSON. You can start with this JSON, or you can delete this JSON and enter any valid HighCharts JSON.\n\n\n\nSelect the Chart Config (Override) section and enter some valid HighCharts JSON. The new values will override any values in the Chart Config (Source) section.\n\n\n\n\n\n\n\nNote\n\n\n\nSee the  HighCharts API documentation section for examples of valid HighCharts JSON.\nLooker accepts any valid JSON values. Looker does not accept functions, dates, or undefined values. Click &lt;&gt; (Format code) to allow Looker to properly format your JSON.\n\n\n\nClick &lt;&gt; (Format code) to allow Looker to properly format your JSON.\nClick Preview to test your changes.\nClick Apply to apply your changes. The visualization will be displayed using the custom JSON values\n\nAfter customizing a visualization in Looker, you need to save the changes. If the chart is created in Explore, save the Explore. If it is in a Look or dashboard, click Save.\nIf the JSON code is invalid, Looker will show an Invalid JSON detected error. You can fix it using the Autofix option in the Chart Config (Override) panel.\n\n\n\n\n\n\nWarningCaution\n\n\n\nAfter making changes in the Chart Config Editor in Looker, avoid editing the default visualization settings. Doing so may cause unexpected results, such as blank charts.\n\n\n\n3.2.1 Conditional Formatting\nThe Chart Config Editor in Looker supports most valid Highcharts JSON configurations. It also includes a series formatters feature that allows users to apply custom style rules to chart data.\nThe series formatters attribute uses two main options:\n\nselect → defines which data values will be affected using a logical condition\nstyle → defines how the selected values will be formatted using JSON settings\n\nFor example, a rule can be created to color data values orange when the value is greater than or equal to 380.\n{\n  series: [{\n    formatters: [{\n      select: 'value &gt;= 380',\n      style: {\n        color: 'orange'\n      }\n    }]\n  }]\n}",
+    "crumbs": [
+      "**BAB**",
+      "1. Looker Studio Fundamentals"
+    ]
+  },
+  {
+    "objectID": "chapter3.html",
+    "href": "chapter3.html",
+    "title": "DASHBOARD DESIGN",
+    "section": "",
+    "text": "A well-designed dashboard helps users understand data quickly and accurately. Good design is not only about visual appearance but also about how information is structured and prioritized. In this section, participants will learn how to apply design principles that improve readability, clarity, and insight delivery in a dashboard.",
+    "crumbs": [
+      "**BAB**",
+      "3. Dashboard Design"
+    ]
+  },
+  {
+    "objectID": "chapter3.html#theme-application",
+    "href": "chapter3.html#theme-application",
+    "title": "DASHBOARD DESIGN",
+    "section": "1.1 Theme Application",
+    "text": "1.1 Theme Application\nLooker Studio provides predefined themes that can be applied directly to a report. These themes include predefined color palettes, typography settings, and chart styles that automatically format the dashboard layout.\nLooker Studio provides a set of default themes that any user can apply without deep configuration. To use one:\n\n\n\n\n\n\nNoteUse themes in Looker Studio\n\n\n\n\nOpen your report in Edit mode\nIn the top menu bar, click File &gt; Theme and layout\nIn the right-hand panel, open the Theme tab\nChoose one of the standard themes from the list\n\n\n\nThat’s it. The selected theme will automatically apply to your report.\n\nIf the automatically generated theme isn’t perfect or requires adjustments, you can manually tweak each part of it. To do this:\n\nSelect the theme you want to edit\nClick Customize at the top of the panel\n\nYou can then adjust:\n\nMain colors (accent, background, text, axes, etc.)\nFonts (global and per element type)\nChart styles (background color, border style, transparency, corner shape, layout, and more)\n\nOnce you achieve the desired visual result, your theme setup is complete.",
+    "crumbs": [
+      "**BAB**",
+      "3. Dashboard Design"
+    ]
+  },
+  {
+    "objectID": "chapter3.html#font-hierarchy",
+    "href": "chapter3.html#font-hierarchy",
+    "title": "DASHBOARD DESIGN",
+    "section": "2.1 Font Hierarchy",
+    "text": "2.1 Font Hierarchy\nIn a dashboard, not all information should have the same visual emphasis. Titles, key metrics, and labels should have different sizes and weights so users can easily understand the structure of the report.\n\n\n\n\n\n\nTipA typical dashboard hierarchy\n\n\n\n\n\n\n\n\n\n\n\nLevel\nPurpose\nExample\n\n\n\n\nTitle\nDashboard or section heading\n“Monthly Sales Dashboard”\n\n\nMetric\nImportant KPIs\nRevenue, Conversion Rate\n\n\nLabel\nSupporting information\nCategory, Date, Region\n\n\n\n\n\n\n2.1.1 Applying Font Hierarchy\nIn Looker Studio, font settings can be adjusted through the Theme and Layout panel or directly within each chart component.\nBasic steps to modify typography:\n\nSelect a chart or text element.\nOpen the Style panel on the right side.\nChoose the font family, font size, and font weight.\nApply consistent settings across titles, metrics, and labels.\n\n\nTypography in dashboards is like good plumbing – when it’s done right, nobody notices it, but when it’s wrong, everything breaks down.\nFont Hierarchy Guidelines:\n\nHeaders: 24-32px, bold weight, short and descriptive\nSubheaders: 16-20px, medium weight, contextual information\nBody/Data: 12-14px, regular weight, high readability\nAnnotations: 10-12px, light weight, supplementary details\n\nFont Choice: Stick to system fonts or widely supported web fonts. Avoid decorative fonts in data contexts – readability trumps personality every time.",
+    "crumbs": [
+      "**BAB**",
+      "3. Dashboard Design"
+    ]
+  },
+  {
+    "objectID": "chapter3.html#primary-vs-accent-colors",
+    "href": "chapter3.html#primary-vs-accent-colors",
+    "title": "DASHBOARD DESIGN",
+    "section": "3.1 Primary vs Accent Colors",
+    "text": "3.1 Primary vs Accent Colors\nColor hierarchy in dashboards typically consists of primary colors and accent colors. Each color plays a different role in guiding user attention.\n\n3.1.1 Primary Colors\nPrimary colors represent the main visual identity of a dashboard. They are used consistently across charts, titles, and interface elements to create a unified appearance.\nPrimary colors usually reflect the organization’s brand color and serve as the dominant color throughout the report. Because they appear frequently, they should remain visually balanced and not overly saturated.\nIn Looker Studio dashboards, primary colors are commonly used for:\n\nMain data series in charts\nSection titles or headers\nKey interface elements\n\nUsing the same primary color consistently helps users build familiarity with the dashboard structure.\n\n\n3.1.2 Accent Colors\nAccent colors are used sparingly to highlight important insights. Because they appear less frequently than primary colors, they naturally attract attention.\nAccent colors are often applied to elements that require immediate focus, such as KPI indicators, alerts, or significant changes in performance.\nFor example:\n\nRed may highlight negative performance\nGreen may indicate positive growth\nOrange or yellow may signal warnings or attention areas\n\nSince accent colors draw strong visual attention, they should be used carefully and only for critical insights.\n\nApplying Color Hierarchy in Dashboards\nA practical approach for dashboard color usage is the 60-30-10 rule:\n\n\n\n\n\n\nTipColor Rule\n\n\n\n\n\n\nUsage\nColor Role\nExample\n\n\n\n\n60%\nNeutral colors\nBackground, gridlines\n\n\n30%\nPrimary color\nMain charts\n\n\n10%\nAccent colors\nKPIs, alerts\n\n\n\n\n\nVisual seperti ini sangat efektif untuk training dashboard design.",
+    "crumbs": [
+      "**BAB**",
+      "3. Dashboard Design"
+    ]
+  },
+  {
+    "objectID": "chapter3.html#grid-alignment",
+    "href": "chapter3.html#grid-alignment",
+    "title": "DASHBOARD DESIGN",
+    "section": "4.1 Grid Alignment",
+    "text": "4.1 Grid Alignment\nGrid arrangement is a layout technique used to place dashboard elements along consistent horizontal and vertical lines. It helps charts, filters, and text appear balanced and easy to read.\nIn Looker Studio, using a grid keeps the spacing between elements consistent. When components are aligned, the dashboard looks more professional and easier to understand. Misaligned elements can make the dashboard look messy and harder to read.\nA common dashboard layout structure follows this arrangement:\n\n\n\nSection\nContent\n\n\n\n\nTop Section\nKPI cards and summary metrics\n\n\nMiddle Section\nMain charts showing trends or comparisons\n\n\nBottom Section\nDetailed tables or supporting data\n\n\n\nSeveral design practices help create balanced dashboards:\n\n\n\n\n\n\n\nPrinciple\nDescription\n\n\n\n\nConsistent spacing\nMaintain equal distance between charts\n\n\nVisual grouping\nPlace related charts close together\n\n\nTop-down hierarchy\nShow summary information first\n\n\nBalanced distribution\nAvoid placing too many charts in one area",
+    "crumbs": [
+      "**BAB**",
+      "3. Dashboard Design"
+    ]
+  },
+  {
+    "objectID": "chapter3.html#kpi-highlighting",
+    "href": "chapter3.html#kpi-highlighting",
+    "title": "DASHBOARD DESIGN",
+    "section": "5.1 KPI Highlighting",
+    "text": "5.1 KPI Highlighting\nKey Performance Indicators (KPIs) represent the most critical metrics in a dashboard. Because these metrics are directly related to business performance, they should be visually emphasized.\nVisual hierarchy can highlight KPIs using several design techniques.\n\n5.1.1 Size Emphasis\nOne simple way to create visual hierarchy is by using different sizes for elements.\n\nDisplay main KPIs in a larger size than other metrics\nUse bigger charts for the most important data\nApply larger font sizes for titles and key numbers\n\nLarger elements usually attract attention first, which helps users quickly identify the most important information on the dashboard.\n\n\n5.1.2 Contrast and Color\nOn light dashboard backgrounds, darker colors create stronger contrast, so they usually appear more important.\n\nUse darker colors for primary data\nUse lighter colors for secondary information\nKeep gridlines or borders less bright so they don’t distract from the main data\n\nResearch also shows that high-contrast elements can be recognized faster by the human brain.\nColor saturation refers to how strong or intense a color appears.\n\nHigh saturation attracts attention and highlights important data\nLow saturation is better for supporting information\nGrayscale colors usually appear the least important\n\nBy adjusting color saturation, designers can create a clear visual hierarchy in a dashboard.\n\n\n\n5.1.3 Typography Emphasis\nTypography also plays an important role in creating visual contrast in a dashboard.\n\nBold text is usually used to highlight important information or key values, because it stands out more clearly than other text.\nRegular text is suitable for most content, such as descriptions or standard labels.\nItalic text is commonly used for notes, annotations, or additional information that supports the main content.\n\nStudies using eye-tracking technology show that bold text can be processed about 11% faster than regular text in dashboard environments. For this reason, bold formatting is often used for the most important labels and values.\n\n\n\n5.1.4 Positioning\nDashboard viewers typically scan reports from top to bottom and left to right. For this reason, primary KPIs should be positioned at the top section of the dashboard so users can see them immediately.\n\nWhen these techniques are applied together, dashboards clearly communicate which metrics represent the most important insights.",
+    "crumbs": [
+      "**BAB**",
+      "3. Dashboard Design"
+    ]
+  },
+  {
+    "objectID": "chapter5.html",
+    "href": "chapter5.html",
+    "title": "REAL ESTATE CASE DASHBOARD",
+    "section": "",
+    "text": "Live real estate dashboards allow agencies and managers to monitor KPIs and performance in real time. This helps decision-makers access important metrics quickly without waiting for reports.\nWith a dashboard, teams can easily track lead conversions, pending contracts, sales performance, marketing ROI, cost per lead, and progress toward revenue targets.\nOverall, the dashboard provides a quick overview of the agency’s performance for both employees and management.",
+    "crumbs": [
+      "**BAB**",
+      "5. Real Estate Case Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter5.html#revenue-tracking",
+    "href": "chapter5.html#revenue-tracking",
+    "title": "REAL ESTATE CASE DASHBOARD",
+    "section": "1.1 Revenue Tracking",
+    "text": "1.1 Revenue Tracking",
+    "crumbs": [
+      "**BAB**",
+      "5. Real Estate Case Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter5.html#unit-conversion",
+    "href": "chapter5.html#unit-conversion",
+    "title": "REAL ESTATE CASE DASHBOARD",
+    "section": "1.2 Unit Conversion",
+    "text": "1.2 Unit Conversion",
+    "crumbs": [
+      "**BAB**",
+      "5. Real Estate Case Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter5.html#project-comparison",
+    "href": "chapter5.html#project-comparison",
+    "title": "REAL ESTATE CASE DASHBOARD",
+    "section": "1.3 Project Comparison",
+    "text": "1.3 Project Comparison",
+    "crumbs": [
+      "**BAB**",
+      "5. Real Estate Case Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter5.html#funnel-view",
+    "href": "chapter5.html#funnel-view",
+    "title": "REAL ESTATE CASE DASHBOARD",
+    "section": "1.4 Funnel View",
+    "text": "1.4 Funnel View",
+    "crumbs": [
+      "**BAB**",
+      "5. Real Estate Case Dashboard"
+    ]
+  },
+  {
+    "objectID": "chapter5.html#channel-roi",
+    "href": "chapter5.html#channel-roi",
+    "title": "REAL ESTATE CASE DASHBOARD",
     "section": "2.1 Channel ROI",
     "text": "2.1 Channel ROI",
     "crumbs": [
       "**BAB**",
-      "7. Real Estate Case"
+      "5. Real Estate Case Dashboard"
     ]
   },
   {
-    "objectID": "chapter7.html#cost-efficiency",
-    "href": "chapter7.html#cost-efficiency",
-    "title": "REAL ESTATE CASE",
+    "objectID": "chapter5.html#cost-efficiency",
+    "href": "chapter5.html#cost-efficiency",
+    "title": "REAL ESTATE CASE DASHBOARD",
     "section": "2.2 Cost Efficiency",
     "text": "2.2 Cost Efficiency",
     "crumbs": [
       "**BAB**",
-      "7. Real Estate Case"
+      "5. Real Estate Case Dashboard"
     ]
   },
   {
-    "objectID": "chapter7.html#lead-quality",
-    "href": "chapter7.html#lead-quality",
-    "title": "REAL ESTATE CASE",
+    "objectID": "chapter5.html#lead-quality",
+    "href": "chapter5.html#lead-quality",
+    "title": "REAL ESTATE CASE DASHBOARD",
     "section": "2.3 Lead Quality",
     "text": "2.3 Lead Quality",
     "crumbs": [
       "**BAB**",
-      "7. Real Estate Case"
+      "5. Real Estate Case Dashboard"
     ]
   },
   {
-    "objectID": "chapter7.html#campaign-impact",
-    "href": "chapter7.html#campaign-impact",
-    "title": "REAL ESTATE CASE",
+    "objectID": "chapter5.html#campaign-impact",
+    "href": "chapter5.html#campaign-impact",
+    "title": "REAL ESTATE CASE DASHBOARD",
     "section": "2.4 Campaign Impact",
     "text": "2.4 Campaign Impact",
     "crumbs": [
       "**BAB**",
-      "7. Real Estate Case"
-    ]
-  },
-  {
-    "objectID": "chapter7.html#inventory-status",
-    "href": "chapter7.html#inventory-status",
-    "title": "REAL ESTATE CASE",
-    "section": "3.1 Inventory Status",
-    "text": "3.1 Inventory Status",
-    "crumbs": [
-      "**BAB**",
-      "7. Real Estate Case"
-    ]
-  },
-  {
-    "objectID": "chapter7.html#utilization-rate",
-    "href": "chapter7.html#utilization-rate",
-    "title": "REAL ESTATE CASE",
-    "section": "3.2 Utilization Rate",
-    "text": "3.2 Utilization Rate",
-    "crumbs": [
-      "**BAB**",
-      "7. Real Estate Case"
-    ]
-  },
-  {
-    "objectID": "chapter7.html#revenue-mix",
-    "href": "chapter7.html#revenue-mix",
-    "title": "REAL ESTATE CASE",
-    "section": "3.3 Revenue Mix",
-    "text": "3.3 Revenue Mix",
-    "crumbs": [
-      "**BAB**",
-      "7. Real Estate Case"
-    ]
-  },
-  {
-    "objectID": "chapter7.html#performance-gap",
-    "href": "chapter7.html#performance-gap",
-    "title": "REAL ESTATE CASE",
-    "section": "3.4 Performance Gap",
-    "text": "3.4 Performance Gap",
-    "crumbs": [
-      "**BAB**",
-      "7. Real Estate Case"
-    ]
-  },
-  {
-    "objectID": "chapter5.html#f-pattern",
-    "href": "chapter5.html#f-pattern",
-    "title": "DASHBOARD ENGINEERING",
-    "section": "2.1 F Pattern",
-    "text": "2.1 F Pattern",
-    "crumbs": [
-      "**BAB**",
-      "5. Dashboard Engineering"
-    ]
-  },
-  {
-    "objectID": "chapter5.html#z-pattern",
-    "href": "chapter5.html#z-pattern",
-    "title": "DASHBOARD ENGINEERING",
-    "section": "2.2 Z Pattern",
-    "text": "2.2 Z Pattern",
-    "crumbs": [
-      "**BAB**",
-      "5. Dashboard Engineering"
-    ]
-  },
-  {
-    "objectID": "chapter5.html#section-grouping",
-    "href": "chapter5.html#section-grouping",
-    "title": "DASHBOARD ENGINEERING",
-    "section": "2.3 Section Grouping",
-    "text": "2.3 Section Grouping",
-    "crumbs": [
-      "**BAB**",
-      "5. Dashboard Engineering"
-    ]
-  },
-  {
-    "objectID": "chapter5.html#visual-balance",
-    "href": "chapter5.html#visual-balance",
-    "title": "DASHBOARD ENGINEERING",
-    "section": "2.4 Visual Balance",
-    "text": "2.4 Visual Balance",
-    "crumbs": [
-      "**BAB**",
-      "5. Dashboard Engineering"
+      "5. Real Estate Case Dashboard"
     ]
   },
   {
     "objectID": "chapter5.html#cross-filters",
     "href": "chapter5.html#cross-filters",
-    "title": "DASHBOARD ENGINEERING",
+    "title": "REAL ESTATE CASE DASHBOARD",
     "section": "3.1 Cross Filters",
     "text": "3.1 Cross Filters",
     "crumbs": [
       "**BAB**",
-      "5. Dashboard Engineering"
+      "5. Real Estate Case Dashboard"
     ]
   },
   {
     "objectID": "chapter5.html#drill-paths",
     "href": "chapter5.html#drill-paths",
-    "title": "DASHBOARD ENGINEERING",
+    "title": "REAL ESTATE CASE DASHBOARD",
     "section": "3.2 Drill Paths",
     "text": "3.2 Drill Paths",
     "crumbs": [
       "**BAB**",
-      "5. Dashboard Engineering"
+      "5. Real Estate Case Dashboard"
     ]
   },
   {
     "objectID": "chapter5.html#context-control",
     "href": "chapter5.html#context-control",
-    "title": "DASHBOARD ENGINEERING",
+    "title": "REAL ESTATE CASE DASHBOARD",
     "section": "3.3 Context Control",
     "text": "3.3 Context Control",
     "crumbs": [
       "**BAB**",
-      "5. Dashboard Engineering"
+      "5. Real Estate Case Dashboard"
     ]
   },
   {
     "objectID": "chapter5.html#user-navigation",
     "href": "chapter5.html#user-navigation",
-    "title": "DASHBOARD ENGINEERING",
+    "title": "REAL ESTATE CASE DASHBOARD",
     "section": "3.4 User Navigation",
     "text": "3.4 User Navigation",
     "crumbs": [
       "**BAB**",
-      "5. Dashboard Engineering"
+      "5. Real Estate Case Dashboard"
     ]
   },
   {
-    "objectID": "chapter3.html#access-control",
-    "href": "chapter3.html#access-control",
-    "title": "LOOKER SYSTEM",
-    "section": "2.1 Access Control",
-    "text": "2.1 Access Control",
+    "objectID": "chapter5.html#inventory-status",
+    "href": "chapter5.html#inventory-status",
+    "title": "REAL ESTATE CASE DASHBOARD",
+    "section": "4.1 Inventory Status",
+    "text": "4.1 Inventory Status",
     "crumbs": [
       "**BAB**",
-      "3. Looker System"
+      "5. Real Estate Case Dashboard"
     ]
   },
   {
-    "objectID": "chapter3.html#role-permissions",
-    "href": "chapter3.html#role-permissions",
-    "title": "LOOKER SYSTEM",
-    "section": "2.2 Role Permissions",
-    "text": "2.2 Role Permissions",
+    "objectID": "chapter5.html#utilization-rate",
+    "href": "chapter5.html#utilization-rate",
+    "title": "REAL ESTATE CASE DASHBOARD",
+    "section": "4.2 Utilization Rate",
+    "text": "4.2 Utilization Rate",
     "crumbs": [
       "**BAB**",
-      "3. Looker System"
+      "5. Real Estate Case Dashboard"
     ]
   },
   {
-    "objectID": "chapter3.html#data-consistency",
-    "href": "chapter3.html#data-consistency",
-    "title": "LOOKER SYSTEM",
-    "section": "2.3 Data Consistency",
-    "text": "2.3 Data Consistency",
+    "objectID": "chapter5.html#revenue-mix",
+    "href": "chapter5.html#revenue-mix",
+    "title": "REAL ESTATE CASE DASHBOARD",
+    "section": "4.3 Revenue Mix",
+    "text": "4.3 Revenue Mix",
     "crumbs": [
       "**BAB**",
-      "3. Looker System"
+      "5. Real Estate Case Dashboard"
     ]
   },
   {
-    "objectID": "chapter3.html#metric-standardization",
-    "href": "chapter3.html#metric-standardization",
-    "title": "LOOKER SYSTEM",
-    "section": "2.4 Metric Standardization",
-    "text": "2.4 Metric Standardization",
+    "objectID": "chapter5.html#performance-gap",
+    "href": "chapter5.html#performance-gap",
+    "title": "REAL ESTATE CASE DASHBOARD",
+    "section": "4.4 Performance Gap",
+    "text": "4.4 Performance Gap",
     "crumbs": [
       "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter3.html#dimension-logic",
-    "href": "chapter3.html#dimension-logic",
-    "title": "LOOKER SYSTEM",
-    "section": "3.1 Dimension Logic",
-    "text": "3.1 Dimension Logic",
-    "crumbs": [
-      "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter3.html#measure-behavior",
-    "href": "chapter3.html#measure-behavior",
-    "title": "LOOKER SYSTEM",
-    "section": "3.2 Measure Behavior",
-    "text": "3.2 Measure Behavior",
-    "crumbs": [
-      "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter3.html#aggregation-rules",
-    "href": "chapter3.html#aggregation-rules",
-    "title": "LOOKER SYSTEM",
-    "section": "3.3 Aggregation Rules",
-    "text": "3.3 Aggregation Rules",
-    "crumbs": [
-      "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter3.html#filter-strategy",
-    "href": "chapter3.html#filter-strategy",
-    "title": "LOOKER SYSTEM",
-    "section": "3.4 Filter Strategy",
-    "text": "3.4 Filter Strategy",
-    "crumbs": [
-      "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter3.html#pivot-mechanics",
-    "href": "chapter3.html#pivot-mechanics",
-    "title": "LOOKER SYSTEM",
-    "section": "3.5 Pivot Mechanics",
-    "text": "3.5 Pivot Mechanics",
-    "crumbs": [
-      "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter3.html#drill-workflow",
-    "href": "chapter3.html#drill-workflow",
-    "title": "LOOKER SYSTEM",
-    "section": "3.6 Drill Workflow",
-    "text": "3.6 Drill Workflow",
-    "crumbs": [
-      "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter3.html#aggregation-errors",
-    "href": "chapter3.html#aggregation-errors",
-    "title": "LOOKER SYSTEM",
-    "section": "4.1 Aggregation Errors",
-    "text": "4.1 Aggregation Errors",
-    "crumbs": [
-      "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter3.html#double-counting",
-    "href": "chapter3.html#double-counting",
-    "title": "LOOKER SYSTEM",
-    "section": "4.2 Double Counting",
-    "text": "4.2 Double Counting",
-    "crumbs": [
-      "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter3.html#granularity-control",
-    "href": "chapter3.html#granularity-control",
-    "title": "LOOKER SYSTEM",
-    "section": "4.3 Granularity Control",
-    "text": "4.3 Granularity Control",
-    "crumbs": [
-      "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter3.html#join-awareness",
-    "href": "chapter3.html#join-awareness",
-    "title": "LOOKER SYSTEM",
-    "section": "4.4 Join Awareness",
-    "text": "4.4 Join Awareness",
-    "crumbs": [
-      "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter3.html#null-handling",
-    "href": "chapter3.html#null-handling",
-    "title": "LOOKER SYSTEM",
-    "section": "4.5 Null Handling",
-    "text": "4.5 Null Handling",
-    "crumbs": [
-      "**BAB**",
-      "3. Looker System"
-    ]
-  },
-  {
-    "objectID": "chapter1.html#problem-structuring",
-    "href": "chapter1.html#problem-structuring",
-    "title": "ANALYTICAL FOUNDATION",
-    "section": "2.1 Problem Structuring",
-    "text": "2.1 Problem Structuring",
-    "crumbs": [
-      "**BAB**",
-      "1. Analytical Foundation"
-    ]
-  },
-  {
-    "objectID": "chapter1.html#kpi-alignment",
-    "href": "chapter1.html#kpi-alignment",
-    "title": "ANALYTICAL FOUNDATION",
-    "section": "2.2 KPI Alignment",
-    "text": "2.2 KPI Alignment",
-    "crumbs": [
-      "**BAB**",
-      "1. Analytical Foundation"
-    ]
-  },
-  {
-    "objectID": "chapter1.html#metric-definition",
-    "href": "chapter1.html#metric-definition",
-    "title": "ANALYTICAL FOUNDATION",
-    "section": "2.3 Metric Definition",
-    "text": "2.3 Metric Definition",
-    "crumbs": [
-      "**BAB**",
-      "1. Analytical Foundation"
-    ]
-  },
-  {
-    "objectID": "chapter1.html#stakeholder-intent",
-    "href": "chapter1.html#stakeholder-intent",
-    "title": "ANALYTICAL FOUNDATION",
-    "section": "2.4 Stakeholder Intent",
-    "text": "2.4 Stakeholder Intent",
-    "crumbs": [
-      "**BAB**",
-      "1. Analytical Foundation"
-    ]
-  },
-  {
-    "objectID": "chapter1.html#leading-indicators",
-    "href": "chapter1.html#leading-indicators",
-    "title": "ANALYTICAL FOUNDATION",
-    "section": "3.1 Leading Indicators",
-    "text": "3.1 Leading Indicators",
-    "crumbs": [
-      "**BAB**",
-      "1. Analytical Foundation"
-    ]
-  },
-  {
-    "objectID": "chapter1.html#lagging-indicators",
-    "href": "chapter1.html#lagging-indicators",
-    "title": "ANALYTICAL FOUNDATION",
-    "section": "3.2 Lagging Indicators",
-    "text": "3.2 Lagging Indicators",
-    "crumbs": [
-      "**BAB**",
-      "1. Analytical Foundation"
-    ]
-  },
-  {
-    "objectID": "chapter1.html#north-star-metric",
-    "href": "chapter1.html#north-star-metric",
-    "title": "ANALYTICAL FOUNDATION",
-    "section": "3.3 North Star Metric",
-    "text": "3.3 North Star Metric",
-    "crumbs": [
-      "**BAB**",
-      "1. Analytical Foundation"
-    ]
-  },
-  {
-    "objectID": "chapter1.html#metric-hierarchy",
-    "href": "chapter1.html#metric-hierarchy",
-    "title": "ANALYTICAL FOUNDATION",
-    "section": "3.4 Metric Hierarchy",
-    "text": "3.4 Metric Hierarchy",
-    "crumbs": [
-      "**BAB**",
-      "1. Analytical Foundation"
-    ]
-  },
-  {
-    "objectID": "chapter2.html#pre-attentive-signals",
-    "href": "chapter2.html#pre-attentive-signals",
-    "title": "VISUAL INTELLIGENCE",
-    "section": "2.1 Pre-attentive Signals",
-    "text": "2.1 Pre-attentive Signals",
-    "crumbs": [
-      "**BAB**",
-      "2. Visual Intelligence"
-    ]
-  },
-  {
-    "objectID": "chapter2.html#attention-flow",
-    "href": "chapter2.html#attention-flow",
-    "title": "VISUAL INTELLIGENCE",
-    "section": "2.2 Attention Flow",
-    "text": "2.2 Attention Flow",
-    "crumbs": [
-      "**BAB**",
-      "2. Visual Intelligence"
-    ]
-  },
-  {
-    "objectID": "chapter2.html#cognitive-load",
-    "href": "chapter2.html#cognitive-load",
-    "title": "VISUAL INTELLIGENCE",
-    "section": "2.3 Cognitive Load",
-    "text": "2.3 Cognitive Load",
-    "crumbs": [
-      "**BAB**",
-      "2. Visual Intelligence"
-    ]
-  },
-  {
-    "objectID": "chapter2.html#information-density",
-    "href": "chapter2.html#information-density",
-    "title": "VISUAL INTELLIGENCE",
-    "section": "2.4 Information Density",
-    "text": "2.4 Information Density",
-    "crumbs": [
-      "**BAB**",
-      "2. Visual Intelligence"
-    ]
-  },
-  {
-    "objectID": "chapter2.html#layout-structure",
-    "href": "chapter2.html#layout-structure",
-    "title": "VISUAL INTELLIGENCE",
-    "section": "3.1 Layout Structure",
-    "text": "3.1 Layout Structure",
-    "crumbs": [
-      "**BAB**",
-      "2. Visual Intelligence"
-    ]
-  },
-  {
-    "objectID": "chapter2.html#color-hierarchy",
-    "href": "chapter2.html#color-hierarchy",
-    "title": "VISUAL INTELLIGENCE",
-    "section": "3.2 Color Hierarchy",
-    "text": "3.2 Color Hierarchy",
-    "crumbs": [
-      "**BAB**",
-      "2. Visual Intelligence"
-    ]
-  },
-  {
-    "objectID": "chapter2.html#label-precision",
-    "href": "chapter2.html#label-precision",
-    "title": "VISUAL INTELLIGENCE",
-    "section": "3.3 Label Precision",
-    "text": "3.3 Label Precision",
-    "crumbs": [
-      "**BAB**",
-      "2. Visual Intelligence"
-    ]
-  },
-  {
-    "objectID": "chapter2.html#minimal-clutter",
-    "href": "chapter2.html#minimal-clutter",
-    "title": "VISUAL INTELLIGENCE",
-    "section": "3.4 Minimal Clutter",
-    "text": "3.4 Minimal Clutter",
-    "crumbs": [
-      "**BAB**",
-      "2. Visual Intelligence"
-    ]
-  },
-  {
-    "objectID": "chapter4.html#query-optimization",
-    "href": "chapter4.html#query-optimization",
-    "title": "ADVANCED LOOKER",
-    "section": "2.1 Query Optimization",
-    "text": "2.1 Query Optimization",
-    "crumbs": [
-      "**BAB**",
-      "4. Advanced Looker"
-    ]
-  },
-  {
-    "objectID": "chapter4.html#data-volume",
-    "href": "chapter4.html#data-volume",
-    "title": "ADVANCED LOOKER",
-    "section": "2.2 Data Volume",
-    "text": "2.2 Data Volume",
-    "crumbs": [
-      "**BAB**",
-      "4. Advanced Looker"
-    ]
-  },
-  {
-    "objectID": "chapter4.html#efficient-filters",
-    "href": "chapter4.html#efficient-filters",
-    "title": "ADVANCED LOOKER",
-    "section": "2.3 Efficient Filters",
-    "text": "2.3 Efficient Filters",
-    "crumbs": [
-      "**BAB**",
-      "4. Advanced Looker"
-    ]
-  },
-  {
-    "objectID": "chapter4.html#dashboard-speed",
-    "href": "chapter4.html#dashboard-speed",
-    "title": "ADVANCED LOOKER",
-    "section": "2.4 Dashboard Speed",
-    "text": "2.4 Dashboard Speed",
-    "crumbs": [
-      "**BAB**",
-      "4. Advanced Looker"
-    ]
-  },
-  {
-    "objectID": "chapter4.html#chart-configuration",
-    "href": "chapter4.html#chart-configuration",
-    "title": "ADVANCED LOOKER",
-    "section": "3.1 Chart Configuration",
-    "text": "3.1 Chart Configuration",
-    "crumbs": [
-      "**BAB**",
-      "4. Advanced Looker"
-    ]
-  },
-  {
-    "objectID": "chapter4.html#axis-integrity",
-    "href": "chapter4.html#axis-integrity",
-    "title": "ADVANCED LOOKER",
-    "section": "3.2 Axis Integrity",
-    "text": "3.2 Axis Integrity",
-    "crumbs": [
-      "**BAB**",
-      "4. Advanced Looker"
-    ]
-  },
-  {
-    "objectID": "chapter4.html#scaling-logic",
-    "href": "chapter4.html#scaling-logic",
-    "title": "ADVANCED LOOKER",
-    "section": "3.3 Scaling Logic",
-    "text": "3.3 Scaling Logic",
-    "crumbs": [
-      "**BAB**",
-      "4. Advanced Looker"
-    ]
-  },
-  {
-    "objectID": "chapter4.html#conditional-format",
-    "href": "chapter4.html#conditional-format",
-    "title": "ADVANCED LOOKER",
-    "section": "3.4 Conditional Format",
-    "text": "3.4 Conditional Format",
-    "crumbs": [
-      "**BAB**",
-      "4. Advanced Looker"
-    ]
-  },
-  {
-    "objectID": "chapter6.html#insight-structure",
-    "href": "chapter6.html#insight-structure",
-    "title": "DECISION DELIVERY",
-    "section": "2.1 Insight Structure",
-    "text": "2.1 Insight Structure",
-    "crumbs": [
-      "**BAB**",
-      "6. Decision Delivery"
-    ]
-  },
-  {
-    "objectID": "chapter6.html#risk-framing",
-    "href": "chapter6.html#risk-framing",
-    "title": "DECISION DELIVERY",
-    "section": "2.2 Risk Framing",
-    "text": "2.2 Risk Framing",
-    "crumbs": [
-      "**BAB**",
-      "6. Decision Delivery"
-    ]
-  },
-  {
-    "objectID": "chapter6.html#recommendation-logic",
-    "href": "chapter6.html#recommendation-logic",
-    "title": "DECISION DELIVERY",
-    "section": "2.3 Recommendation Logic",
-    "text": "2.3 Recommendation Logic",
-    "crumbs": [
-      "**BAB**",
-      "6. Decision Delivery"
-    ]
-  },
-  {
-    "objectID": "chapter6.html#action-prioritization",
-    "href": "chapter6.html#action-prioritization",
-    "title": "DECISION DELIVERY",
-    "section": "2.4 Action Prioritization",
-    "text": "2.4 Action Prioritization",
-    "crumbs": [
-      "**BAB**",
-      "6. Decision Delivery"
-    ]
-  },
-  {
-    "objectID": "chapter6.html#misleading-axis",
-    "href": "chapter6.html#misleading-axis",
-    "title": "DECISION DELIVERY",
-    "section": "3.1 Misleading Axis",
-    "text": "3.1 Misleading Axis",
-    "crumbs": [
-      "**BAB**",
-      "6. Decision Delivery"
-    ]
-  },
-  {
-    "objectID": "chapter6.html#metric-misuse",
-    "href": "chapter6.html#metric-misuse",
-    "title": "DECISION DELIVERY",
-    "section": "3.2 Metric Misuse",
-    "text": "3.2 Metric Misuse",
-    "crumbs": [
-      "**BAB**",
-      "6. Decision Delivery"
-    ]
-  },
-  {
-    "objectID": "chapter6.html#over-aggregation",
-    "href": "chapter6.html#over-aggregation",
-    "title": "DECISION DELIVERY",
-    "section": "3.3 Over Aggregation",
-    "text": "3.3 Over Aggregation",
-    "crumbs": [
-      "**BAB**",
-      "6. Decision Delivery"
-    ]
-  },
-  {
-    "objectID": "chapter6.html#visual-overload",
-    "href": "chapter6.html#visual-overload",
-    "title": "DECISION DELIVERY",
-    "section": "3.4 Visual Overload",
-    "text": "3.4 Visual Overload",
-    "crumbs": [
-      "**BAB**",
-      "6. Decision Delivery"
-    ]
-  },
-  {
-    "objectID": "chapter8.html#explore-setup",
-    "href": "chapter8.html#explore-setup",
-    "title": "CAPSTONE BUILD",
-    "section": "2.1 Explore Setup",
-    "text": "2.1 Explore Setup",
-    "crumbs": [
-      "**BAB**",
-      "8. Capstone Build"
-    ]
-  },
-  {
-    "objectID": "chapter8.html#metric-validation",
-    "href": "chapter8.html#metric-validation",
-    "title": "CAPSTONE BUILD",
-    "section": "2.2 Metric Validation",
-    "text": "2.2 Metric Validation",
-    "crumbs": [
-      "**BAB**",
-      "8. Capstone Build"
-    ]
-  },
-  {
-    "objectID": "chapter8.html#dashboard-design",
-    "href": "chapter8.html#dashboard-design",
-    "title": "CAPSTONE BUILD",
-    "section": "2.3 Dashboard Design",
-    "text": "2.3 Dashboard Design",
-    "crumbs": [
-      "**BAB**",
-      "8. Capstone Build"
-    ]
-  },
-  {
-    "objectID": "chapter8.html#insight-presentation",
-    "href": "chapter8.html#insight-presentation",
-    "title": "CAPSTONE BUILD",
-    "section": "3.1 Insight Presentation",
-    "text": "3.1 Insight Presentation",
-    "crumbs": [
-      "**BAB**",
-      "8. Capstone Build"
-    ]
-  },
-  {
-    "objectID": "chapter8.html#decision-proposal",
-    "href": "chapter8.html#decision-proposal",
-    "title": "CAPSTONE BUILD",
-    "section": "3.2 Decision Proposal",
-    "text": "3.2 Decision Proposal",
-    "crumbs": [
-      "**BAB**",
-      "8. Capstone Build"
-    ]
-  },
-  {
-    "objectID": "chapter8.html#qa-defense",
-    "href": "chapter8.html#qa-defense",
-    "title": "CAPSTONE BUILD",
-    "section": "3.3 Q&A Defense",
-    "text": "3.3 Q&A Defense",
-    "crumbs": [
-      "**BAB**",
-      "8. Capstone Build"
+      "5. Real Estate Case Dashboard"
     ]
   }
 ]

@@ -5,8 +5,13 @@ body {
 }
 
 #quarto-content {
-  max-width: 100%;
+  max-width: 95%;
   background: white;
+  margin: 0 auto;
+}
+
+.title{
+  font-weight: 600;
 }
 
 
@@ -14,7 +19,7 @@ body {
   width: 100%;
   margin: auto;
   display: block;
-  border-radius: 30px;
+  border-radius: 15px;
 }
 
 a{
@@ -181,7 +186,7 @@ p {
 
 .toc {
   border-left: 3px solid #17a2b8;
-  padding-left: 10px;
+  padding-left: 5px;
 }
 
 h1, h2, h3 {

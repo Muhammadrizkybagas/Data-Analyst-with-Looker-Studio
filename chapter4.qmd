@@ -1,41 +1,138 @@
 ---
-title: "ADVANCED LOOKER"
+title: "DASHBOARD DEVELOPMENT"
 date: today
 ---
 
 
-# Custom Calculations
+Dashboard development is the process of turning business needs into a functional dashboard that helps with data analysis and decision-making.
 
-## Table Calculations
-## Custom Fields
-## Running Totals
-## Percent Contribution
+The process usually starts by understanding business objectives, then selecting relevant KPIs, visualizations, and layout. A good dashboard does more than show data, it focuses on answering key business questions and highlighting important metrics.
 
+In general, the workflow includes:
 
----
-
-
-# Performance Tuning
-
-## Query Optimization
-## Data Volume
-## Efficient Filters
-## Dashboard Speed
-
-
----
-
-
-# Visualization Engine
-
-## Chart Configuration
-## Axis Integrity
-## Scaling Logic
-## Conditional Format
+- Defining objectives
+- Choosing KPIs
+- Building visualizations
+- And reviewing the dashboard to ensure it provides clear insights.
 
 
 
+# Business Framing
 
+## Business Question Definition
+
+Dashboard development should start with clearly defined business questions. These questions determine what information the dashboard must provide and guide the selection of metrics and visualizations.
+
+Business questions translate organizational goals into analytical objectives. For example, a sales dashboard may aim to answer questions such as:
+
+- How are monthly sales performing?
+- Which product categories generate the highest revenue?
+- Which regions contribute the most to overall sales?
+
+Defining business questions helps ensure that the dashboard focuses only on relevant data. Without clear questions, dashboards may contain unnecessary metrics that do not support decision-making.
+
+Once business questions are defined, analysts can identify the specific indicators and datasets required to answer those questions effectively.
+
+
+
+
+# Visualization Planning
+
+## Chart Selection 
+
+Selecting the appropriate chart type is essential for communicating insights clearly. Different visualization types answer different analytical questions, and choosing the wrong chart can make data difficult to interpret.
+
+**For example:**
+
+| **Analytical Goal**        | **Recommended Chart**    |
+| -------------------------- | ------------------------ |
+| Category comparison        | Bar or Column Chart      |
+| Time trend analysis        | Line Chart               |
+| Part-to-whole relationship | Pie or Stacked Bar Chart |
+| Correlation analysis       | Scatter Plot             |
+
+Each visualization should be selected based on the question the data needs to answer. A well-chosen chart simplifies complex data and allows stakeholders to understand insights quickly.
+
+
+
+
+# KPI Dashboard
+
+## KPI Summary Page
+
+A KPI summary page presents the most important business indicators in a single view. These metrics represent the core performance measures used by executives and decision makers.
+
+:::{.callout-note title="Common KPI elements include"}
+
+- Revenue or sales performance
+- Growth rate or trend indicators
+- Conversion or efficiency metrics
+
+:::
+
+KPI dashboards should highlight only the most critical indicators to avoid overwhelming users with too many metrics. Focusing on a small set of key measures improves clarity and ensures that stakeholders can quickly understand business performance.
+
+A typical KPI dashboard places summary metrics at the top of the page, followed by charts that provide deeper analysis.
+
+
+
+
+# Analytical Views 
+
+## Supporting Charts
+
+Supporting charts provide additional analytical context for the KPIs displayed in the dashboard. While KPI indicators summarize performance, supporting charts explain the underlying patterns behind those numbers.
+
+For example, if a dashboard shows total revenue as a KPI, supporting charts may include:
+
+- Sales trend over time
+- Sales by region
+- Sales by product category
+
+Grouping related charts helps users explore insights in a structured way and understand how different variables influence overall performance.
+
+Supporting charts therefore transform dashboards from simple reporting tools into analytical platforms.
+
+
+
+
+# Interactivity
+
+## Interactive Controls
+
+Interactive controls allow users to explore data dynamically. Instead of viewing static reports, stakeholders can filter and navigate information based on their specific needs.
+
+Common interactive features include:
+
+- Date range filters
+- Category filters
+- Region or product selectors
+- Drill-down interactions
+
+These controls enable users to investigate data from different perspectives without requiring multiple reports. Interactive dashboards improve analytical flexibility and help decision makers quickly explore relevant insights.
+
+
+
+
+# Dashboard Review
+
+## Clarity Check
+
+Before deployment, dashboards should be reviewed to ensure clarity and usability. A clarity check evaluates whether the dashboard effectively communicates insights and whether users can easily interpret the information presented.
+
+Key review criteria include:
+
+| **Evaluation Aspect**  | **Description**                                      |
+| ---------------------- | ---------------------------------------------------- |
+| Insight clarity        | Are the main insights immediately visible?           |
+| Visual consistency     | Are charts and colors used consistently?             |
+| Data relevance         | Are all metrics relevant to business objectives?     |
+| Usability              | Can users easily navigate the dashboard?             |
+
+
+Dashboard development is often an iterative process. Feedback from stakeholders helps refine visualizations, improve layout, and ensure that the dashboard aligns with business needs over time.
+
+Regular evaluation ensures that dashboards remain relevant and continue to support effective decision-making.
 
 
 

@@ -3,7 +3,7 @@ project:
 
 # TITLE TOC
 website:
-  title: "DATA ANALYST WITH LOOKER STUDIO"
+  title: "Looker Studio Data Analytics Bootcamp"
   repo-url: https://github.com/Muhammadrizkybagas
   repo-actions: [source, edit]
   navbar: false
@@ -11,7 +11,7 @@ website:
 # SIDEBAR
   sidebar:
     logo: img/itsb.jpg
-    title: "DATA ANALYST WITH LOOKER STUDIO"
+    title: "Looker Studio Data Analytics Bootcamp"
     pinned: true
     style: "docked"
     search: true
@@ -29,34 +29,26 @@ website:
         href: intro.qmd
       - section: "**BAB**"
         contents:
-          - text: "1. Analytical Foundation"
+          - text: "1. Looker Studio Fundamentals"
             href: chapter1.qmd
             
-          - text: "2. Visual Intelligence"
+          - text: "2. Interactive Dashboard"
             href: chapter2.qmd
             
-          - text: "3. Looker System"
+          - text: "3. Dashboard Design"
             href: chapter3.qmd
             
-          - text: "4. Advanced Looker"
+          - text: "4. Dashboard Development"
             href: chapter4.qmd
             
-          - text: "5. Dashboard Engineering"
+          - text: "5. Real Estate Case Dashboard"
             href: chapter5.qmd
             
-          - text: "6. Decision Delivery"
-            href: chapter6.qmd
-            
-          - text: "7. Real Estate Case"
-            href: chapter7.qmd
-            
-          - text: "8. Capstone Build"
-            href: chapter8.qmd
 # END SIDEBAR
     
   page-footer:
-    left: "© 2025 Muhammad Rizky Bagas"
-    right: "Powered by Quarto"
+    center: "© 2026 Bootcamp Data Analyst"
+    #right: "Powered by Quarto"
 
 # THEME
 format:

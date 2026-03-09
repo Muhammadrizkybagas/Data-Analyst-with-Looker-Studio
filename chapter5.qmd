@@ -1,26 +1,37 @@
 ---
-title: "DASHBOARD ENGINEERING"
+title: "REAL ESTATE CASE DASHBOARD"
 date: today
 ---
 
 
-# Dashboard Strategy
+Live real estate dashboards allow agencies and managers to monitor KPIs and performance in real time. This helps decision-makers access important metrics quickly without waiting for reports.
 
-## Executive View
-## Operational View
-## KPI Layering
-## Decision Flow
+With a dashboard, teams can easily track lead conversions, pending contracts, sales performance, marketing ROI, cost per lead, and progress toward revenue targets.
+
+Overall, the dashboard provides a quick overview of the agency’s performance for both employees and management.
+
+<img class="fotbar" src="img/real-estate.png">
+
+
+
+
+# Sales Dashboard 
+
+## Revenue Tracking
+## Unit Conversion  
+## Project Comparison
+## Funnel View
 
 
 ---
 
 
-# Layout Framework
+# Marketing Dashboard
 
-## F Pattern
-## Z Pattern
-## Section Grouping
-## Visual Balance
+## Channel ROI
+## Cost Efficiency
+## Lead Quality
+## Campaign Impact
 
 
 ---
@@ -34,6 +45,15 @@ date: today
 ## User Navigation
 
 
+---
+
+
+# Property Performance
+
+## Inventory Status 
+## Utilization Rate
+## Revenue Mix 
+## Performance Gap
 
 
 

@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-03-04">
+<meta name="dcterms.date" content="2026-03-08">
 
-<title>LOOKER SYSTEM – DATA ANALYST WITH LOOKER STUDIO</title>
+<title>DASHBOARD DESIGN – Looker Studio Data Analytics Bootcamp</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter3.html">3. Looker System</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter3.html">3. Dashboard Design</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -101,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
       <img src="./img/itsb.jpg" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">DATA ANALYST WITH LOOKER STUDIO</a> 
+      <a href="./">Looker Studio Data Analytics Bootcamp</a> 
         <div class="sidebar-tools-main tools-wide">
     <a href="https://github.com/Muhammadrizkybagas" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
     <a href="https://instagram.com/mhmmd.rizky_bagas" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-instagram"></i></a>
@@ -134,49 +134,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">1. Analytical Foundation</span></a>
+ <span class="menu-text">1. Looker Studio Fundamentals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2. Visual Intelligence</span></a>
+ <span class="menu-text">2. Interactive Dashboard</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter3.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">3. Looker System</span></a>
+ <span class="menu-text">3. Dashboard Design</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4. Advanced Looker</span></a>
+ <span class="menu-text">4. Dashboard Development</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5. Dashboard Engineering</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapter6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">6. Decision Delivery</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapter7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7. Real Estate Case</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapter8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">8. Capstone Build</span></a>
+ <span class="menu-text">5. Real Estate Case Dashboard</span></a>
   </div>
 </li>
       </ul>
@@ -191,36 +173,38 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#looker-architecture" id="toc-looker-architecture" class="nav-link active" data-scroll-target="#looker-architecture"><span class="header-section-number">1</span> Looker Architecture</a>
+  <li><a href="#theme-styling" id="toc-theme-styling" class="nav-link active" data-scroll-target="#theme-styling"><span class="header-section-number">1</span> Theme &amp; Styling</a>
   <ul class="collapse">
-  <li><a href="#semantic-layer" id="toc-semantic-layer" class="nav-link" data-scroll-target="#semantic-layer"><span class="header-section-number">1.1</span> Semantic Layer</a></li>
-  <li><a href="#explore-concept" id="toc-explore-concept" class="nav-link" data-scroll-target="#explore-concept"><span class="header-section-number">1.2</span> Explore Concept</a></li>
-  <li><a href="#view-structure" id="toc-view-structure" class="nav-link" data-scroll-target="#view-structure"><span class="header-section-number">1.3</span> View Structure</a></li>
-  <li><a href="#lookml-overview" id="toc-lookml-overview" class="nav-link" data-scroll-target="#lookml-overview"><span class="header-section-number">1.4</span> LookML Overview</a></li>
+  <li><a href="#theme-application" id="toc-theme-application" class="nav-link" data-scroll-target="#theme-application"><span class="header-section-number">1.1</span> Theme Application</a></li>
   </ul></li>
-  <li><a href="#data-governance" id="toc-data-governance" class="nav-link" data-scroll-target="#data-governance"><span class="header-section-number">2</span> Data Governance</a>
+  <li><a href="#typography" id="toc-typography" class="nav-link" data-scroll-target="#typography"><span class="header-section-number">2</span> Typography</a>
   <ul class="collapse">
-  <li><a href="#access-control" id="toc-access-control" class="nav-link" data-scroll-target="#access-control"><span class="header-section-number">2.1</span> Access Control</a></li>
-  <li><a href="#role-permissions" id="toc-role-permissions" class="nav-link" data-scroll-target="#role-permissions"><span class="header-section-number">2.2</span> Role Permissions</a></li>
-  <li><a href="#data-consistency" id="toc-data-consistency" class="nav-link" data-scroll-target="#data-consistency"><span class="header-section-number">2.3</span> Data Consistency</a></li>
-  <li><a href="#metric-standardization" id="toc-metric-standardization" class="nav-link" data-scroll-target="#metric-standardization"><span class="header-section-number">2.4</span> Metric Standardization</a></li>
+  <li><a href="#font-hierarchy" id="toc-font-hierarchy" class="nav-link" data-scroll-target="#font-hierarchy"><span class="header-section-number">2.1</span> Font Hierarchy</a>
+  <ul class="collapse">
+  <li><a href="#applying-font-hierarchy" id="toc-applying-font-hierarchy" class="nav-link" data-scroll-target="#applying-font-hierarchy"><span class="header-section-number">2.1.1</span> Applying Font Hierarchy</a></li>
   </ul></li>
-  <li><a href="#explore-mastery" id="toc-explore-mastery" class="nav-link" data-scroll-target="#explore-mastery"><span class="header-section-number">3</span> Explore Mastery</a>
-  <ul class="collapse">
-  <li><a href="#dimension-logic" id="toc-dimension-logic" class="nav-link" data-scroll-target="#dimension-logic"><span class="header-section-number">3.1</span> Dimension Logic</a></li>
-  <li><a href="#measure-behavior" id="toc-measure-behavior" class="nav-link" data-scroll-target="#measure-behavior"><span class="header-section-number">3.2</span> Measure Behavior</a></li>
-  <li><a href="#aggregation-rules" id="toc-aggregation-rules" class="nav-link" data-scroll-target="#aggregation-rules"><span class="header-section-number">3.3</span> Aggregation Rules</a></li>
-  <li><a href="#filter-strategy" id="toc-filter-strategy" class="nav-link" data-scroll-target="#filter-strategy"><span class="header-section-number">3.4</span> Filter Strategy</a></li>
-  <li><a href="#pivot-mechanics" id="toc-pivot-mechanics" class="nav-link" data-scroll-target="#pivot-mechanics"><span class="header-section-number">3.5</span> Pivot Mechanics</a></li>
-  <li><a href="#drill-workflow" id="toc-drill-workflow" class="nav-link" data-scroll-target="#drill-workflow"><span class="header-section-number">3.6</span> Drill Workflow</a></li>
   </ul></li>
-  <li><a href="#metric-integrity" id="toc-metric-integrity" class="nav-link" data-scroll-target="#metric-integrity"><span class="header-section-number">4</span> Metric Integrity</a>
+  <li><a href="#color-strategy" id="toc-color-strategy" class="nav-link" data-scroll-target="#color-strategy"><span class="header-section-number">3</span> Color Strategy</a>
   <ul class="collapse">
-  <li><a href="#aggregation-errors" id="toc-aggregation-errors" class="nav-link" data-scroll-target="#aggregation-errors"><span class="header-section-number">4.1</span> Aggregation Errors</a></li>
-  <li><a href="#double-counting" id="toc-double-counting" class="nav-link" data-scroll-target="#double-counting"><span class="header-section-number">4.2</span> Double Counting</a></li>
-  <li><a href="#granularity-control" id="toc-granularity-control" class="nav-link" data-scroll-target="#granularity-control"><span class="header-section-number">4.3</span> Granularity Control</a></li>
-  <li><a href="#join-awareness" id="toc-join-awareness" class="nav-link" data-scroll-target="#join-awareness"><span class="header-section-number">4.4</span> Join Awareness</a></li>
-  <li><a href="#null-handling" id="toc-null-handling" class="nav-link" data-scroll-target="#null-handling"><span class="header-section-number">4.5</span> Null Handling</a></li>
+  <li><a href="#primary-vs-accent-colors" id="toc-primary-vs-accent-colors" class="nav-link" data-scroll-target="#primary-vs-accent-colors"><span class="header-section-number">3.1</span> Primary vs Accent Colors</a>
+  <ul class="collapse">
+  <li><a href="#primary-colors" id="toc-primary-colors" class="nav-link" data-scroll-target="#primary-colors"><span class="header-section-number">3.1.1</span> Primary Colors</a></li>
+  <li><a href="#accent-colors" id="toc-accent-colors" class="nav-link" data-scroll-target="#accent-colors"><span class="header-section-number">3.1.2</span> Accent Colors</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#layout-structure" id="toc-layout-structure" class="nav-link" data-scroll-target="#layout-structure"><span class="header-section-number">4</span> Layout Structure</a>
+  <ul class="collapse">
+  <li><a href="#grid-alignment" id="toc-grid-alignment" class="nav-link" data-scroll-target="#grid-alignment"><span class="header-section-number">4.1</span> Grid Alignment</a></li>
+  </ul></li>
+  <li><a href="#visual-hierarchy" id="toc-visual-hierarchy" class="nav-link" data-scroll-target="#visual-hierarchy"><span class="header-section-number">5</span> Visual Hierarchy</a>
+  <ul class="collapse">
+  <li><a href="#kpi-highlighting" id="toc-kpi-highlighting" class="nav-link" data-scroll-target="#kpi-highlighting"><span class="header-section-number">5.1</span> KPI Highlighting</a>
+  <ul class="collapse">
+  <li><a href="#size-emphasis" id="toc-size-emphasis" class="nav-link" data-scroll-target="#size-emphasis"><span class="header-section-number">5.1.1</span> Size Emphasis</a></li>
+  <li><a href="#contrast-and-color" id="toc-contrast-and-color" class="nav-link" data-scroll-target="#contrast-and-color"><span class="header-section-number">5.1.2</span> Contrast and Color</a></li>
+  <li><a href="#typography-emphasis" id="toc-typography-emphasis" class="nav-link" data-scroll-target="#typography-emphasis"><span class="header-section-number">5.1.3</span> Typography Emphasis</a></li>
+  <li><a href="#positioning" id="toc-positioning" class="nav-link" data-scroll-target="#positioning"><span class="header-section-number">5.1.4</span> Positioning</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/Muhammadrizkybagas/blob/main/chapter3.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/Muhammadrizkybagas/edit/main/chapter3.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li></ul></div></nav>
@@ -228,9 +212,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter3.html">3. Looker System</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter3.html">3. Dashboard Design</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">LOOKER SYSTEM</h1>
+<h1 class="title">DASHBOARD DESIGN</h1>
 </div>
 
 
@@ -241,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 4, 2026</p>
+      <p class="date">March 8, 2026</p>
     </div>
   </div>
   
@@ -253,78 +237,337 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="looker-architecture" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Looker Architecture</h1>
-<section id="semantic-layer" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="semantic-layer"><span class="header-section-number">1.1</span> Semantic Layer</h2>
+<p>A well-designed dashboard helps users understand data quickly and accurately. Good design is not only about visual appearance but also about how information is structured and prioritized. In this section, participants will learn how to apply design principles that improve <strong>readability</strong>, <strong>clarity</strong>, and <strong>insight delivery in a dashboard</strong>.</p>
+<section id="theme-styling" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Theme &amp; Styling</h1>
+<p>Theme and styling help create a consistent visual identity across the dashboard. In <a href="https://lookerstudio.google.com">Looker Studio</a>, themes control colors, fonts, and visual formatting so that all components follow the same design standard.</p>
+<p>Using a consistent theme improves clarity and prevents visual confusion. It also helps users quickly recognize patterns and important information in the dashboard.</p>
+<section id="theme-application" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="theme-application"><span class="header-section-number">1.1</span> Theme Application</h2>
+<p><a href="https://lookerstudio.google.com">Looker Studio</a> provides predefined themes that can be applied directly to a report. These themes include predefined color palettes, typography settings, and chart styles that automatically format the dashboard layout.</p>
+<p><a href="https://lookerstudio.google.com">Looker Studio</a> provides a set of default themes that any user can apply without deep configuration. To use one:</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Use themes in Looker Studio">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Use themes in Looker Studio
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Open your report in <strong>Edit mode</strong></li>
+<li>In the top menu bar, click <strong>File</strong> &gt; <em>Theme and layout</em></li>
+<li>In the right-hand panel, open the <strong>Theme</strong> tab</li>
+<li>Choose one of the standard themes from the list</li>
+</ol>
+</div>
+</div>
+<p>That’s it. The selected theme will automatically apply to your report.</p>
+<p><img class="fotbar" src="img/theme.gif"></p>
+<p>If the automatically generated theme isn’t perfect or requires adjustments, you can manually tweak each part of it. To do this:</p>
+<ul>
+<li>Select the theme you want to edit</li>
+<li>Click <strong>Customize</strong> at the top of the panel</li>
+</ul>
+<p>You can then adjust:</p>
+<ul>
+<li>Main colors (accent, background, text, axes, etc.)</li>
+<li>Fonts (global and per element type)</li>
+<li>Chart styles (background color, border style, transparency, corner shape, layout, and more)</li>
+</ul>
+<p>Once you achieve the desired visual result, your theme setup is complete.</p>
+<p><img class="fotbar" src="img/theme-2.gif"></p>
 </section>
-<section id="explore-concept" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="explore-concept"><span class="header-section-number">1.2</span> Explore Concept</h2>
 </section>
-<section id="view-structure" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="view-structure"><span class="header-section-number">1.3</span> View Structure</h2>
+<section id="typography" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Typography</h1>
+<p>Typography refers to how text is displayed in a dashboard. In <a href="https://lookerstudio.google.com">Looker Studio</a>, typography controls the appearance of titles, labels, metrics, and descriptions.</p>
+<p><a href="https://lookerstudio.google.com">Looker Studio</a> provides several built-in fonts such as Roboto, Open Sans, Arial, Montserrat, and Lato, which are commonly used in dashboards because they are clean and easy to read.</p>
+<section id="font-hierarchy" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="font-hierarchy"><span class="header-section-number">2.1</span> Font Hierarchy</h2>
+<p>In a dashboard, not all information should have the same visual emphasis. <code>Titles</code>, <code>key metrics</code>, and <code>labels</code> should have different sizes and weights so users can easily understand the structure of the report.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="A typical dashboard hierarchy">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>A typical dashboard hierarchy
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 45%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Level</strong></th>
+<th><strong>Purpose</strong></th>
+<th><strong>Example</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Title</td>
+<td>Dashboard or section heading</td>
+<td>“Monthly Sales Dashboard”</td>
+</tr>
+<tr class="even">
+<td>Metric</td>
+<td>Important KPIs</td>
+<td>Revenue, Conversion Rate</td>
+</tr>
+<tr class="odd">
+<td>Label</td>
+<td>Supporting information</td>
+<td>Category, Date, Region</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<section id="applying-font-hierarchy" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="applying-font-hierarchy"><span class="header-section-number">2.1.1</span> Applying Font Hierarchy</h3>
+<p>In <a href="https://lookerstudio.google.com">Looker Studio</a>, font settings can be adjusted through the Theme and Layout panel or directly within each chart component.</p>
+<p>Basic steps to modify typography:</p>
+<ol type="1">
+<li>Select a chart or text element.</li>
+<li>Open the Style panel on the right side.</li>
+<li>Choose the font family, font size, and font weight.</li>
+<li>Apply consistent settings across titles, metrics, and labels.</li>
+</ol>
+<p><img class="fotbar" src="img/typo.gif"></p>
+<p>Typography in dashboards is like good plumbing – when it’s done right, nobody notices it, but when it’s wrong, everything breaks down.</p>
+<p>Font Hierarchy Guidelines:</p>
+<ul>
+<li><strong>Headers</strong>: 24-32px, bold weight, short and descriptive</li>
+<li><strong>Subheaders</strong>: 16-20px, medium weight, contextual information</li>
+<li><strong>Body/Data</strong>: 12-14px, regular weight, high readability</li>
+<li><strong>Annotations</strong>: 10-12px, light weight, supplementary details</li>
+</ul>
+<p><strong>Font Choice</strong>: Stick to system fonts or widely supported web fonts. Avoid decorative fonts in data contexts – readability trumps personality every time.</p>
 </section>
-<section id="lookml-overview" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="lookml-overview"><span class="header-section-number">1.4</span> LookML Overview</h2>
+</section>
+</section>
+<section id="color-strategy" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Color Strategy</h1>
+<p>Color is one of the most powerful visual elements in dashboard design. Effective dashboards usually rely on a limited color palette.</p>
+<p>Using too many colors can create visual noise and make it difficult for users to focus on the most important information.</p>
+<section id="primary-vs-accent-colors" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="primary-vs-accent-colors"><span class="header-section-number">3.1</span> Primary vs Accent Colors</h2>
+<p>Color hierarchy in dashboards typically consists of primary colors and accent colors. Each color plays a different role in guiding user attention.</p>
+<section id="primary-colors" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="primary-colors"><span class="header-section-number">3.1.1</span> Primary Colors</h3>
+<p>Primary colors represent the main visual identity of a dashboard. They are used consistently across charts, titles, and interface elements to create a unified appearance.</p>
+<p>Primary colors usually reflect the organization’s brand color and serve as the dominant color throughout the report. Because they appear frequently, they should remain visually balanced and not overly saturated.</p>
+<p>In <a href="https://lookerstudio.google.com">Looker Studio</a> dashboards, primary colors are commonly used for:</p>
+<ul>
+<li>Main data series in charts</li>
+<li>Section titles or headers</li>
+<li>Key interface elements</li>
+</ul>
+<p>Using the same primary color consistently helps users build familiarity with the dashboard structure.</p>
+</section>
+<section id="accent-colors" class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="accent-colors"><span class="header-section-number">3.1.2</span> Accent Colors</h3>
+<p>Accent colors are used sparingly to highlight important insights. Because they appear less frequently than primary colors, they naturally attract attention.</p>
+<p>Accent colors are often applied to elements that require immediate focus, such as KPI indicators, alerts, or significant changes in performance.</p>
+<p>For example:</p>
+<ul>
+<li>Red may highlight negative performance</li>
+<li>Green may indicate positive growth</li>
+<li>Orange or yellow may signal warnings or attention areas</li>
+</ul>
+<p>Since accent colors draw strong visual attention, they should be used carefully and only for critical insights.</p>
 <hr>
+<p>Applying Color Hierarchy in Dashboards</p>
+<p>A practical approach for dashboard color usage is the 60-30-10 rule:</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Color Rule">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Color Rule
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><strong>Usage</strong></th>
+<th><strong>Color Role</strong></th>
+<th><strong>Example</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>60%</td>
+<td>Neutral colors</td>
+<td>Background, gridlines</td>
+</tr>
+<tr class="even">
+<td>30%</td>
+<td>Primary color</td>
+<td>Main charts</td>
+</tr>
+<tr class="odd">
+<td>10%</td>
+<td>Accent colors</td>
+<td>KPIs, alerts</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Visual seperti ini sangat efektif untuk training dashboard design.</p>
 </section>
 </section>
-<section id="data-governance" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Data Governance</h1>
-<section id="access-control" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="access-control"><span class="header-section-number">2.1</span> Access Control</h2>
 </section>
-<section id="role-permissions" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="role-permissions"><span class="header-section-number">2.2</span> Role Permissions</h2>
+<section id="layout-structure" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Layout Structure</h1>
+<p>Layout structure is the way charts, filters, and text are arranged in a dashboard. A good layout helps users read and understand the information easily.</p>
+<p>In most dashboards, KPIs are placed at the top, followed by charts and supporting tables. This order helps users see the main results first before looking at more detailed data.</p>
+<p>A balanced layout also makes the dashboard clearer and easier to read.</p>
+<section id="grid-alignment" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="grid-alignment"><span class="header-section-number">4.1</span> Grid Alignment</h2>
+<p>Grid arrangement is a layout technique used to place dashboard elements along consistent horizontal and vertical lines. It helps charts, filters, and text appear balanced and easy to read.</p>
+<p>In <a href="https://lookerstudio.google.com">Looker Studio</a>, using a grid keeps the spacing between elements consistent. When components are aligned, the dashboard looks more professional and easier to understand. Misaligned elements can make the dashboard look messy and harder to read.</p>
+<p>A common dashboard layout structure follows this arrangement:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><strong>Section</strong></th>
+<th><strong>Content</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Top Section</td>
+<td>KPI cards and summary metrics</td>
+</tr>
+<tr class="even">
+<td>Middle Section</td>
+<td>Main charts showing trends or comparisons</td>
+</tr>
+<tr class="odd">
+<td>Bottom Section</td>
+<td>Detailed tables or supporting data</td>
+</tr>
+</tbody>
+</table>
+<p>Several design practices help create balanced dashboards:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 64%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Principle</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Consistent spacing</td>
+<td>Maintain equal distance between charts</td>
+</tr>
+<tr class="even">
+<td>Visual grouping</td>
+<td>Place related charts close together</td>
+</tr>
+<tr class="odd">
+<td>Top-down hierarchy</td>
+<td>Show summary information first</td>
+</tr>
+<tr class="even">
+<td>Balanced distribution</td>
+<td>Avoid placing too many charts in one area</td>
+</tr>
+</tbody>
+</table>
+<p><img class="fotbar" src="img/layout.png"></p>
 </section>
-<section id="data-consistency" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="data-consistency"><span class="header-section-number">2.3</span> Data Consistency</h2>
 </section>
-<section id="metric-standardization" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="metric-standardization"><span class="header-section-number">2.4</span> Metric Standardization</h2>
+<section id="visual-hierarchy" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Visual Hierarchy</h1>
+<p>Visual hierarchy refers to the arrangement of dashboard elements according to their importance. It guides users to see the most important information first and then move toward supporting details in a logical order.</p>
+<p>In dashboard design, visual hierarchy acts as a visual roadmap that directs the user’s attention through the report. Without a clear hierarchy, users may feel overwhelmed and struggle to understand which metrics matter most.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Effective visual hierarchy">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Effective visual hierarchy
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Direct attention to the most important metrics</li>
+<li>Create a clear flow when reading the dashboard</li>
+<li>Reduce cognitive load when interpreting data</li>
+</ul>
+</div>
+</div>
+<p>When hierarchy is applied properly, users can quickly identify key insights without needing to analyze every chart individually.</p>
+<section id="kpi-highlighting" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="kpi-highlighting"><span class="header-section-number">5.1</span> KPI Highlighting</h2>
+<p>Key Performance Indicators (KPIs) represent the most critical metrics in a dashboard. Because these metrics are directly related to business performance, they should be visually emphasized.</p>
+<p>Visual hierarchy can highlight KPIs using several design techniques.</p>
+<section id="size-emphasis" class="level3" data-number="5.1.1">
+<h3 data-number="5.1.1" class="anchored" data-anchor-id="size-emphasis"><span class="header-section-number">5.1.1</span> Size Emphasis</h3>
+<p>One simple way to create visual hierarchy is by using different sizes for elements.</p>
+<ul>
+<li>Display main KPIs in a larger size than other metrics</li>
+<li>Use bigger charts for the most important data</li>
+<li>Apply larger font sizes for titles and key numbers</li>
+</ul>
+<p>Larger elements usually attract attention first, which helps users quickly identify the most important information on the dashboard.</p>
+</section>
+<section id="contrast-and-color" class="level3" data-number="5.1.2">
+<h3 data-number="5.1.2" class="anchored" data-anchor-id="contrast-and-color"><span class="header-section-number">5.1.2</span> Contrast and Color</h3>
+<p>On light dashboard backgrounds, darker colors create stronger contrast, so they usually appear more important.</p>
+<ul>
+<li>Use darker colors for primary data</li>
+<li>Use lighter colors for secondary information</li>
+<li>Keep gridlines or borders <strong>less bright</strong> so they don’t distract from the main data</li>
+</ul>
+<p>Research also shows that high-contrast elements can be recognized faster by the human brain.</p>
+<p><strong>Color saturation</strong> refers to how strong or intense a color appears.</p>
+<ul>
+<li><strong>High saturation</strong> attracts attention and highlights important data</li>
+<li><strong>Low saturation</strong> is better for supporting information</li>
+<li><strong>Grayscale colors</strong> usually appear the least important</li>
+</ul>
+<p>By adjusting color saturation, designers can create a <strong>clear visual hierarchy</strong> in a dashboard.</p>
+<p><img class="fotbar" src="img/contrast.webp"></p>
+</section>
+<section id="typography-emphasis" class="level3" data-number="5.1.3">
+<h3 data-number="5.1.3" class="anchored" data-anchor-id="typography-emphasis"><span class="header-section-number">5.1.3</span> Typography Emphasis</h3>
+<p>Typography also plays an important role in creating visual contrast in a dashboard.</p>
+<ul>
+<li><strong>Bold text</strong> is usually used to highlight important information or key values, because it stands out more clearly than other text.</li>
+<li><strong>Regular text</strong> is suitable for most content, such as descriptions or standard labels.</li>
+<li><strong>Italic text</strong> is commonly used for notes, annotations, or additional information that supports the main content.</li>
+</ul>
+<p>Studies using eye-tracking technology show that bold text can be processed about 11% faster than regular text in dashboard environments. For this reason, bold formatting is often used for the most important labels and values.</p>
+<p><img class="fotbar" src="img/typography.webp"></p>
+</section>
+<section id="positioning" class="level3" data-number="5.1.4">
+<h3 data-number="5.1.4" class="anchored" data-anchor-id="positioning"><span class="header-section-number">5.1.4</span> Positioning</h3>
+<p>Dashboard viewers typically scan reports from top to bottom and left to right. For this reason, primary KPIs should be positioned at the top section of the dashboard so users can see them immediately.</p>
 <hr>
-</section>
-</section>
-<section id="explore-mastery" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Explore Mastery</h1>
-<section id="dimension-logic" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="dimension-logic"><span class="header-section-number">3.1</span> Dimension Logic</h2>
-</section>
-<section id="measure-behavior" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="measure-behavior"><span class="header-section-number">3.2</span> Measure Behavior</h2>
-</section>
-<section id="aggregation-rules" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="aggregation-rules"><span class="header-section-number">3.3</span> Aggregation Rules</h2>
-</section>
-<section id="filter-strategy" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="filter-strategy"><span class="header-section-number">3.4</span> Filter Strategy</h2>
-</section>
-<section id="pivot-mechanics" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="pivot-mechanics"><span class="header-section-number">3.5</span> Pivot Mechanics</h2>
-</section>
-<section id="drill-workflow" class="level2" data-number="3.6">
-<h2 data-number="3.6" class="anchored" data-anchor-id="drill-workflow"><span class="header-section-number">3.6</span> Drill Workflow</h2>
-<hr>
-</section>
-</section>
-<section id="metric-integrity" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> Metric Integrity</h1>
-<section id="aggregation-errors" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="aggregation-errors"><span class="header-section-number">4.1</span> Aggregation Errors</h2>
-</section>
-<section id="double-counting" class="level2" data-number="4.2">
-<h2 data-number="4.2" class="anchored" data-anchor-id="double-counting"><span class="header-section-number">4.2</span> Double Counting</h2>
-</section>
-<section id="granularity-control" class="level2" data-number="4.3">
-<h2 data-number="4.3" class="anchored" data-anchor-id="granularity-control"><span class="header-section-number">4.3</span> Granularity Control</h2>
-</section>
-<section id="join-awareness" class="level2" data-number="4.4">
-<h2 data-number="4.4" class="anchored" data-anchor-id="join-awareness"><span class="header-section-number">4.4</span> Join Awareness</h2>
-</section>
-<section id="null-handling" class="level2" data-number="4.5">
-<h2 data-number="4.5" class="anchored" data-anchor-id="null-handling"><span class="header-section-number">4.5</span> Null Handling</h2>
+<p>When these techniques are applied together, dashboards clearly communicate which metrics represent the most important insights.</p>
 
 
+</section>
 </section>
 </section>
 
@@ -402,7 +645,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/Muhammadrizkybagas\.github\.io\/Data-Analyst-with-Looker-Studio\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -733,14 +976,14 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 Muhammad Rizky Bagas</p>
-</div>   
-    <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Muhammadrizkybagas/blob/main/chapter3.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/Muhammadrizkybagas/edit/main/chapter3.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li></ul></div></div>
+    </div>   
+    <div class="nav-footer-center">
+<p>© 2026 Bootcamp Data Analyst</p>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Muhammadrizkybagas/blob/main/chapter3.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/Muhammadrizkybagas/edit/main/chapter3.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li></ul></div></div>
     <div class="nav-footer-right">
-<p>Powered by Quarto</p>
-</div>
+      &nbsp;
+    </div>
   </div>
 </footer>
 

@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-03-04">
+<meta name="dcterms.date" content="2026-03-08">
 
-<title>ANALYTICAL FOUNDATION – DATA ANALYST WITH LOOKER STUDIO</title>
+<title>LOOKER STUDIO FUNDAMENTALS” – Looker Studio Data Analytics Bootcamp</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter1.html">1. Analytical Foundation</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter1.html">1. Looker Studio Fundamentals</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -101,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
       <img src="./img/itsb.jpg" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">DATA ANALYST WITH LOOKER STUDIO</a> 
+      <a href="./">Looker Studio Data Analytics Bootcamp</a> 
         <div class="sidebar-tools-main tools-wide">
     <a href="https://github.com/Muhammadrizkybagas" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
     <a href="https://instagram.com/mhmmd.rizky_bagas" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-instagram"></i></a>
@@ -134,49 +134,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter1.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">1. Analytical Foundation</span></a>
+ <span class="menu-text">1. Looker Studio Fundamentals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2. Visual Intelligence</span></a>
+ <span class="menu-text">2. Interactive Dashboard</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">3. Looker System</span></a>
+ <span class="menu-text">3. Dashboard Design</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4. Advanced Looker</span></a>
+ <span class="menu-text">4. Dashboard Development</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./chapter5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5. Dashboard Engineering</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapter6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">6. Decision Delivery</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapter7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7. Real Estate Case</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapter8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">8. Capstone Build</span></a>
+ <span class="menu-text">5. Real Estate Case Dashboard</span></a>
   </div>
 </li>
       </ul>
@@ -191,26 +173,39 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#analyst-mindset" id="toc-analyst-mindset" class="nav-link active" data-scroll-target="#analyst-mindset"><span class="header-section-number">1</span> Analyst Mindset</a>
+  <li><a href="#data-connection" id="toc-data-connection" class="nav-link active" data-scroll-target="#data-connection"><span class="header-section-number">1</span> Data Connection</a>
   <ul class="collapse">
-  <li><a href="#decision-vs-reporting" id="toc-decision-vs-reporting" class="nav-link" data-scroll-target="#decision-vs-reporting"><span class="header-section-number">1.1</span> Decision vs Reporting</a></li>
-  <li><a href="#business-context" id="toc-business-context" class="nav-link" data-scroll-target="#business-context"><span class="header-section-number">1.2</span> Business Context</a></li>
-  <li><a href="#analytical-thinking" id="toc-analytical-thinking" class="nav-link" data-scroll-target="#analytical-thinking"><span class="header-section-number">1.3</span> Analytical Thinking</a></li>
-  <li><a href="#value-creation" id="toc-value-creation" class="nav-link" data-scroll-target="#value-creation"><span class="header-section-number">1.4</span> Value Creation</a></li>
+  <li><a href="#connect-google-sheets" id="toc-connect-google-sheets" class="nav-link" data-scroll-target="#connect-google-sheets"><span class="header-section-number">1.1</span> Connect Google Sheets</a></li>
+  <li><a href="#import-excel-csv-files" id="toc-import-excel-csv-files" class="nav-link" data-scroll-target="#import-excel-csv-files"><span class="header-section-number">1.2</span> Import Excel / CSV Files</a></li>
   </ul></li>
-  <li><a href="#question-framing" id="toc-question-framing" class="nav-link" data-scroll-target="#question-framing"><span class="header-section-number">2</span> Question Framing</a>
+  <li><a href="#data-structure" id="toc-data-structure" class="nav-link" data-scroll-target="#data-structure"><span class="header-section-number">2</span> Data Structure</a>
   <ul class="collapse">
-  <li><a href="#problem-structuring" id="toc-problem-structuring" class="nav-link" data-scroll-target="#problem-structuring"><span class="header-section-number">2.1</span> Problem Structuring</a></li>
-  <li><a href="#kpi-alignment" id="toc-kpi-alignment" class="nav-link" data-scroll-target="#kpi-alignment"><span class="header-section-number">2.2</span> KPI Alignment</a></li>
-  <li><a href="#metric-definition" id="toc-metric-definition" class="nav-link" data-scroll-target="#metric-definition"><span class="header-section-number">2.3</span> Metric Definition</a></li>
-  <li><a href="#stakeholder-intent" id="toc-stakeholder-intent" class="nav-link" data-scroll-target="#stakeholder-intent"><span class="header-section-number">2.4</span> Stakeholder Intent</a></li>
+  <li><a href="#metrics-vs-dimensions" id="toc-metrics-vs-dimensions" class="nav-link" data-scroll-target="#metrics-vs-dimensions"><span class="header-section-number">2.1</span> Metrics vs Dimensions</a></li>
+  <li><a href="#aggregation-logic" id="toc-aggregation-logic" class="nav-link" data-scroll-target="#aggregation-logic"><span class="header-section-number">2.2</span> Aggregation Logic</a>
+  <ul class="collapse">
+  <li><a href="#dimensions-and-aggregation" id="toc-dimensions-and-aggregation" class="nav-link" data-scroll-target="#dimensions-and-aggregation"><span class="header-section-number">2.2.1</span> Dimensions and Aggregation</a></li>
+  <li><a href="#aggregating-data-by-dimension" id="toc-aggregating-data-by-dimension" class="nav-link" data-scroll-target="#aggregating-data-by-dimension"><span class="header-section-number">2.2.2</span> Aggregating Data by Dimension</a></li>
+  <li><a href="#aggregation-in-looker-studio" id="toc-aggregation-in-looker-studio" class="nav-link" data-scroll-target="#aggregation-in-looker-studio"><span class="header-section-number">2.2.3</span> Aggregation in Looker Studio</a></li>
   </ul></li>
-  <li><a href="#kpi-architecture" id="toc-kpi-architecture" class="nav-link" data-scroll-target="#kpi-architecture"><span class="header-section-number">3</span> KPI Architecture</a>
+  </ul></li>
+  <li><a href="#chart-basics" id="toc-chart-basics" class="nav-link" data-scroll-target="#chart-basics"><span class="header-section-number">3</span> Chart Basics</a>
   <ul class="collapse">
-  <li><a href="#leading-indicators" id="toc-leading-indicators" class="nav-link" data-scroll-target="#leading-indicators"><span class="header-section-number">3.1</span> Leading Indicators</a></li>
-  <li><a href="#lagging-indicators" id="toc-lagging-indicators" class="nav-link" data-scroll-target="#lagging-indicators"><span class="header-section-number">3.2</span> Lagging Indicators</a></li>
-  <li><a href="#north-star-metric" id="toc-north-star-metric" class="nav-link" data-scroll-target="#north-star-metric"><span class="header-section-number">3.3</span> North Star Metric</a></li>
-  <li><a href="#metric-hierarchy" id="toc-metric-hierarchy" class="nav-link" data-scroll-target="#metric-hierarchy"><span class="header-section-number">3.4</span> Metric Hierarchy</a></li>
+  <li><a href="#basic-chart-types" id="toc-basic-chart-types" class="nav-link" data-scroll-target="#basic-chart-types"><span class="header-section-number">3.1</span> Basic Chart Types</a>
+  <ul class="collapse">
+  <li><a href="#scorecard" id="toc-scorecard" class="nav-link" data-scroll-target="#scorecard"><span class="header-section-number">3.1.1</span> Scorecard</a></li>
+  <li><a href="#bar-chart" id="toc-bar-chart" class="nav-link" data-scroll-target="#bar-chart"><span class="header-section-number">3.1.2</span> Bar Chart</a></li>
+  <li><a href="#pie-chart" id="toc-pie-chart" class="nav-link" data-scroll-target="#pie-chart"><span class="header-section-number">3.1.3</span> Pie Chart</a></li>
+  <li><a href="#geo-chart" id="toc-geo-chart" class="nav-link" data-scroll-target="#geo-chart"><span class="header-section-number">3.1.4</span> Geo Chart</a></li>
+  <li><a href="#area-chart" id="toc-area-chart" class="nav-link" data-scroll-target="#area-chart"><span class="header-section-number">3.1.5</span> Area Chart</a></li>
+  <li><a href="#time-series" id="toc-time-series" class="nav-link" data-scroll-target="#time-series"><span class="header-section-number">3.1.6</span> Time Series</a></li>
+  <li><a href="#line-chart" id="toc-line-chart" class="nav-link" data-scroll-target="#line-chart"><span class="header-section-number">3.1.7</span> Line Chart</a></li>
+  <li><a href="#bubble-chart" id="toc-bubble-chart" class="nav-link" data-scroll-target="#bubble-chart"><span class="header-section-number">3.1.8</span> Bubble Chart</a></li>
+  <li><a href="#tree-map-chart" id="toc-tree-map-chart" class="nav-link" data-scroll-target="#tree-map-chart"><span class="header-section-number">3.1.9</span> Tree Map Chart</a></li>
+  </ul></li>
+  <li><a href="#chart-configuration" id="toc-chart-configuration" class="nav-link" data-scroll-target="#chart-configuration"><span class="header-section-number">3.2</span> Chart Configuration</a>
+  <ul class="collapse">
+  <li><a href="#conditional-formatting" id="toc-conditional-formatting" class="nav-link" data-scroll-target="#conditional-formatting"><span class="header-section-number">3.2.1</span> Conditional Formatting</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/Muhammadrizkybagas/blob/main/chapter1.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/Muhammadrizkybagas/edit/main/chapter1.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li></ul></div></nav>
@@ -218,9 +213,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter1.html">1. Analytical Foundation</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter1.html">1. Looker Studio Fundamentals</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">ANALYTICAL FOUNDATION</h1>
+<h1 class="title">LOOKER STUDIO FUNDAMENTALS”</h1>
 </div>
 
 
@@ -231,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 4, 2026</p>
+      <p class="date">March 8, 2026</p>
     </div>
   </div>
   
@@ -243,53 +238,655 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="analyst-mindset" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Analyst Mindset</h1>
-<section id="decision-vs-reporting" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="decision-vs-reporting"><span class="header-section-number">1.1</span> Decision vs Reporting</h2>
+<p><a href="https://lookerstudio.google.com">Looker Studio</a> is a business intelligence tool that helps transform raw data into clear and interactive dashboards. Instead of analyzing data directly from spreadsheets, analysts can visualize patterns, trends, and performance indicators in a structured way.</p>
+<p>In business environments, dashboards are used to monitor KPIs, identify problems early, and support decision-making. Before building advanced dashboards, it is important to understand how data is connected, structured, and visualized in <a href="https://lookerstudio.google.com">Looker Studio</a>.</p>
+<section id="data-connection" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Data Connection</h1>
+<p>Before any visualization can be created, data must first be connected to the dashboard. <a href="https://lookerstudio.google.com">Looker Studio</a> allows analysts to integrate different types of datasets, including spreadsheets and external files. A proper data connection ensures that the dashboard reflects accurate and up-to-date information.</p>
+<section id="connect-google-sheets" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="connect-google-sheets"><span class="header-section-number">1.1</span> Connect Google Sheets</h2>
+<p><strong>Google Sheets</strong> is an online spreadsheet tool in Google Workspace. It allows users to create spreadsheets and work on them together in real time.</p>
+<p>In <a href="https://lookerstudio.google.com">Looker Studio</a>, the Google Sheets connector lets you use data from a Google Sheets file as a data source for dashboards.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="To connect a Google Sheet">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>To connect a Google Sheet
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><p>First, log in to your Looker Studio account. Then, press <strong>Create</strong> → <strong>Data Source</strong>. <img class="fotbar" src="img/connect-sheet.png"></p></li>
+<li><p>You will be redirected to the page with listed data sources options. Select <strong>Google Sheets</strong> and click <strong>Connect.</strong> <img class="fotbar" src="img/connect-sheet2.png"></p></li>
+<li><p>In the next step, select the worksheet with the data you want to visualize. You can use the search bar to find it faster.</p></li>
+<li><p>Next, specify what sheet you want to connect to Looker Studio.</p></li>
+<li><p>You can also select some additional settings. For example, you can choose to only include a specific range of columns if you don’t need to transfer all the data on the sheet.</p></li>
+</ol>
+<p>Once this is done, click <strong>Connect.</strong></p>
+<p><img class="fotbar" src="img/connect-sheet3.png"></p>
+<ol start="6" type="1">
+<li><p>After this, you can review your data – in our example, it’s the list of dimensions from a LinkedIn Ads report. At this step, you can check that all the fields are assigned the correct data type, such as text, number, or date and time. If something is wrong, you can change the data type manually.</p></li>
+<li><p>When everything is ready, click <strong>Create Report.</strong> <img class="fotbar" src="img/connect-sheet4.png"></p></li>
+<li><p>Now, you’ve connected Google Sheets to Looker Studio and can start working on your dashboard. <img class="fotbar" src="img/connect-sheet5.png"></p></li>
+</ol>
+</div>
+</div>
+<p>Using this method, you can make your Google Sheets spreadsheet with the source data self-updating, so that it always contains only the latest data to be displayed in your dashboard.</p>
 </section>
-<section id="business-context" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="business-context"><span class="header-section-number">1.2</span> Business Context</h2>
+<section id="import-excel-csv-files" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="import-excel-csv-files"><span class="header-section-number">1.2</span> Import Excel / CSV Files</h2>
+<p>In some situations, data may come from external systems in Excel or CSV format. These files can also be used in <a href="https://lookerstudio.google.com">Looker Studio</a> after being uploaded or converted.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="To import a Excel">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>To import a Excel
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><p>Go to the Looker Studio homepage and log in with your credentials.</p></li>
+<li><p>Click the <strong>Create</strong> icon and select <strong>Data Source.</strong></p></li>
+<li><p>Choose the <strong>Microsoft Excel</strong> connector from the list of available connectors. <img class="fotbar" src="img/connect-excel.png"></p></li>
+<li><p>Browse and select the Excel file you want to connect. <img class="fotbar" src="img/connect-excel2.png"></p></li>
+<li><p>Configure Data Source Options <img class="fotbar" src="img/connect-excel3.png"></p></li>
+<li><p>Click <strong>CONNECT</strong> in the upper right to link your data source to Looker Studio.</p></li>
+<li><p>At this step, you can check that all the fields are assigned the correct data type. <img class="fotbar" src="img/connect-excel4.png"></p></li>
+<li><p>Set the data credentials to <strong>Data Credentials</strong> → <strong>Owner Credentials</strong> so anyone with the link to your report can view the data.</p></li>
+<li><p>Click <strong>CREATE REPORT</strong> to start building visualizations using your newly connected Excel data. <img class="fotbar" src="img/connect-excel5.png"></p></li>
+</ol>
+</div>
+</div>
 </section>
-<section id="analytical-thinking" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="analytical-thinking"><span class="header-section-number">1.3</span> Analytical Thinking</h2>
 </section>
-<section id="value-creation" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="value-creation"><span class="header-section-number">1.4</span> Value Creation</h2>
+<section id="data-structure" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Data Structure</h1>
+<p>Understanding how data is structured is essential before building visualizations. In <a href="https://lookerstudio.google.com">Looker Studio</a>, every dataset is composed of fields that represent either <strong>descriptive information</strong> or <strong>numerical values.</strong></p>
+<section id="metrics-vs-dimensions" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="metrics-vs-dimensions"><span class="header-section-number">2.1</span> Metrics vs Dimensions</h2>
+<p>In Looker Studio, you need metrics and dimensions to create meaningful reports. Your dataset must have at least one of these metrics for your visualizations to provide insight.</p>
+<p>So, what are the metrics and dimensions in Looker Studio?</p>
+<p><strong>Metrics</strong> are numerical values that measure or calculate. These values come from the <em>implicit</em> or <em>explicit</em> application of aggregation functions, such as <code>COUNT()</code>, <code>SUM()</code>, <code>AVG()</code>, etc.</p>
+<p>Suppose you want to create a product sales report. You can choose the following metrics:</p>
+<ul>
+<li>Sales revenue from selling your products online</li>
+<li>Number of customers who purchased your products</li>
+<li>Maximum sales</li>
+<li>Minimum sales</li>
+<li>Average product price</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="Dimensions">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Dimensions
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><em>Dimensions</em> are the names, descriptions, or other characteristics of the things you measure or calculate. There are many ways to view your metrics. And, with dimensions, you can analyze your data from various perspectives.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Metrics">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Metrics
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Try breaking down your metrics to see if there is anything else you need to know by using phrases such as “broken down by,” “per,” “for each,” etc.</p>
+</div>
+</div>
+<p>See the bold text in the following list for examples of dimensions:</p>
+<ul>
+<li>Sales revenue from your online product sales, broken down by sales per <strong>month</strong> or per <strong>order type </strong></li>
+<li>Number of customers by <strong>country of origin</strong>, as well as their <strong>age</strong>, <strong>gender</strong>, and <strong>the type of device they use</strong>.</li>
+<li><strong>Product names</strong> with maximum sales</li>
+<li><strong>Days of the week</strong> with minimum sales</li>
+<li>Average product price per <strong>product type</strong></li>
+</ul>
+<p>Before you create a report in Looker Studio, you must prepare your dataset and dashboard layout. This includes determining which metrics are important for your report or dashboard so that they can be displayed in columns, rows, or charts.</p>
+</section>
+<section id="aggregation-logic" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="aggregation-logic"><span class="header-section-number">2.2</span> Aggregation Logic</h2>
+<p>Aggregation is the process of summarizing or reducing tabular data into a simpler form. In other words, aggregation takes many rows of data and combines them into a single value that represents the overall result.</p>
+<p>For example, consider the following list of numbers: &gt; 100, 200, 300, 400, 500</p>
+<p>From this list, we can calculate several aggregated values.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><strong>Fact</strong></th>
+<th><strong>Aggregation</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>There are 5 numbers</td>
+<td>Count</td>
+</tr>
+<tr class="even">
+<td>The smallest number is 100</td>
+<td>Minimum</td>
+</tr>
+<tr class="odd">
+<td>The largest number is 500</td>
+<td>Maximum</td>
+</tr>
+<tr class="even">
+<td>The average of the numbers is 300</td>
+<td>Average</td>
+</tr>
+<tr class="odd">
+<td>The sum of the numbers is 1500</td>
+<td>Sum</td>
+</tr>
+</tbody>
+</table>
+<p>Aggregation can also be performed using other statistical calculations such as median, count distinct, quartiles, and percentiles.</p>
+<p>In data analytics, aggregation helps analysts summarize large datasets and extract meaningful insights.</p>
+<section id="dimensions-and-aggregation" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="dimensions-and-aggregation"><span class="header-section-number">2.2.1</span> Dimensions and Aggregation</h3>
+<p>The previous example only used a simple list of numbers. However, real-world data usually contains dimensions and metrics.</p>
+<ul>
+<li><strong>Dimensions</strong> are attributes that categorize or group data.</li>
+<li><strong>Metrics</strong> are numerical values that measure the data.</li>
+</ul>
+<p>In Looker Studio, <strong>aggregation always happens within the context of dimensions</strong>.</p>
+<p>A dataset can be aggregated in three different ways:</p>
+<ol type="1">
+<li>Using all dimensions. This shows the raw data.</li>
+<li>Using some dimensions. This groups the data based on selected categories.</li>
+<li>Using no dimensions. This produces a summary of the entire dataset.</li>
+</ol>
+<p><strong>Example Dataset</strong></p>
+<p>Below is an example dataset representing stock prices.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><strong>Date</strong></th>
+<th><strong>Ticker</strong></th>
+<th><strong>Price</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>January 1</td>
+<td>GOOG</td>
+<td>100</td>
+</tr>
+<tr class="even">
+<td>January 1</td>
+<td>AAPL</td>
+<td>200</td>
+</tr>
+<tr class="odd">
+<td>January 2</td>
+<td>GOOG</td>
+<td>300</td>
+</tr>
+<tr class="even">
+<td>January 2</td>
+<td>AAPL</td>
+<td>400</td>
+</tr>
+<tr class="odd">
+<td>January 3</td>
+<td>GOOG</td>
+<td>500</td>
+</tr>
+</tbody>
+</table>
+<p>In this dataset:</p>
+<ul>
+<li><strong>Date</strong> and <strong>Ticker</strong> are dimensions.</li>
+<li><strong>Price</strong> is a metric.</li>
+</ul>
+</section>
+<section id="aggregating-data-by-dimension" class="level3" data-number="2.2.2">
+<h3 data-number="2.2.2" class="anchored" data-anchor-id="aggregating-data-by-dimension"><span class="header-section-number">2.2.2</span> Aggregating Data by Dimension</h3>
+<p>We can group the data using different dimensions.</p>
+<p><strong>Grouped by Ticker</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Ticker</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>GOOG</td>
+<td>?</td>
+</tr>
+<tr class="even">
+<td>AAPL</td>
+<td>?</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Grouped by Date</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>January 1</td>
+<td>?</td>
+</tr>
+<tr class="even">
+<td>January 2</td>
+<td>?</td>
+</tr>
+<tr class="odd">
+<td>January 3</td>
+<td>?</td>
+</tr>
+</tbody>
+</table>
+<p>The value of the metric depends on which aggregation method we apply.</p>
 <hr>
-</section>
-</section>
-<section id="question-framing" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Question Framing</h1>
-<section id="problem-structuring" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="problem-structuring"><span class="header-section-number">2.1</span> Problem Structuring</h2>
-</section>
-<section id="kpi-alignment" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="kpi-alignment"><span class="header-section-number">2.2</span> KPI Alignment</h2>
-</section>
-<section id="metric-definition" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="metric-definition"><span class="header-section-number">2.3</span> Metric Definition</h2>
-</section>
-<section id="stakeholder-intent" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="stakeholder-intent"><span class="header-section-number">2.4</span> Stakeholder Intent</h2>
+<p>If we calculate the average price for each company, we apply the <strong>Average aggregation</strong> together with the <strong>Ticker dimension</strong>.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Ticker</th>
+<th>Average of Price</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>GOOG</td>
+<td>(100 + 300 + 500) / 3 = 300</td>
+</tr>
+<tr class="even">
+<td>AAPL</td>
+<td>(200 + 400) / 2 = 300</td>
+</tr>
+</tbody>
+</table>
 <hr>
+<p>If we want to know how many companies have stock data on each day, we use the Date dimension and the Count aggregation.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Count of Price</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>January 1</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>January 2</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td>January 3</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>If we use both Date and Ticker as dimensions, the aggregation result will look like this:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Ticker</th>
+<th>AVG(Price)</th>
+<th>SUM(Price)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>January 1</td>
+<td>GOOG</td>
+<td>100</td>
+<td>100</td>
+</tr>
+<tr class="even">
+<td>January 1</td>
+<td>AAPL</td>
+<td>200</td>
+<td>200</td>
+</tr>
+<tr class="odd">
+<td>January 2</td>
+<td>GOOG</td>
+<td>300</td>
+<td>300</td>
+</tr>
+<tr class="even">
+<td>January 2</td>
+<td>AAPL</td>
+<td>400</td>
+<td>400</td>
+</tr>
+<tr class="odd">
+<td>January 3</td>
+<td>GOOG</td>
+<td>500</td>
+<td>500</td>
+</tr>
+</tbody>
+</table>
+<p>When all dimensions are included, the aggregated result becomes <strong>identical to the original data</strong>. This is technically still aggregation, but it does not change the data because each row forms its own group.</p>
+</section>
+<section id="aggregation-in-looker-studio" class="level3" data-number="2.2.3">
+<h3 data-number="2.2.3" class="anchored" data-anchor-id="aggregation-in-looker-studio"><span class="header-section-number">2.2.3</span> Aggregation in Looker Studio</h3>
+<p>In Looker Studio, aggregation can be applied in several ways:</p>
+<ol type="1">
+<li>In the data source. Each field can have a default aggregation method.</li>
+<li>In a chart. Report editors can override the default aggregation for specific charts.</li>
+<li>In calculated fields. Aggregation functions can be used in formulas to create new metrics.</li>
+</ol>
+<p><strong>Default Aggregation Methods</strong></p>
+<p>Looker Studio provides several aggregation methods that can be applied to fields.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 12%">
+<col style="width: 70%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Aggregation Method</th>
+<th>Abbreviation</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sum</td>
+<td>SUM</td>
+<td>Adds all values together</td>
+</tr>
+<tr class="even">
+<td>Average</td>
+<td>AVG</td>
+<td>Calculates the average value</td>
+</tr>
+<tr class="odd">
+<td>Count</td>
+<td>CT</td>
+<td>Counts each value</td>
+</tr>
+<tr class="even">
+<td>Count Distinct</td>
+<td>CTD</td>
+<td>Counts only unique values</td>
+</tr>
+<tr class="odd">
+<td>Min</td>
+<td>MIN</td>
+<td>Returns the smallest value</td>
+</tr>
+<tr class="even">
+<td>Max</td>
+<td>MAX</td>
+<td>Returns the largest value</td>
+</tr>
+<tr class="odd">
+<td>Auto</td>
+<td>AUT</td>
+<td>Aggregation is defined by the underlying dataset and cannot be changed</td>
+</tr>
+<tr class="even">
+<td>None</td>
+<td></td>
+<td>No aggregation is applied; the field behaves like a dimension</td>
+</tr>
+</tbody>
+</table>
+<p>In most reports, the default aggregation for metrics is Sum.</p>
 </section>
 </section>
-<section id="kpi-architecture" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> KPI Architecture</h1>
-<section id="leading-indicators" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="leading-indicators"><span class="header-section-number">3.1</span> Leading Indicators</h2>
 </section>
-<section id="lagging-indicators" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="lagging-indicators"><span class="header-section-number">3.2</span> Lagging Indicators</h2>
+<section id="chart-basics" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Chart Basics</h1>
+<p>Charts help transform numerical data into visual insights. Instead of reading rows of numbers, users can quickly identify patterns, comparisons, and trends.</p>
+<section id="basic-chart-types" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="basic-chart-types"><span class="header-section-number">3.1</span> Basic Chart Types</h2>
+<p>Charts are an important component in Looker Studio because they turn raw data into visual information that is easier to understand.</p>
+<p>Charts display <strong>metrics (numerical values)</strong> and <strong>dimensions (data categories)</strong> to help users see patterns, comparisons, and trends.</p>
+<p>To add a chart, click <strong>Add a Chart</strong>, choose the chart type, place it on the canvas, and then set the <strong>metrics and dimensions</strong> for the visualization.</p>
+<hr>
+<p>Looker Studio provides many visualization options that allow analysts to explore data from different perspectives. Some commonly used charts include:</p>
+<ul>
+<li>Scorecard</li>
+<li>Bar Chart</li>
+<li>Pie Chart</li>
+<li>Geo Chart</li>
+<li>Area Chart</li>
+<li>Time Series</li>
+<li>Line Chart</li>
+<li>Bubble Chart</li>
+<li>Tree Map</li>
+</ul>
+<p>Each chart type serves a different purpose depending on the analysis that you want to perform.</p>
+<section id="scorecard" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="scorecard"><span class="header-section-number">3.1.1</span> Scorecard</h3>
+<p>A scorecard represents your data project’s key results, KPIs, and other metrics. It can visualize progress over time and provide a quick snapshot of key indicators.</p>
+<p>To create a scorecard on Looker Studio, click “add a chart on your dashboard.” On the dropdown menu, click Scorecard.</p>
+<p><img class="fotbar" src="img/scored.png"></p>
+<p>You can easily change the dimensions or metrics you want to visualize</p>
+<p><img class="fotbar" src="img/scored2.png"></p>
+<p>You can add a sparkline or other comparison options to add context, such as trends, or compare with a specific metric.</p>
+<p>This is an example of a <a href="#">marketing and sales metrics map</a> made using scorecards and custom images.</p>
+<p><img class="fotbar" src="img/scored3.png"></p>
+<p>A variation of the scorecard is the gauge chart. The main difference is that Gauge charts are better at tracking the performance of the metric vs.&nbsp;a goal or benchmark.</p>
 </section>
-<section id="north-star-metric" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="north-star-metric"><span class="header-section-number">3.3</span> North Star Metric</h2>
+<section id="bar-chart" class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="bar-chart"><span class="header-section-number">3.1.2</span> Bar Chart</h3>
+<p>Bar charts display data similar to graphs. They are used to compare the relationship between two or more variables using rectangular bars, as shown below.</p>
+<p><strong>Adding a bar chart follows a similar process.</strong></p>
+<ol type="1">
+<li>Click on “add a chart,” then choose a bar chart.</li>
+<li>Depending on how you want to visualize your data, you can choose a stacked bar chart, 100% stacked bar chart, or stacked column chart.</li>
+</ol>
+<p><img class="fotbar" src="img/bar-chart.png"></p>
+<ol start="3" type="1">
+<li>Add it to your report and select the metrics at least one dimension and metrics.</li>
+</ol>
+<p>Let’s examine each of them.</p>
 </section>
-<section id="metric-hierarchy" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="metric-hierarchy"><span class="header-section-number">3.4</span> Metric Hierarchy</h2>
+<section id="pie-chart" class="level3" data-number="3.1.3">
+<h3 data-number="3.1.3" class="anchored" data-anchor-id="pie-chart"><span class="header-section-number">3.1.3</span> Pie Chart</h3>
+<p>The next type of chart on Looker Studio is the pie chart. They are a popular means of visualizing data. Pie charts are circular charts that show the percentages of data represented in the chart.</p>
+<p><strong>To add a pie chart:</strong></p>
+<ol type="1">
+<li>Click on the pie chart in the drop-down menu after clicking “Add a chart.”</li>
+<li>On Looker Studio, pie charts are visualized in two ways; regular pie charts and donut pie charts.</li>
+<li>Add them to your page, Looker Studio will suggest automatically the metric and dimension</li>
+</ol>
+<p><img class="fotbar" src="img/pie-chart.png"></p>
+<p>Remember you can change the metric and dimension. For this example, I selected country as dimension and sessions as the main metrics.</p>
+<p><img class="fotbar" src="img/donut-chart.png"></p>
+<p>This is the donut pie chart, it’s very similar to the regular pie chart but I think the donut is better.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Tip">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If your pie charts have more than 5 variables, consider using a column chart instead; it’s easier to read.</p>
+</div>
+</div>
+</section>
+<section id="geo-chart" class="level3" data-number="3.1.4">
+<h3 data-number="3.1.4" class="anchored" data-anchor-id="geo-chart"><span class="header-section-number">3.1.4</span> Geo Chart</h3>
+<p><strong>Google Maps</strong> visualizations can also be used in <strong>Looker Studio</strong>. The platform provides several map types, including <strong>bubble maps, filled maps, heat maps, and line maps</strong>.</p>
+<p>To add one, click <strong>Add a Chart</strong>, go to the <strong>Google Maps</strong> section, and select the map type you want to display on your dashboard.</p>
+<p><img class="fotbar" src="img/geo-chart.png"></p>
+</section>
+<section id="area-chart" class="level3" data-number="3.1.5">
+<h3 data-number="3.1.5" class="anchored" data-anchor-id="area-chart"><span class="header-section-number">3.1.5</span> Area Chart</h3>
+<p>Area charts are used to show data trends over time. This chart usually displays one dimension and one metric to help users see changes in values.</p>
+<p>In Looker Studio, there are three types of area charts that can be used to visualize data.</p>
+<section id="area-chart-1" class="level4" data-number="3.1.5.1">
+<h4 data-number="3.1.5.1" class="anchored" data-anchor-id="area-chart-1"><span class="header-section-number">3.1.5.1</span> Area Chart</h4>
+<p><img class="fotbar" src="img/area-chart.png"></p>
+</section>
+<section id="stacked-area-charts" class="level4" data-number="3.1.5.2">
+<h4 data-number="3.1.5.2" class="anchored" data-anchor-id="stacked-area-charts"><span class="header-section-number">3.1.5.2</span> Stacked area charts</h4>
+<p><img class="fotbar" src="img/stacked-area-charts.png"></p>
+</section>
+<section id="area-chart-2" class="level4" data-number="3.1.5.3">
+<h4 data-number="3.1.5.3" class="anchored" data-anchor-id="area-chart-2"><span class="header-section-number">3.1.5.3</span> Area Chart</h4>
+<p><img class="fotbar" src="img/full-stacked-area-charts.png"></p>
+</section>
+</section>
+<section id="time-series" class="level3" data-number="3.1.6">
+<h3 data-number="3.1.6" class="anchored" data-anchor-id="time-series"><span class="header-section-number">3.1.6</span> Time Series</h3>
+<p>Time series charts are used to display data trends over a specific period of time.</p>
+<p>In Looker Studio, there are several options for creating time series visualizations, including the standard time series chart.</p>
+<p><img class="fotbar" src="img/time-series.png"></p>
+<p>This example shows how user traffic changes from September to November.</p>
+<p>In Looker Studio, you can also use a Sparkline time series. This small chart shows the trend of a metric over time.</p>
+<p>Sparkline charts are often combined with a scorecard, so users can see both the current value and its trend at the same time.</p>
+<p><img class="fotbar" src="img/time-series2.png"></p>
+<p>Another type of time series chart in Looker Studio is the smoothed time series. It works similarly to the regular time series, but it allows you to <strong>add a comparison period</strong> in the <strong>Setup tab</strong> to compare trends between different time ranges.</p>
+<p><img class="fotbar" src="img/time-series3.png"></p>
+<p>In this chart, the trend is shown with smoothed lines instead of sparklines. There is no strict rule about which type to use when creating reports.</p>
+<p>In Looker Studio, you can also enable the Cumulative option in the Style tab to compare accumulated data with the previous period.</p>
+<p><img class="fotbar" src="img/time-series4.png"></p>
+<p>In this case, the goal is to compare the same time period with the previous one to clearly see whether the number of new users is increasing or not.</p>
+</section>
+<section id="line-chart" class="level3" data-number="3.1.7">
+<h3 data-number="3.1.7" class="anchored" data-anchor-id="line-chart"><span class="header-section-number">3.1.7</span> Line Chart</h3>
+<p>This is another simple chart available in Looker Studio. It is used to compare three or more variables.</p>
+<p>There are four ways to create a line chart. The first option is a basic line chart.</p>
+<p><img class="fotbar" src="img/line-chart.png"></p>
+<p>Another option is the smoothed line chart, which works the same as a regular line chart but with a smoother visual appearance.</p>
+<p>In Looker Studio, you can also use a combo chart, which combines line charts and bar charts in one visualization.</p>
+<p><img class="fotbar" src="img/bar-line-chart.png"></p>
+<p>The type of line chart you use depends on the data you want to visualize and the level of detail needed.</p>
+</section>
+<section id="bubble-chart" class="level3" data-number="3.1.8">
+<h3 data-number="3.1.8" class="anchored" data-anchor-id="bubble-chart"><span class="header-section-number">3.1.8</span> Bubble Chart</h3>
+<p>A bubble chart is a type of scatter chart used to analyze the relationship between three variables.</p>
+<p>The data points appear as bubbles scattered across the chart, which is why it is called a bubble chart.</p>
+<p><img class="fotbar" src="img/bubble-chart.png"></p>
+<p>This bubble chart shows the relationship between users and conversions by country.</p>
+<p>For example, the United States appears as the largest bubble and is positioned high on the y-axis, which means it has both the highest number of users and conversions.</p>
+<p>In Looker Studio, you can also adjust the bubble size and colors to make the chart clearer for readers.</p>
+</section>
+<section id="tree-map-chart" class="level3" data-number="3.1.9">
+<h3 data-number="3.1.9" class="anchored" data-anchor-id="tree-map-chart"><span class="header-section-number">3.1.9</span> Tree Map Chart</h3>
+<p>Treemaps are used to visualize hierarchical data using nested rectangles on a dashboard.</p>
+<p><img class="fotbar" src="img/map-chart.png"></p>
+<p>In this chart, blue days represent the highest number of visitors, while green and orange days show fewer visitors. The larger squares indicate more visitors, while smaller squares represent fewer visitors.</p>
+</section>
+</section>
+<section id="chart-configuration" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="chart-configuration"><span class="header-section-number">3.2</span> Chart Configuration</h2>
+<p>In <strong>Looker</strong>, visualizations can be customized using the <a href="#">Chart Config Editor</a>. This tool allows users to modify chart formatting using JSON configuration based on the <a href="#">Highcharts API</a>.</p>
+<p>It is mainly used to customize <strong>column, bar, line, and other Cartesian charts</strong>. With this editor, users can adjust chart elements that are not available in the standard settings.</p>
+<hr>
+<p>To use the Chart Config Editor, the user must have the <a href="#">can_override_vis_config permission</a>. Without this permission, the editor cannot be accessed.</p>
+<p>Once the permission is available, the editor can be opened while working with a visualization.</p>
+<p>To customize a visualization with the Chart Config Editor, follow these steps:</p>
+<ol type="1">
+<li>View a visualization in an Explore, or edit a visualization in a Look or dashboard.</li>
+<li>Open the <strong>Edit</strong> menu in the visualization.</li>
+<li>Click the <strong>Edit Chart Config</strong> button in the <strong>Plot</strong> tab. Looker displays the <strong>Edit Chart Config</strong> dialog.</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The <strong>Chart Config (Source)</strong> pane contains the original JSON of your visualization and cannot be edited.</p>
+<p>The <strong>Chart Config (Override)</strong> pane contains the JSON that should override the source JSON. When you first open the <strong>Edit Chart Config</strong> dialog, Looker populates the pane with some default JSON. You can start with this JSON, or you can delete this JSON and enter any valid HighCharts JSON.</p>
+</div>
+</div>
+<ol start="4" type="1">
+<li>Select the Chart Config (Override) section and enter some valid HighCharts JSON. The new values will override any values in the Chart Config (Source) section.</li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>See the <a href="https://api.highcharts.com/highcharts/chart"> HighCharts API documentation</a> section for examples of valid HighCharts JSON.</p>
+<p>Looker accepts any <a href="https://www.w3schools.com/js/js_json_datatypes.asp">valid JSON values</a>. Looker does not accept functions, dates, or undefined values. Click &lt;&gt; (Format code) to allow Looker to properly format your JSON.</p>
+</div>
+</div>
+<ol start="5" type="1">
+<li>Click <strong>&lt;&gt; (Format code)</strong> to allow Looker to properly format your JSON.</li>
+<li>Click <strong>Preview</strong> to test your changes.</li>
+<li>Click <strong>Apply</strong> to apply your changes. The visualization will be displayed using the custom JSON values</li>
+</ol>
+<p>After customizing a visualization in Looker, you need to save the changes. If the chart is created in Explore, <a href="#">save the Explore</a>. If it is in a <strong>Look or dashboard</strong>, click <strong>Save</strong>.</p>
+<p>If the JSON code is invalid, Looker will show an <code>Invalid JSON detected</code> error. You can fix it using the <strong>Autofix option</strong> in the <strong>Chart Config (Override) panel</strong>.</p>
+<div class="callout callout-style-default callout-warning callout-titled" title="Caution">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Caution
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>After making changes in the Chart Config Editor in Looker, avoid editing the default visualization settings. Doing so may cause unexpected results, such as blank charts.</p>
+</div>
+</div>
+<section id="conditional-formatting" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="conditional-formatting"><span class="header-section-number">3.2.1</span> Conditional Formatting</h3>
+<p>The Chart Config Editor in Looker supports most valid Highcharts JSON configurations. It also includes a <code>series formatters</code> feature that allows users to apply custom style rules to chart data.</p>
+<p>The <code>series formatters</code> attribute uses two main options:</p>
+<ul>
+<li><p>select → defines which data values will be affected using a logical condition</p></li>
+<li><p>style → defines how the selected values will be formatted using JSON settings</p></li>
+</ul>
+<p>For example, a rule can be created to color data values orange when the value is greater than or equal to 380.</p>
+<pre><code>{
+  series: [{
+    formatters: [{
+      select: 'value &gt;= 380',
+      style: {
+        color: 'orange'
+      }
+    }]
+  }]
+}</code></pre>
+<p><img class="fotbar" src="img/config.png"></p>
+<div class="cell">
+<iframe src="https://youtube.com/embed/4T6dvPwCcoA?si=dj4ZvTZtEJHyt68v" width="672" height="400px" data-external="1">
+</iframe>
+</div>
 
 
+</section>
 </section>
 </section>
 
@@ -367,7 +964,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/Muhammadrizkybagas\.github\.io\/Data-Analyst-with-Looker-Studio\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -698,14 +1295,14 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 Muhammad Rizky Bagas</p>
-</div>   
-    <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Muhammadrizkybagas/blob/main/chapter1.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/Muhammadrizkybagas/edit/main/chapter1.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li></ul></div></div>
+    </div>   
+    <div class="nav-footer-center">
+<p>© 2026 Bootcamp Data Analyst</p>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Muhammadrizkybagas/blob/main/chapter1.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/Muhammadrizkybagas/edit/main/chapter1.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li></ul></div></div>
     <div class="nav-footer-right">
-<p>Powered by Quarto</p>
-</div>
+      &nbsp;
+    </div>
   </div>
 </footer>
 

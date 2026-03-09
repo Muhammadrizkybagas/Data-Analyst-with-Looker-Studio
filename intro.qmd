@@ -1,5 +1,5 @@
 ---
-title: "DATA ANALYST WITH LOOKER STUDIO"
+title: "Looker Studio Data Analytics Bootcamp"
 author:
     - name: ITSB Corporation
 date: today
