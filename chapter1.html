@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-03-08">
+<meta name="dcterms.date" content="2026-03-10">
 
-<title>LOOKER STUDIO FUNDAMENTALS” – Looker Studio Data Analytics Bootcamp</title>
+<title>LOOKER STUDIO FUNDAMENTALS – Looker Studio Data Analytics Bootcamp</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -195,12 +195,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#scorecard" id="toc-scorecard" class="nav-link" data-scroll-target="#scorecard"><span class="header-section-number">3.1.1</span> Scorecard</a></li>
   <li><a href="#bar-chart" id="toc-bar-chart" class="nav-link" data-scroll-target="#bar-chart"><span class="header-section-number">3.1.2</span> Bar Chart</a></li>
   <li><a href="#pie-chart" id="toc-pie-chart" class="nav-link" data-scroll-target="#pie-chart"><span class="header-section-number">3.1.3</span> Pie Chart</a></li>
-  <li><a href="#geo-chart" id="toc-geo-chart" class="nav-link" data-scroll-target="#geo-chart"><span class="header-section-number">3.1.4</span> Geo Chart</a></li>
-  <li><a href="#area-chart" id="toc-area-chart" class="nav-link" data-scroll-target="#area-chart"><span class="header-section-number">3.1.5</span> Area Chart</a></li>
-  <li><a href="#time-series" id="toc-time-series" class="nav-link" data-scroll-target="#time-series"><span class="header-section-number">3.1.6</span> Time Series</a></li>
-  <li><a href="#line-chart" id="toc-line-chart" class="nav-link" data-scroll-target="#line-chart"><span class="header-section-number">3.1.7</span> Line Chart</a></li>
-  <li><a href="#bubble-chart" id="toc-bubble-chart" class="nav-link" data-scroll-target="#bubble-chart"><span class="header-section-number">3.1.8</span> Bubble Chart</a></li>
-  <li><a href="#tree-map-chart" id="toc-tree-map-chart" class="nav-link" data-scroll-target="#tree-map-chart"><span class="header-section-number">3.1.9</span> Tree Map Chart</a></li>
+  <li><a href="#area-chart" id="toc-area-chart" class="nav-link" data-scroll-target="#area-chart"><span class="header-section-number">3.1.4</span> Area Chart</a></li>
+  <li><a href="#time-series" id="toc-time-series" class="nav-link" data-scroll-target="#time-series"><span class="header-section-number">3.1.5</span> Time Series</a></li>
+  <li><a href="#line-chart" id="toc-line-chart" class="nav-link" data-scroll-target="#line-chart"><span class="header-section-number">3.1.6</span> Line Chart</a></li>
+  <li><a href="#bubble-chart" id="toc-bubble-chart" class="nav-link" data-scroll-target="#bubble-chart"><span class="header-section-number">3.1.7</span> Bubble Chart</a></li>
+  <li><a href="#tree-map-chart" id="toc-tree-map-chart" class="nav-link" data-scroll-target="#tree-map-chart"><span class="header-section-number">3.1.8</span> Tree Map Chart</a></li>
   </ul></li>
   <li><a href="#chart-configuration" id="toc-chart-configuration" class="nav-link" data-scroll-target="#chart-configuration"><span class="header-section-number">3.2</span> Chart Configuration</a>
   <ul class="collapse">
@@ -215,7 +214,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter1.html"><strong>BAB</strong></a></li><li class="breadcrumb-item"><a href="./chapter1.html">1. Looker Studio Fundamentals</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">LOOKER STUDIO FUNDAMENTALS”</h1>
+<h1 class="title">LOOKER STUDIO FUNDAMENTALS</h1>
 </div>
 
 
@@ -226,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 8, 2026</p>
+      <p class="date">March 10, 2026</p>
     </div>
   </div>
   
@@ -347,11 +346,11 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>See the bold text in the following list for examples of dimensions:</p>
 <ul>
-<li>Sales revenue from your online product sales, broken down by sales per <strong>month</strong> or per <strong>order type </strong></li>
-<li>Number of customers by <strong>country of origin</strong>, as well as their <strong>age</strong>, <strong>gender</strong>, and <strong>the type of device they use</strong>.</li>
-<li><strong>Product names</strong> with maximum sales</li>
-<li><strong>Days of the week</strong> with minimum sales</li>
-<li>Average product price per <strong>product type</strong></li>
+<li>Sales revenue from product sales, broken down by <strong>month</strong> or <strong>year</strong> to understand how sales change over time.</li>
+<li>Number of units sold by <strong>country</strong>, which helps identify which markets contribute the most to total sales.</li>
+<li><strong>Product names</strong> with the highest sales to determine the best-performing products.</li>
+<li><strong>Segments</strong> with the lowest sales to identify which customer segments require improvement.</li>
+<li>Average sales value per <strong>discount band</strong> to analyze how different discount levels affect revenue.</li>
 </ul>
 <p>Before you create a report in Looker Studio, you must prepare your dataset and dashboard layout. This includes determining which metrics are important for your report or dashboard so that they can be displayed in columns, rows, or charts.</p>
 </section>
@@ -407,184 +406,202 @@ ul.task-list li input[type="checkbox"] {
 <li>Using no dimensions. This produces a summary of the entire dataset.</li>
 </ol>
 <p><strong>Example Dataset</strong></p>
-<p>Below is an example dataset representing stock prices.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th><strong>Date</strong></th>
-<th><strong>Ticker</strong></th>
-<th><strong>Price</strong></th>
+<th><strong>Month Name</strong></th>
+<th><strong>Country</strong></th>
+<th><strong>Product</strong></th>
+<th><strong>Sales</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>January 1</td>
-<td>GOOG</td>
-<td>100</td>
+<td>January</td>
+<td>Canada</td>
+<td>Paseo</td>
+<td>12,000</td>
 </tr>
 <tr class="even">
-<td>January 1</td>
-<td>AAPL</td>
-<td>200</td>
+<td>January</td>
+<td>Canada</td>
+<td>VTT</td>
+<td>8,500</td>
 </tr>
 <tr class="odd">
-<td>January 2</td>
-<td>GOOG</td>
-<td>300</td>
+<td>February</td>
+<td>USA</td>
+<td>Paseo</td>
+<td>15,000</td>
 </tr>
 <tr class="even">
-<td>January 2</td>
-<td>AAPL</td>
-<td>400</td>
+<td>February</td>
+<td>USA</td>
+<td>Amarilla</td>
+<td>9,700</td>
 </tr>
 <tr class="odd">
-<td>January 3</td>
-<td>GOOG</td>
-<td>500</td>
+<td>March</td>
+<td>Germany</td>
+<td>Velo</td>
+<td>11,200</td>
 </tr>
 </tbody>
 </table>
 <p>In this dataset:</p>
 <ul>
-<li><strong>Date</strong> and <strong>Ticker</strong> are dimensions.</li>
-<li><strong>Price</strong> is a metric.</li>
+<li><code>Month Name</code>, <code>Country</code>, and <code>Product</code> are <strong>dimensions</strong> because they describe how the data can be grouped or categorized.</li>
+<li><code>Sales</code> is a <strong>metric</strong> because it represents a numerical value that can be aggregated, such as total sales or average sales.</li>
 </ul>
 </section>
 <section id="aggregating-data-by-dimension" class="level3" data-number="2.2.2">
 <h3 data-number="2.2.2" class="anchored" data-anchor-id="aggregating-data-by-dimension"><span class="header-section-number">2.2.2</span> Aggregating Data by Dimension</h3>
-<p>We can group the data using different dimensions.</p>
-<p><strong>Grouped by Ticker</strong></p>
+<p>We can group the data using different dimensions to understand patterns and performance across categories.</p>
+<p>In a sales dataset, dimensions such as <code>Product</code>, <code>Country</code>, and <code>Month</code> Name help us organize the data into meaningful groups.</p>
+<p><strong>Grouped by Productr</strong></p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th>Ticker</th>
-<th>Price</th>
+<th><strong>Product</strong></th>
+<th><strong>Sales</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>GOOG</td>
+<td>Paseo</td>
 <td>?</td>
 </tr>
 <tr class="even">
-<td>AAPL</td>
+<td>VTT</td>
+<td>?</td>
+</tr>
+<tr class="odd">
+<td>Amarilla</td>
+<td>?</td>
+</tr>
+<tr class="even">
+<td>Velo</td>
 <td>?</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Grouped by Date</strong></p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Date</th>
-<th>Price</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>January 1</td>
-<td>?</td>
-</tr>
-<tr class="even">
-<td>January 2</td>
-<td>?</td>
-</tr>
-<tr class="odd">
-<td>January 3</td>
-<td>?</td>
-</tr>
-</tbody>
-</table>
-<p>The value of the metric depends on which aggregation method we apply.</p>
+<p>This grouping shows the total or average sales generated by each product.</p>
 <hr>
-<p>If we calculate the average price for each company, we apply the <strong>Average aggregation</strong> together with the <strong>Ticker dimension</strong>.</p>
+<p><strong>Grouped by Month</strong></p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th>Ticker</th>
-<th>Average of Price</th>
+<th><strong>Month Name</strong></th>
+<th><strong>Sales</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>GOOG</td>
-<td>(100 + 300 + 500) / 3 = 300</td>
+<td>January</td>
+<td>?</td>
 </tr>
 <tr class="even">
-<td>AAPL</td>
-<td>(200 + 400) / 2 = 300</td>
+<td>February</td>
+<td>?</td>
+</tr>
+<tr class="odd">
+<td>March</td>
+<td>?</td>
 </tr>
 </tbody>
 </table>
+<p>This grouping helps analyze sales trends over time. The value of the metric depends on which aggregation method we apply.</p>
 <hr>
-<p>If we want to know how many companies have stock data on each day, we use the Date dimension and the Count aggregation.</p>
+<p>If we calculate the average sales for each product, we apply the <strong>Average aggregation</strong> together with the Product dimension.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th>Date</th>
-<th>Count of Price</th>
+<th><strong>Product</strong></th>
+<th><strong>Average of Sales</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>January 1</td>
+<td>Paseo</td>
+<td>(12000 + 15000 + 11000) / 3 = 12,667</td>
+</tr>
+<tr class="even">
+<td>VTT</td>
+<td>(8500 + 9100) / 2 = 8,800</td>
+</tr>
+</tbody>
+</table>
+<p>This allows analysts to evaluate typical sales performance per product, rather than just total revenue.</p>
+<hr>
+<p>If we want to know how many sales records exist in each month, we use the Month Name dimension and the Count aggregation.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><strong>Month Name</strong></th>
+<th><strong>Count of Sales</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>January</td>
 <td>2</td>
 </tr>
 <tr class="even">
-<td>January 2</td>
+<td>February</td>
 <td>2</td>
 </tr>
 <tr class="odd">
-<td>January 3</td>
+<td>March</td>
 <td>1</td>
 </tr>
 </tbody>
 </table>
+<p>This aggregation shows how many transactions or records occurred in each month.</p>
 <hr>
-<p>If we use both Date and Ticker as dimensions, the aggregation result will look like this:</p>
+<p>If we use both Month Name and Product as dimensions, the aggregation result will look like this:</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th>Date</th>
-<th>Ticker</th>
-<th>AVG(Price)</th>
-<th>SUM(Price)</th>
+<th><strong>Month Name</strong></th>
+<th><strong>Product</strong></th>
+<th><strong>AVG(Sales)</strong></th>
+<th><strong>SUM(Sales)</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>January 1</td>
-<td>GOOG</td>
-<td>100</td>
-<td>100</td>
+<td>January</td>
+<td>Paseo</td>
+<td>12000</td>
+<td>12000</td>
 </tr>
 <tr class="even">
-<td>January 1</td>
-<td>AAPL</td>
-<td>200</td>
-<td>200</td>
+<td>January</td>
+<td>VTT</td>
+<td>8500</td>
+<td>8500</td>
 </tr>
 <tr class="odd">
-<td>January 2</td>
-<td>GOOG</td>
-<td>300</td>
-<td>300</td>
+<td>February</td>
+<td>Paseo</td>
+<td>15000</td>
+<td>15000</td>
 </tr>
 <tr class="even">
-<td>January 2</td>
-<td>AAPL</td>
-<td>400</td>
-<td>400</td>
+<td>February</td>
+<td>Amarilla</td>
+<td>9700</td>
+<td>9700</td>
 </tr>
 <tr class="odd">
-<td>January 3</td>
-<td>GOOG</td>
-<td>500</td>
-<td>500</td>
+<td>March</td>
+<td>VTT</td>
+<td>9100</td>
+<td>9100</td>
 </tr>
 </tbody>
 </table>
-<p>When all dimensions are included, the aggregated result becomes <strong>identical to the original data</strong>. This is technically still aggregation, but it does not change the data because each row forms its own group.</p>
+<p>When all relevant dimensions are included, the aggregated result becomes <strong>very similar to the original dataset</strong>. This happens because each row forms its own group. Although aggregation is still applied, it does not significantly change the structure of the data.</p>
 </section>
 <section id="aggregation-in-looker-studio" class="level3" data-number="2.2.3">
 <h3 data-number="2.2.3" class="anchored" data-anchor-id="aggregation-in-looker-studio"><span class="header-section-number">2.2.3</span> Aggregation in Looker Studio</h3>
@@ -663,7 +680,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="3.1" class="anchored" data-anchor-id="basic-chart-types"><span class="header-section-number">3.1</span> Basic Chart Types</h2>
 <p>Charts are an important component in Looker Studio because they turn raw data into visual information that is easier to understand.</p>
 <p>Charts display <strong>metrics (numerical values)</strong> and <strong>dimensions (data categories)</strong> to help users see patterns, comparisons, and trends.</p>
-<p>To add a chart, click <strong>Add a Chart</strong>, choose the chart type, place it on the canvas, and then set the <strong>metrics and dimensions</strong> for the visualization.</p>
+<p>To add a chart, click <strong>Add a Diagram</strong>, choose the chart type, place it on the canvas, and then set the <strong>metrics and dimensions</strong> for the visualization.</p>
 <hr>
 <p>Looker Studio provides many visualization options that allow analysts to explore data from different perspectives. Some commonly used charts include:</p>
 <ul>
@@ -681,28 +698,96 @@ ul.task-list li input[type="checkbox"] {
 <section id="scorecard" class="level3" data-number="3.1.1">
 <h3 data-number="3.1.1" class="anchored" data-anchor-id="scorecard"><span class="header-section-number">3.1.1</span> Scorecard</h3>
 <p>A scorecard represents your data project’s key results, KPIs, and other metrics. It can visualize progress over time and provide a quick snapshot of key indicators.</p>
-<p>To create a scorecard on Looker Studio, click “add a chart on your dashboard.” On the dropdown menu, click Scorecard.</p>
+<p>A scorecard is used to display key performance indicators (KPIs) in a clear and concise way. It allows dashboard users to quickly understand the most important metrics before exploring more detailed visualizations.</p>
+<p>In a sales dashboard, scorecards are typically used to show metrics such as <code>total sales</code>, <code>profit</code>, or <code>units sold</code>.</p>
+<p><strong>Steps to Create a Scorecard</strong></p>
+<p>Follow these steps to create a scorecard in Looker Studio:</p>
+<ul>
+<li>Open your report in Looker Studio.</li>
+<li>Click <strong>Add a Diagram</strong> in the top menu.</li>
+<li>Select <strong>Scorecard</strong> from the chart options.</li>
+<li>Click anywhere on the canvas to place the scorecard.</li>
+<li>In the <strong>Data panel</strong>, choose the metric you want to display.</li>
+</ul>
+<p>For this sales dataset, the first scorecard will display <code>Total Sales</code>.</p>
+<ul>
+<li>Metric: Sales</li>
+<li>Aggregation: SUM</li>
+</ul>
+<p>Looker Studio will automatically calculate the <strong>total sales value across the entire dataset</strong>.</p>
 <p><img class="fotbar" src="img/scored.png"></p>
+<p><strong>Example KPI Scorecards for the Sales Dashboard</strong> To provide a quick overview of business performance, we will create several scorecards:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><strong>Scorecard</strong></th>
+<th><strong>Metric</strong></th>
+<th><strong>Aggregation</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Total Sales</td>
+<td>Sales</td>
+<td>SUM</td>
+</tr>
+<tr class="even">
+<td>Total Profit</td>
+<td>Profit</td>
+<td>SUM</td>
+</tr>
+<tr class="odd">
+<td>Total Units Sold</td>
+<td>Units Sold</td>
+<td>SUM</td>
+</tr>
+<tr class="even">
+<td>Total Discounts</td>
+<td>Discounts</td>
+<td>SUM</td>
+</tr>
+</tbody>
+</table>
 <p>You can easily change the dimensions or metrics you want to visualize</p>
 <p><img class="fotbar" src="img/scored2.png"></p>
 <p>You can add a sparkline or other comparison options to add context, such as trends, or compare with a specific metric.</p>
-<p>This is an example of a <a href="#">marketing and sales metrics map</a> made using scorecards and custom images.</p>
-<p><img class="fotbar" src="img/scored3.png"></p>
-<p>A variation of the scorecard is the gauge chart. The main difference is that Gauge charts are better at tracking the performance of the metric vs.&nbsp;a goal or benchmark.</p>
 </section>
 <section id="bar-chart" class="level3" data-number="3.1.2">
 <h3 data-number="3.1.2" class="anchored" data-anchor-id="bar-chart"><span class="header-section-number">3.1.2</span> Bar Chart</h3>
 <p>Bar charts display data similar to graphs. They are used to compare the relationship between two or more variables using rectangular bars, as shown below.</p>
-<p><strong>Adding a bar chart follows a similar process.</strong></p>
+<p><strong>Example Analysis: Sales by Product</strong> In this visualization, we will compare the total sales generated by each product.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><strong>Field Type</strong></th>
+<th><strong>Field Name</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Dimension</td>
+<td>Product</td>
+</tr>
+<tr class="even">
+<td>Metric</td>
+<td>Sales</td>
+</tr>
+</tbody>
+</table>
+<p>The chart will display the total sales value for each product, making it easy to identify the best-performing products.</p>
+<p><strong>Steps to Create a Bar Chart:</strong></p>
 <ol type="1">
 <li>Click on “add a chart,” then choose a bar chart.</li>
 <li>Depending on how you want to visualize your data, you can choose a stacked bar chart, 100% stacked bar chart, or stacked column chart.</li>
 </ol>
 <p><img class="fotbar" src="img/bar-chart.png"></p>
+<ul>
+<li>Dimension: Product</li>
+<li>Metric: Sales</li>
+</ul>
 <ol start="3" type="1">
 <li>Add it to your report and select the metrics at least one dimension and metrics.</li>
 </ol>
-<p>Let’s examine each of them.</p>
 </section>
 <section id="pie-chart" class="level3" data-number="3.1.3">
 <h3 data-number="3.1.3" class="anchored" data-anchor-id="pie-chart"><span class="header-section-number">3.1.3</span> Pie Chart</h3>
@@ -714,7 +799,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Add them to your page, Looker Studio will suggest automatically the metric and dimension</li>
 </ol>
 <p><img class="fotbar" src="img/pie-chart.png"></p>
-<p>Remember you can change the metric and dimension. For this example, I selected country as dimension and sessions as the main metrics.</p>
+<p>Remember you can change the metric and dimension. For this example, I selected <code>country</code> as dimension and <code>sales</code> as the main metrics.</p>
 <p><img class="fotbar" src="img/donut-chart.png"></p>
 <p>This is the donut pie chart, it’s very similar to the regular pie chart but I think the donut is better.</p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Tip">
@@ -731,47 +816,34 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="geo-chart" class="level3" data-number="3.1.4">
-<h3 data-number="3.1.4" class="anchored" data-anchor-id="geo-chart"><span class="header-section-number">3.1.4</span> Geo Chart</h3>
-<p><strong>Google Maps</strong> visualizations can also be used in <strong>Looker Studio</strong>. The platform provides several map types, including <strong>bubble maps, filled maps, heat maps, and line maps</strong>.</p>
-<p>To add one, click <strong>Add a Chart</strong>, go to the <strong>Google Maps</strong> section, and select the map type you want to display on your dashboard.</p>
-<p><img class="fotbar" src="img/geo-chart.png"></p>
-</section>
-<section id="area-chart" class="level3" data-number="3.1.5">
-<h3 data-number="3.1.5" class="anchored" data-anchor-id="area-chart"><span class="header-section-number">3.1.5</span> Area Chart</h3>
+<section id="area-chart" class="level3" data-number="3.1.4">
+<h3 data-number="3.1.4" class="anchored" data-anchor-id="area-chart"><span class="header-section-number">3.1.4</span> Area Chart</h3>
 <p>Area charts are used to show data trends over time. This chart usually displays one dimension and one metric to help users see changes in values.</p>
 <p>In Looker Studio, there are three types of area charts that can be used to visualize data.</p>
-<section id="area-chart-1" class="level4" data-number="3.1.5.1">
-<h4 data-number="3.1.5.1" class="anchored" data-anchor-id="area-chart-1"><span class="header-section-number">3.1.5.1</span> Area Chart</h4>
+<section id="area-chart-1" class="level4" data-number="3.1.4.1">
+<h4 data-number="3.1.4.1" class="anchored" data-anchor-id="area-chart-1"><span class="header-section-number">3.1.4.1</span> Area Chart</h4>
 <p><img class="fotbar" src="img/area-chart.png"></p>
 </section>
-<section id="stacked-area-charts" class="level4" data-number="3.1.5.2">
-<h4 data-number="3.1.5.2" class="anchored" data-anchor-id="stacked-area-charts"><span class="header-section-number">3.1.5.2</span> Stacked area charts</h4>
+<section id="stacked-area-charts" class="level4" data-number="3.1.4.2">
+<h4 data-number="3.1.4.2" class="anchored" data-anchor-id="stacked-area-charts"><span class="header-section-number">3.1.4.2</span> Stacked area charts</h4>
 <p><img class="fotbar" src="img/stacked-area-charts.png"></p>
 </section>
-<section id="area-chart-2" class="level4" data-number="3.1.5.3">
-<h4 data-number="3.1.5.3" class="anchored" data-anchor-id="area-chart-2"><span class="header-section-number">3.1.5.3</span> Area Chart</h4>
+<section id="area-chart-2" class="level4" data-number="3.1.4.3">
+<h4 data-number="3.1.4.3" class="anchored" data-anchor-id="area-chart-2"><span class="header-section-number">3.1.4.3</span> Area Chart</h4>
 <p><img class="fotbar" src="img/full-stacked-area-charts.png"></p>
 </section>
 </section>
-<section id="time-series" class="level3" data-number="3.1.6">
-<h3 data-number="3.1.6" class="anchored" data-anchor-id="time-series"><span class="header-section-number">3.1.6</span> Time Series</h3>
+<section id="time-series" class="level3" data-number="3.1.5">
+<h3 data-number="3.1.5" class="anchored" data-anchor-id="time-series"><span class="header-section-number">3.1.5</span> Time Series</h3>
 <p>Time series charts are used to display data trends over a specific period of time.</p>
 <p>In Looker Studio, there are several options for creating time series visualizations, including the standard time series chart.</p>
 <p><img class="fotbar" src="img/time-series.png"></p>
-<p>This example shows how user traffic changes from September to November.</p>
-<p>In Looker Studio, you can also use a Sparkline time series. This small chart shows the trend of a metric over time.</p>
-<p>Sparkline charts are often combined with a scorecard, so users can see both the current value and its trend at the same time.</p>
-<p><img class="fotbar" src="img/time-series2.png"></p>
-<p>Another type of time series chart in Looker Studio is the smoothed time series. It works similarly to the regular time series, but it allows you to <strong>add a comparison period</strong> in the <strong>Setup tab</strong> to compare trends between different time ranges.</p>
-<p><img class="fotbar" src="img/time-series3.png"></p>
-<p>In this chart, the trend is shown with smoothed lines instead of sparklines. There is no strict rule about which type to use when creating reports.</p>
 <p>In Looker Studio, you can also enable the Cumulative option in the Style tab to compare accumulated data with the previous period.</p>
 <p><img class="fotbar" src="img/time-series4.png"></p>
-<p>In this case, the goal is to compare the same time period with the previous one to clearly see whether the number of new users is increasing or not.</p>
+<p>In Looker Studio, the Cumulative option in the Style tab allows the chart to display accumulated values over time. This helps users see how <code>sales</code> and <code>profit</code> gradually increase across months, making it easier to evaluate overall business growth and long-term trends.</p>
 </section>
-<section id="line-chart" class="level3" data-number="3.1.7">
-<h3 data-number="3.1.7" class="anchored" data-anchor-id="line-chart"><span class="header-section-number">3.1.7</span> Line Chart</h3>
+<section id="line-chart" class="level3" data-number="3.1.6">
+<h3 data-number="3.1.6" class="anchored" data-anchor-id="line-chart"><span class="header-section-number">3.1.6</span> Line Chart</h3>
 <p>This is another simple chart available in Looker Studio. It is used to compare three or more variables.</p>
 <p>There are four ways to create a line chart. The first option is a basic line chart.</p>
 <p><img class="fotbar" src="img/line-chart.png"></p>
@@ -780,17 +852,16 @@ ul.task-list li input[type="checkbox"] {
 <p><img class="fotbar" src="img/bar-line-chart.png"></p>
 <p>The type of line chart you use depends on the data you want to visualize and the level of detail needed.</p>
 </section>
-<section id="bubble-chart" class="level3" data-number="3.1.8">
-<h3 data-number="3.1.8" class="anchored" data-anchor-id="bubble-chart"><span class="header-section-number">3.1.8</span> Bubble Chart</h3>
+<section id="bubble-chart" class="level3" data-number="3.1.7">
+<h3 data-number="3.1.7" class="anchored" data-anchor-id="bubble-chart"><span class="header-section-number">3.1.7</span> Bubble Chart</h3>
 <p>A bubble chart is a type of scatter chart used to analyze the relationship between three variables.</p>
 <p>The data points appear as bubbles scattered across the chart, which is why it is called a bubble chart.</p>
 <p><img class="fotbar" src="img/bubble-chart.png"></p>
-<p>This bubble chart shows the relationship between users and conversions by country.</p>
-<p>For example, the United States appears as the largest bubble and is positioned high on the y-axis, which means it has both the highest number of users and conversions.</p>
-<p>In Looker Studio, you can also adjust the bubble size and colors to make the chart clearer for readers.</p>
+<p>In this visualization, each bubble represents a product, allowing users to compare performance across multiple metrics.</p>
+<p>This chart helps identify which products generate high revenue, high profit, or large sales volume.</p>
 </section>
-<section id="tree-map-chart" class="level3" data-number="3.1.9">
-<h3 data-number="3.1.9" class="anchored" data-anchor-id="tree-map-chart"><span class="header-section-number">3.1.9</span> Tree Map Chart</h3>
+<section id="tree-map-chart" class="level3" data-number="3.1.8">
+<h3 data-number="3.1.8" class="anchored" data-anchor-id="tree-map-chart"><span class="header-section-number">3.1.8</span> Tree Map Chart</h3>
 <p>Treemaps are used to visualize hierarchical data using nested rectangles on a dashboard.</p>
 <p><img class="fotbar" src="img/map-chart.png"></p>
 <p>In this chart, blue days represent the highest number of visitors, while green and orange days show fewer visitors. The larger squares indicate more visitors, while smaller squares represent fewer visitors.</p>
